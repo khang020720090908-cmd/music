@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% block title %}Thư viện đề ôn tập | SmartStudy{% endblock %}
+
+{% block content %}
+{% if current_user.is_authenticated %}
+<div class="card-smart p-3 p-md-4 mb-4">
+    <div class="row align-items-center g-3">
+        <div class="col-md-7">
+            <div class="d-flex justify-content-between align-items-center small fw-semibold mb-2">
+                <span><i class="bi bi-bullseye text-primary me-1"></i>Tiến độ hôm nay: {{ current_user.questions_done_today }}/{{ current_user.daily_goal }} câu</span>
+                {% set pct = ((current_user.questions_done_today / current_user.daily_goal) * 100)|int if current_user.daily_goal else 100 %}
+                <span class="text-primary">{{ pct if pct <= 100 else 100 }}%</span>
+            </div>
+            <div class="progress rounded-pill" style="height: 8px;">
+                <div class="progress-bar bg-primary rounded-pill" role="progressbar" style="width: {{ pct if pct <= 100 else 100 }}%"></div>
+            </div>
+        </div>
+        <div class="col-md-5 text-md-end">
+            <form action="{{ url_for('quiz.start_quiz') }}" method="POST" class="d-grid d-md-inline-block">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <input type="hidden" name="mode" value="wrong_review">
+                <button type="submit" class="btn btn-warning fw-semibold rounded-pill px-4" {% if wrong_count == 0 %}disabled{% endif %}>
+                    <i class="bi bi-arrow-repeat me-1"></i>Ôn câu sai ({{ wrong_count }})
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Thanh tìm kiếm & Sắp xếp -->
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
+    <div>
+        <h1 class="h4 fw-bold mb-1">Thư viện bộ đề</h1>
+        <p class="text-muted small mb-0">Chọn môn học để bắt đầu luyện tập hoặc thi thử.</p>
+    </div>
+
+    <form method="GET" action="{{ url_for('main.index') }}" class="d-flex flex-wrap flex-sm-nowrap gap-2">
+        <div class="input-group">
+            <span class="input-group-text bg-transparent border-end-0 text-muted"><i class="bi bi-search"></i></span>
+            <input type="text" name="q" value="{{ search_query }}" class="form-control border-start-0 ps-0"
+                   placeholder="Tìm môn học, chủ đề...">
+        </div>
+        <select name="sort" class="form-select" style="width: auto; min-width: 155px;" onchange="this.form.submit()">
+            <option value="popular" {% if sort_by == 'popular' %}selected{% endif %}>Phổ biến nhất</option>
+            <option value="newest" {% if sort_by == 'newest' %}selected{% endif %}>Mới cập nhật</option>
+        </select>
+    </form>
+</div>
+
+<!-- Danh sách các bộ đề -->
+<div class="row g-3 g-md-4">
+    {% for s in subjects %}
+    <div class="col-md-6">
+        <div class="card-smart hover-lift h-100 p-3 p-md-4 d-flex flex-column justify-content-between">
+            <div>
+                <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+                    <h2 class="h5 fw-bold mb-0">{{ s.subject }}</h2>
+                    <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-1 flex-shrink-0">
+                        {{ s.question_count }} câu
+                    </span>
+                </div>
+                <p class="text-muted small mb-3">{{ s.description }}</p>
+
+                <div class="d-flex flex-wrap gap-1 mb-3">
+                    {% for t in s.topics %}
+                    <span class="badge bg-body-secondary text-secondary fw-normal rounded-pill px-2 py-1">{{ t }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div>
+                <div class="d-flex justify-content-between align-items-center border-top pt-3 mt-1">
+                    <div class="small text-muted d-flex align-items-center gap-2">
+                        <span><i class="bi bi-star-fill text-warning me-1"></i><strong>{{ s.avg_rating }}</strong> ({{ s.review_count }})</span>
+                        <span>·</span>
+                        <span><i class="bi bi-people me-1"></i>{{ s.attempts_count }} lượt</span>
+                    </div>
+                    <a href="{{ url_for('quiz.setup', filename=s.filename) }}" class="btn btn-primary btn-sm rounded-pill px-3 py-2 fw-semibold">
+                        Làm bài <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+
+                {% if s.recent_reviews %}
+                <div class="mt-3 pt-2 border-top small">
+                    {% for rev in s.recent_reviews[:1] %}
+                    <div class="text-truncate text-muted">
+                        <i class="bi bi-chat-quote me-1"></i><strong>{{ rev.user.display_name }}</strong>: "{{ rev.comment }}"
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="col-12">
+        <div class="card-smart p-5 text-center">
+            <i class="bi bi-inbox fs-1 text-muted d-block mb-2"></i>
+            <p class="text-muted mb-0">Không tìm thấy bộ đề nào phù hợp.</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

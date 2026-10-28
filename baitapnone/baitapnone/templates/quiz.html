@@ -1,0 +1,646 @@
+{% extends "base.html" %}
+{% block title %}
+    {% if stage == 'setup' %}{{ subject.subject }}{% else %}{{ quiz_session.subject_name }}{% endif %} | SmartStudy
+{% endblock %}
+
+{% block content %}
+{% if stage == 'setup' %}
+<div class="row g-4">
+    <div class="col-lg-7">
+        <div class="card-smart p-3 p-md-4">
+            <div class="d-flex align-items-center justify-content-between mb-2">
+                <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-1">Cấu hình bài làm</span>
+                <a href="{{ url_for('main.index') }}" class="btn btn-sm btn-outline-secondary rounded-pill px-3">
+                    <i class="bi bi-arrow-left me-1"></i>Quay lại
+                </a>
+            </div>
+            <h1 class="h4 fw-bold mb-1">{{ subject.subject }}</h1>
+            <p class="text-muted small mb-4">{{ subject.description }}</p>
+
+            <form action="{{ url_for('quiz.start_quiz') }}" method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <input type="hidden" name="subject_file" value="{{ subject.filename }}">
+
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label class="form-label small fw-semibold">Chế độ</label>
+                        <select name="mode" class="form-select">
+                            <option value="practice">Luyện tập (Xem giải thích ngay)</option>
+                            <option value="exam">Thi thử (Tính giờ, nộp bài mới chấm)</option>
+                        </select>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label class="form-label small fw-semibold">Số câu hỏi</label>
+                        <select name="num_questions" class="form-select">
+                            <option value="10">10 câu</option>
+                            <option value="20">20 câu</option>
+                            <option value="30">30 câu</option>
+                            <option value="all" selected>Tất cả ({{ subject.questions|length }} câu)</option>
+                        </select>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label class="form-label small fw-semibold">Mức độ</label>
+                        <select name="difficulty" class="form-select">
+                            <option value="all">Tất cả mức độ</option>
+                            <option value="easy">Cơ bản</option>
+                            <option value="medium">Trung bình</option>
+                            <option value="hard">Vận dụng cao</option>
+                        </select>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label class="form-label small fw-semibold">Dạng câu hỏi</label>
+                        <select name="q_type" class="form-select">
+                            <option value="all">Tất cả dạng câu</option>
+                            <option value="multiple_choice">Trắc nghiệm 4 lựa chọn</option>
+                            <option value="true_false">Đúng / Sai</option>
+                            <option value="short_answer">Trả lời ngắn</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label small fw-semibold">Chủ đề</label>
+                        <select name="topic" class="form-select">
+                            <option value="all">Tất cả chủ đề</option>
+                            {% for t in topics %}
+                            <option value="{{ t }}">{{ t }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="ignore_accents" id="ignoreAccentsCheck">
+                            <label class="form-check-label small" for="ignoreAccentsCheck">
+                                Chấp nhận trả lời ngắn không dấu tiếng Việt
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-grid d-sm-flex gap-2 mt-4">
+                    <button type="submit" class="btn btn-primary rounded-pill px-4 py-2 fw-semibold">
+                        <i class="bi bi-play-fill me-1"></i>Bắt đầu làm bài
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-lg-5">
+        <div class="card-smart p-3 p-md-4 h-100">
+            <h2 class="h6 fw-bold mb-3"><i class="bi bi-star-fill text-warning me-1"></i>Đánh giá từ học viên ({{ reviews|length }})</h2>
+            {% for rev in reviews %}
+            <div class="border-bottom pb-2 mb-2">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                    <span class="small fw-semibold">{{ rev.user.avatar }} {{ rev.user.display_name }}</span>
+                    <span class="small text-warning">{{ "★" * rev.rating }}</span>
+                </div>
+                <p class="small mb-1">{{ rev.comment }}</p>
+                <div class="text-muted" style="font-size: 0.72rem;">{{ rev.created_at.strftime('%d/%m/%Y %H:%M') }}</div>
+            </div>
+            {% else %}
+            <p class="text-muted small mb-0">Chưa có đánh giá nào cho bộ đề này.</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% else %}
+<!-- ==================== GIAO DIỆN ĐANG LÀM BÀI (STAGE = DOING) ==================== -->
+<div class="row g-3 g-lg-4">
+    <!-- Cột câu hỏi chính -->
+    <div class="col-lg-8">
+        <div class="card-smart p-3 p-md-4" id="questionCard">
+            <!-- Header trạng thái câu hỏi -->
+            <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+                <div class="d-flex flex-wrap align-items-center gap-1">
+                    <span class="badge bg-primary rounded-pill px-3 py-1" id="qIndexBadge">Câu 1 / {{ client_questions|length }}</span>
+                    <span class="badge bg-secondary-subtle text-secondary rounded-pill px-2 py-1" id="qTypeBadge">Trắc nghiệm</span>
+                    <span class="badge bg-info-subtle text-info rounded-pill px-2 py-1" id="qDiffBadge">Cơ bản</span>
+                </div>
+
+                <div>
+                    {% if quiz_session.mode == 'exam' %}
+                    <span class="badge bg-danger px-3 py-1 rounded-pill" id="timerBadge">
+                        <i class="bi bi-clock me-1"></i><span id="timerDisplay">--:--</span>
+                    </span>
+                    {% else %}
+                    <span class="badge bg-success-subtle text-success px-3 py-1 rounded-pill">
+                        <i class="bi bi-stopwatch me-1"></i><span id="elapsedDisplay">00:00</span>
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Thanh tiến độ -->
+            <div class="progress rounded-pill mb-3" style="height: 6px;">
+                <div id="quizProgressBar" class="progress-bar bg-primary rounded-pill" role="progressbar" style="width: 0%;"></div>
+            </div>
+
+            <!-- Chủ đề & Công cụ câu hỏi -->
+            <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3 pb-2 border-bottom">
+                <span class="small text-muted fw-semibold" id="qTopicText">Chủ đề</span>
+                <div class="d-flex flex-wrap gap-1">
+                    <button type="button" class="btn btn-sm btn-outline-warning rounded-pill px-2 py-1" id="flagBtn" onclick="QuizApp.toggleFlagCurrent()" title="Đánh dấu xem lại">
+                        <i class="bi bi-flag-fill"></i> <span class="d-none d-sm-inline">Đánh dấu</span>
+                    </button>
+                    {% if current_user.is_authenticated %}
+                    <button type="button" class="btn btn-sm btn-outline-primary rounded-pill px-2 py-1" id="bookmarkBtn" onclick="QuizApp.toggleBookmarkCurrent()" title="Lưu câu hỏi">
+                        <i class="bi bi-bookmark-star"></i> <span class="d-none d-sm-inline">Lưu</span>
+                    </button>
+                    {% endif %}
+                    <button type="button" class="btn btn-sm btn-outline-danger rounded-pill px-2 py-1" data-bs-toggle="modal" data-bs-target="#reportModal" title="Báo lỗi">
+                        <i class="bi bi-exclamation-triangle"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Nội dung câu hỏi -->
+            <h2 class="h6 fw-bold lh-base mb-3" style="font-size: 1.05rem;" id="questionText">Đang tải câu hỏi...</h2>
+
+            <!-- Vùng nhập/chọn đáp án -->
+            <div id="answerInputArea" class="mb-2"></div>
+
+            <!-- Nút kiểm tra câu trả lời ngắn ở chế độ Luyện tập -->
+            <div id="practiceCheckRow" class="mb-3 d-none">
+                <button type="button" class="btn btn-success btn-sm rounded-pill px-4 py-2 fw-semibold" onclick="QuizApp.checkCurrentPractice()">
+                    <i class="bi bi-check2-circle me-1"></i>Kiểm tra đáp án
+                </button>
+            </div>
+
+            <!-- Khung giải thích tức thì -->
+            <div id="instantFeedbackBox" class="alert d-none rounded-3 mt-3 mb-2 py-2 px-3">
+                <div class="fw-bold small mb-1" id="feedbackTitle"></div>
+                <div class="small mb-1" id="feedbackAnswerLine"></div>
+                <div class="small border-top pt-2 mt-1" id="feedbackExplanation"></div>
+            </div>
+
+            <!-- Điều hướng câu trước / tiếp theo -->
+            <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top">
+                <button type="button" class="btn btn-outline-secondary rounded-pill px-3 fw-semibold" id="prevBtn" onclick="QuizApp.prevQuestion()">
+                    <i class="bi bi-chevron-left"></i> Câu trước
+                </button>
+                <button type="button" class="btn btn-primary rounded-pill px-3 fw-semibold" id="nextBtn" onclick="QuizApp.nextQuestion()">
+                    Tiếp theo <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cột bên phải: Bảng câu hỏi & Nộp bài -->
+    <div class="col-lg-4">
+        <div class="card-smart p-3 p-md-4 sticky-top quiz-sticky-panel" style="top: 76px;">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h3 class="h6 fw-bold mb-0">Danh sách câu hỏi</h3>
+                <span class="badge bg-body-secondary text-secondary rounded-pill" id="answeredCounter">0/{{ client_questions|length }}</span>
+            </div>
+
+            <div class="q-nav-grid mb-3" id="questionNavGrid"></div>
+
+            <div class="d-flex flex-wrap gap-3 small text-muted mb-3">
+                <span class="d-inline-flex align-items-center gap-1"><span class="badge bg-primary p-1 rounded-circle">&nbsp;</span> Đã làm</span>
+                <span class="d-inline-flex align-items-center gap-1"><span class="badge bg-warning p-1 rounded-circle">&nbsp;</span> Xem lại</span>
+                <span class="d-inline-flex align-items-center gap-1"><span class="badge border p-1 rounded-circle">&nbsp;</span> Chưa làm</span>
+            </div>
+
+            <form id="submitQuizForm" action="{{ url_for('quiz.submit_quiz', session_id=quiz_session.id) }}" method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <input type="hidden" name="answers_json" id="answersJsonInput" value="{}">
+                <input type="hidden" name="time_taken" id="timeTakenInput" value="0">
+                <div class="d-grid">
+                    <button type="button" class="btn btn-success rounded-pill py-2 fw-bold" onclick="QuizApp.confirmSubmit()">
+                        <i class="bi bi-check2-all me-1"></i>Nộp bài
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Báo lỗi câu hỏi -->
+<div class="modal fade" id="reportModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+            <div class="modal-header py-3">
+                <h5 class="modal-title h6 fw-bold mb-0">Báo lỗi câu hỏi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="small text-muted mb-2">Mã câu hỏi: <strong id="reportQuestionIdLabel"></strong></p>
+                <textarea id="reportReasonInput" class="form-control" rows="3"
+                          placeholder="Nhập nội dung cần chỉnh sửa..."></textarea>
+            </div>
+            <div class="modal-footer py-2">
+                <button type="button" class="btn btn-sm btn-secondary rounded-pill px-3" data-bs-dismiss="modal">Hủy</button>
+                <button type="button" class="btn btn-sm btn-danger rounded-pill px-3" onclick="QuizApp.submitReport()">Gửi</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block extra_scripts %}
+{% if stage == 'doing' %}
+<script>
+const QUIZ_CONFIG = {
+    sessionId: {{ quiz_session.id | tojson }},
+    mode: {{ quiz_session.mode | tojson }},
+    timeLimit: {{ quiz_session.time_limit_seconds | tojson }},
+    questions: {{ client_questions | tojson }},
+    bookmarkedIds: new Set({{ bookmarked_ids | tojson }}),
+    csrfToken: document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+};
+
+const QuizApp = (() => {
+    let currentIndex = 0;
+    const answers = {};
+    const flagged = new Set();
+    const practiceChecked = {};
+    let elapsedSeconds = 0;
+    let remainingSeconds = QUIZ_CONFIG.timeLimit;
+    let timerInterval = null;
+
+    function init() {
+        renderNavGrid();
+        renderQuestion(0);
+        startTimer();
+        bindKeyboardShortcuts();
+    }
+
+    function startTimer() {
+        timerInterval = setInterval(() => {
+            elapsedSeconds++;
+            const elDisp = document.getElementById("elapsedDisplay");
+            if (elDisp) elDisp.textContent = formatTime(elapsedSeconds);
+
+            if (QUIZ_CONFIG.mode === "exam") {
+                remainingSeconds--;
+                const tmDisp = document.getElementById("timerDisplay");
+                if (tmDisp) tmDisp.textContent = formatTime(Math.max(remainingSeconds, 0));
+                if (remainingSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    alert("Đã hết thời gian làm bài! Hệ thống tự động nộp bài.");
+                    doSubmit();
+                }
+            }
+        }, 1000);
+    }
+
+    function formatTime(sec) {
+        const m = String(Math.floor(sec / 60)).padStart(2, "0");
+        const s = String(sec % 60).padStart(2, "0");
+        return `${m}:${s}`;
+    }
+
+    function renderNavGrid() {
+        const grid = document.getElementById("questionNavGrid");
+        grid.innerHTML = "";
+        QUIZ_CONFIG.questions.forEach((q, idx) => {
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "q-nav-btn";
+            if (idx === currentIndex) btn.classList.add("current");
+            if (answers[q.id] !== undefined && answers[q.id] !== "") btn.classList.add("answered");
+            if (flagged.has(q.id)) btn.classList.add("flagged");
+            btn.textContent = idx + 1;
+            btn.onclick = () => renderQuestion(idx);
+            grid.appendChild(btn);
+        });
+
+        const answeredCount = Object.keys(answers).filter(k => answers[k] !== undefined && answers[k] !== "").length;
+        document.getElementById("answeredCounter").textContent = `${answeredCount}/${QUIZ_CONFIG.questions.length}`;
+        const pct = Math.round((answeredCount / Math.max(QUIZ_CONFIG.questions.length, 1)) * 100);
+        document.getElementById("quizProgressBar").style.width = `${pct}%`;
+    }
+
+    function renderQuestion(index) {
+        currentIndex = index;
+        const q = QUIZ_CONFIG.questions[currentIndex];
+        document.getElementById("qIndexBadge").textContent = `Câu ${currentIndex + 1} / ${QUIZ_CONFIG.questions.length}`;
+
+        const typeLabels = {
+            multiple_choice: "Trắc nghiệm",
+            true_false: "Đúng / Sai",
+            short_answer: "Trả lời ngắn"
+        };
+        const diffLabels = { easy: "Cơ bản", medium: "Trung bình", hard: "Vận dụng cao" };
+        document.getElementById("qTypeBadge").textContent = typeLabels[q.type] || q.type;
+        document.getElementById("qDiffBadge").textContent = diffLabels[q.difficulty] || q.difficulty;
+        document.getElementById("qTopicText").textContent = q.topic;
+        document.getElementById("questionText").textContent = q.question;
+        document.getElementById("reportQuestionIdLabel").textContent = q.id;
+
+        const flagBtn = document.getElementById("flagBtn");
+        flagBtn.className = flagged.has(q.id)
+            ? "btn btn-sm btn-warning rounded-pill px-2 py-1 fw-semibold"
+            : "btn btn-sm btn-outline-warning rounded-pill px-2 py-1";
+
+        const bmBtn = document.getElementById("bookmarkBtn");
+        if (bmBtn) {
+            const isBm = QUIZ_CONFIG.bookmarkedIds.has(q.id);
+            bmBtn.className = isBm
+                ? "btn btn-sm btn-primary rounded-pill px-2 py-1 fw-semibold"
+                : "btn btn-sm btn-outline-primary rounded-pill px-2 py-1";
+            bmBtn.innerHTML = isBm
+                ? '<i class="bi bi-bookmark-check-fill"></i> <span class="d-none d-sm-inline">Đã lưu</span>'
+                : '<i class="bi bi-bookmark-star"></i> <span class="d-none d-sm-inline">Lưu</span>';
+        }
+
+        const area = document.getElementById("answerInputArea");
+        const checkRow = document.getElementById("practiceCheckRow");
+        area.innerHTML = "";
+        checkRow.classList.add("d-none");
+
+        const savedAns = answers[q.id];
+        const checkedInfo = practiceChecked[q.id];
+
+        if (q.type === "multiple_choice") {
+            const letters = ["A", "B", "C", "D", "E", "F"];
+            q.options.forEach((optText, optIdx) => {
+                const btn = document.createElement("button");
+                btn.type = "button";
+                btn.className = "option-btn";
+                if (savedAns === optIdx) btn.classList.add("selected");
+                if (checkedInfo) {
+                    btn.disabled = true;
+                    if (optIdx === checkedInfo.correct_raw) btn.classList.add("correct");
+                    else if (savedAns === optIdx && !checkedInfo.is_correct) btn.classList.add("wrong");
+                }
+                btn.innerHTML = `
+                    <span class="option-key-badge">${letters[optIdx]}</span>
+                    <span>${escapeHtml(optText)}</span>
+                `;
+                btn.onclick = () => selectAnswer(q.id, optIdx);
+                area.appendChild(btn);
+            });
+        } else if (q.type === "true_false") {
+            const tfOptions = [
+                { label: "Đúng", val: true, key: "A" },
+                { label: "Sai", val: false, key: "B" }
+            ];
+            tfOptions.forEach(item => {
+                const btn = document.createElement("button");
+                btn.type = "button";
+                btn.className = "option-btn";
+                if (savedAns === item.val) btn.classList.add("selected");
+                if (checkedInfo) {
+                    btn.disabled = true;
+                    if (item.val === checkedInfo.correct_raw) btn.classList.add("correct");
+                    else if (savedAns === item.val && !checkedInfo.is_correct) btn.classList.add("wrong");
+                }
+                btn.innerHTML = `
+                    <span class="option-key-badge">${item.key}</span>
+                    <span>${item.label}</span>
+                `;
+                btn.onclick = () => selectAnswer(q.id, item.val);
+                area.appendChild(btn);
+            });
+        } else if (q.type === "short_answer") {
+            const input = document.createElement("input");
+            input.type = "text";
+            input.id = "shortAnswerField";
+            input.className = "form-control form-control-lg rounded-3";
+            input.placeholder = "Nhập đáp án của bạn...";
+            input.value = savedAns !== undefined ? savedAns : "";
+            if (checkedInfo) input.disabled = true;
+            input.oninput = (e) => {
+                answers[q.id] = e.target.value;
+                renderNavGrid();
+            };
+            area.appendChild(input);
+
+            if (QUIZ_CONFIG.mode !== "exam" && !checkedInfo) {
+                checkRow.classList.remove("d-none");
+            }
+        }
+
+        renderFeedbackBox(checkedInfo);
+
+        document.getElementById("prevBtn").disabled = (currentIndex === 0);
+        document.getElementById("nextBtn").innerHTML =
+            (currentIndex === QUIZ_CONFIG.questions.length - 1)
+                ? 'Câu cuối'
+                : 'Tiếp theo <i class="bi bi-chevron-right"></i>';
+
+        renderNavGrid();
+    }
+
+    function selectAnswer(questionId, val) {
+        if (practiceChecked[questionId]) return;
+        answers[questionId] = val;
+        if (QUIZ_CONFIG.mode !== "exam") {
+            checkCurrentPractice();
+        } else {
+            renderQuestion(currentIndex);
+        }
+    }
+
+    async function checkCurrentPractice() {
+        const q = QUIZ_CONFIG.questions[currentIndex];
+        const userAns = answers[q.id];
+        if (userAns === undefined || userAns === "") {
+            alert("Vui lòng chọn hoặc nhập đáp án trước.");
+            return;
+        }
+        try {
+            const res = await fetch("/quiz/api/check-question", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRFToken": QUIZ_CONFIG.csrfToken
+                },
+                body: JSON.stringify({
+                    session_id: QUIZ_CONFIG.sessionId,
+                    question_id: q.id,
+                    answer: userAns
+                })
+            });
+            const data = await res.json();
+            if (data.ok) {
+                practiceChecked[q.id] = data;
+                const card = document.getElementById("questionCard");
+                card.classList.remove("anim-correct", "anim-wrong");
+                void card.offsetWidth;
+                if (data.is_correct) {
+                    card.classList.add("anim-correct");
+                    SmartStudy.playSound("correct");
+                } else {
+                    card.classList.add("anim-wrong");
+                    SmartStudy.playSound("wrong");
+                }
+                renderQuestion(currentIndex);
+            }
+        } catch (err) {
+            console.error(err);
+        }
+    }
+
+    function renderFeedbackBox(info) {
+        const box = document.getElementById("instantFeedbackBox");
+        if (!info) {
+            box.className = "alert d-none rounded-3 mt-3 mb-2 py-2 px-3";
+            return;
+        }
+        box.className = info.is_correct
+            ? "alert alert-success rounded-3 mt-3 mb-2 py-2 px-3"
+            : "alert alert-danger rounded-3 mt-3 mb-2 py-2 px-3";
+        document.getElementById("feedbackTitle").textContent = info.is_correct
+            ? "Chính xác!"
+            : "Chưa chính xác";
+        document.getElementById("feedbackAnswerLine").textContent =
+            `Đáp án đúng: ${info.correct_answer_display}`;
+        document.getElementById("feedbackExplanation").textContent =
+            info.explanation || "";
+    }
+
+    function prevQuestion() {
+        if (currentIndex > 0) renderQuestion(currentIndex - 1);
+    }
+
+    function nextQuestion() {
+        if (currentIndex < QUIZ_CONFIG.questions.length - 1) {
+            renderQuestion(currentIndex + 1);
+        }
+    }
+
+    function toggleFlagCurrent() {
+        const q = QUIZ_CONFIG.questions[currentIndex];
+        if (flagged.has(q.id)) flagged.delete(q.id);
+        else flagged.add(q.id);
+        renderQuestion(currentIndex);
+    }
+
+    async function toggleBookmarkCurrent() {
+        const q = QUIZ_CONFIG.questions[currentIndex];
+        try {
+            const res = await fetch("/quiz/api/bookmark", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRFToken": QUIZ_CONFIG.csrfToken
+                },
+                body: JSON.stringify({
+                    subject_file: q.subject_file,
+                    question_id: q.id,
+                    question_text: q.question,
+                    topic: q.topic
+                })
+            });
+            const data = await res.json();
+            if (data.ok) {
+                if (data.bookmarked) QUIZ_CONFIG.bookmarkedIds.add(q.id);
+                else QUIZ_CONFIG.bookmarkedIds.delete(q.id);
+                renderQuestion(currentIndex);
+            }
+        } catch (err) {
+            console.error(err);
+        }
+    }
+
+    async function submitReport() {
+        const q = QUIZ_CONFIG.questions[currentIndex];
+        const reason = document.getElementById("reportReasonInput").value.trim();
+        if (!reason) {
+            alert("Vui lòng nhập nội dung báo lỗi.");
+            return;
+        }
+        const res = await fetch("/quiz/api/report-question", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-CSRFToken": QUIZ_CONFIG.csrfToken
+            },
+            body: JSON.stringify({
+                subject_file: q.subject_file,
+                question_id: q.id,
+                reason: reason
+            })
+        });
+        const data = await res.json();
+        alert(data.message || data.error);
+        if (data.ok) {
+            document.getElementById("reportReasonInput").value = "";
+            const modalEl = document.getElementById("reportModal");
+            bootstrap.Modal.getInstance(modalEl).hide();
+        }
+    }
+
+    function bindKeyboardShortcuts() {
+        document.addEventListener("keydown", (e) => {
+            const activeTag = document.activeElement ? document.activeElement.tagName : "";
+            const q = QUIZ_CONFIG.questions[currentIndex];
+
+            if (activeTag === "TEXTAREA") return;
+            if (activeTag === "INPUT") {
+                if (e.key === "Enter") {
+                    e.preventDefault();
+                    if (QUIZ_CONFIG.mode !== "exam" && !practiceChecked[q.id]) {
+                        checkCurrentPractice();
+                    } else {
+                        nextQuestion();
+                    }
+                }
+                return;
+            }
+
+            if (["1", "2", "3", "4"].includes(e.key)) {
+                const idx = parseInt(e.key, 10) - 1;
+                if (q.type === "multiple_choice" && q.options && idx < q.options.length) {
+                    selectAnswer(q.id, idx);
+                } else if (q.type === "true_false" && idx < 2) {
+                    selectAnswer(q.id, idx === 0);
+                }
+            } else if (e.key === "Enter") {
+                e.preventDefault();
+                nextQuestion();
+            } else if (e.key === "ArrowLeft") {
+                prevQuestion();
+            } else if (e.key === "ArrowRight") {
+                nextQuestion();
+            }
+        });
+    }
+
+    function confirmSubmit() {
+        const answeredCount = Object.keys(answers).filter(k => answers[k] !== undefined && answers[k] !== "").length;
+        const total = QUIZ_CONFIG.questions.length;
+        if (answeredCount < total) {
+            if (!confirm(`Bạn mới trả lời ${answeredCount}/${total} câu. Xác nhận nộp bài?`)) {
+                return;
+            }
+        }
+        doSubmit();
+    }
+
+    function doSubmit() {
+        clearInterval(timerInterval);
+        document.getElementById("answersJsonInput").value = JSON.stringify(answers);
+        document.getElementById("timeTakenInput").value = elapsedSeconds;
+        document.getElementById("submitQuizForm").submit();
+    }
+
+    function escapeHtml(str) {
+        const div = document.createElement("div");
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
+    document.addEventListener("DOMContentLoaded", init);
+
+    return {
+        prevQuestion,
+        nextQuestion,
+        toggleFlagCurrent,
+        toggleBookmarkCurrent,
+        checkCurrentPractice,
+        submitReport,
+        confirmSubmit
+    };
+})();
+</script>
+{% endif %}
+{% endblock %}

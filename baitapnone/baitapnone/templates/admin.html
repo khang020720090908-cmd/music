@@ -1,0 +1,222 @@
+{% extends "base.html" %}
+{% block title %}Quản trị hệ thống | SmartStudy{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
+    <div>
+        <h1 class="h4 fw-bold mb-1">Quản trị hệ thống</h1>
+        <p class="text-muted small mb-0">Quản lý bộ đề JSON, báo lỗi câu hỏi, đổi mật khẩu và tài khoản thành viên.</p>
+    </div>
+    <div class="row g-2">
+        <div class="col-4">
+            <div class="card-smart px-3 py-2 text-center">
+                <div class="text-muted" style="font-size: 0.72rem;">Thành viên</div>
+                <div class="h5 fw-bold text-primary mb-0">{{ total_users }}</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card-smart px-3 py-2 text-center">
+                <div class="text-muted" style="font-size: 0.72rem;">Lượt làm</div>
+                <div class="h5 fw-bold text-success mb-0">{{ total_attempts }}</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card-smart px-3 py-2 text-center">
+                <div class="text-muted" style="font-size: 0.72rem;">Bộ đề</div>
+                <div class="h5 fw-bold text-warning mb-0">{{ subjects|length }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4 mb-4">
+    <div class="col-lg-5">
+        <div class="card-smart p-3 p-md-4 h-100">
+            <h2 class="h6 fw-bold mb-3"><i class="bi bi-filetype-json text-primary me-1"></i>Tải lên bộ đề (.json)</h2>
+            <form action="{{ url_for('admin.upload_json') }}" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <div class="mb-3">
+                    <input type="file" name="json_file" accept=".json" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm rounded-pill px-4 fw-semibold">
+                    <i class="bi bi-upload me-1"></i>Tải lên & Lưu
+                </button>
+            </form>
+
+            <hr class="my-3">
+            <h3 class="small fw-bold text-muted mb-2">Danh sách bộ đề hiện có ({{ subjects|length }})</h3>
+            <ul class="list-group list-group-flush small">
+                {% for s in subjects %}
+                <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent px-0 py-2 gap-2">
+                    <div class="text-truncate">
+                        <strong>{{ s.subject }}</strong>
+                        <div class="text-muted" style="font-size: 0.75rem;">{{ s.filename }} · {{ s.question_count }} câu</div>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 flex-shrink-0">
+                        <span class="badge bg-primary-subtle text-primary rounded-pill">{{ s.question_count }} câu</span>
+                        <form action="{{ url_for('admin.delete_json', filename=s.filename) }}" method="POST" class="d-inline"
+                              onsubmit="return confirm('⚠️ Bạn có chắc chắn muốn xóa bộ đề [{{ s.subject }} ({{ s.filename }})] không?\nSau khi xóa sẽ không thể khôi phục lại file này!');">
+                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                            <button type="submit" class="btn btn-sm btn-outline-danger rounded-pill py-0 px-2" title="Xóa bộ đề JSON này">
+                                <i class="bi bi-trash3"></i> Xóa
+                            </button>
+                        </form>
+                    </div>
+                </li>
+                {% else %}
+                <li class="list-group-item bg-transparent px-0 py-3 text-center text-muted">
+                    Chưa có bộ đề JSON nào trong hệ thống.
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-lg-7">
+        <div class="card-smart p-3 p-md-4 h-100">
+            <h2 class="h6 fw-bold mb-3"><i class="bi bi-exclamation-triangle text-warning me-1"></i>Báo lỗi câu hỏi ({{ reports|length }})</h2>
+            <div class="table-responsive">
+                <table class="table table-sm align-middle mb-0">
+                    <thead>
+                        <tr class="small text-muted">
+                            <th>Mã câu</th>
+                            <th>Nội dung</th>
+                            <th>Trạng thái</th>
+                            <th class="text-end">Tác vụ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="small">
+                        {% for r in reports %}
+                        <tr>
+                            <td>
+                                <div class="fw-bold">{{ r.question_id }}</div>
+                                <div class="text-muted" style="font-size: 0.7rem;">{{ r.subject_file }}</div>
+                            </td>
+                            <td>{{ r.reason }}</td>
+                            <td>
+                                {% if r.status == 'resolved' %}
+                                <span class="badge bg-success-subtle text-success rounded-pill">Đã xử lý</span>
+                                {% else %}
+                                <span class="badge bg-warning-subtle text-warning-emphasis rounded-pill">Chờ xử lý</span>
+                                {% endif %}
+                            </td>
+                            <td class="text-end">
+                                {% if r.status != 'resolved' %}
+                                <form action="{{ url_for('admin.resolve_report', report_id=r.id) }}" method="POST" class="d-inline">
+                                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                                    <button type="submit" class="btn btn-sm btn-outline-success rounded-pill py-0 px-2">Xong</button>
+                                </form>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td colspan="4" class="text-center text-muted py-4">Không có báo cáo lỗi nào.</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Quản lý thành viên: Đổi mật khẩu & Xóa tài khoản học sinh -->
+<div class="card-smart p-3 p-md-4 mb-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="h6 fw-bold mb-0"><i class="bi bi-people-fill text-primary me-1"></i>Quản lý thành viên ({{ users|length }})</h2>
+        <span class="small text-muted">Có thể đổi mật khẩu hoặc xóa tài khoản học sinh</span>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-sm align-middle mb-0">
+            <thead>
+                <tr class="small text-muted">
+                    <th>Tài khoản</th>
+                    <th>Quyền</th>
+                    <th>XP</th>
+                    <th>Số câu</th>
+                    <th>Đổi mật khẩu</th>
+                    <th class="text-end">Xóa tài khoản</th>
+                </tr>
+            </thead>
+            <tbody class="small">
+                {% for u in users %}
+                <tr>
+                    <td>
+                        <strong>{{ u.avatar }} {{ u.display_name }}</strong>
+                        <span class="text-muted">(@{{ u.username }})</span>
+                    </td>
+                    <td>
+                        <span class="badge {% if u.role == 'admin' %}bg-danger-subtle text-danger{% else %}bg-secondary-subtle text-secondary{% endif %} rounded-pill">
+                            {{ u.role }}
+                        </span>
+                    </td>
+                    <td class="fw-bold text-primary">{{ u.xp }}</td>
+                    <td>{{ u.total_questions_answered }}</td>
+                    <td>
+                        <form action="{{ url_for('admin.change_user_password', user_id=u.id) }}" method="POST"
+                              class="d-flex align-items-center gap-1"
+                              onsubmit="return confirm('🔑 Bạn có chắc chắn muốn đổi mật khẩu cho tài khoản [{{ u.display_name }} (@{{ u.username }})] không?');">
+                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                            <input type="password" name="new_password" class="form-control form-control-sm"
+                                   style="max-width: 150px;" placeholder="Mật khẩu mới..." required minlength="4">
+                            <button type="submit" class="btn btn-sm btn-outline-primary rounded-pill py-1 px-2 text-nowrap">
+                                <i class="bi bi-key-fill"></i> Đổi MK
+                            </button>
+                        </form>
+                    </td>
+                    <td class="text-end">
+                        {% if u.role != 'admin' and u.id != current_user.id %}
+                        <form action="{{ url_for('admin.delete_user', user_id=u.id) }}" method="POST" class="d-inline"
+                              onsubmit="return confirm('⚠️ CẢNH BÁO: Bạn có chắc chắn muốn xóa tài khoản học sinh [{{ u.display_name }} (@{{ u.username }})] không?\nToàn bộ lịch sử làm bài và dữ liệu của tài khoản này sẽ bị xóa vĩnh viễn!');">
+                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                            <button type="submit" class="btn btn-sm btn-outline-danger rounded-pill py-1 px-2 text-nowrap">
+                                <i class="bi bi-person-x-fill"></i> Xóa
+                            </button>
+                        </form>
+                        {% else %}
+                        <span class="text-muted" style="font-size: 0.75rem;">Mặc định</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Tin nhắn gần đây -->
+<div class="card-smart p-3 p-md-4">
+    <h2 class="h6 fw-bold mb-3"><i class="bi bi-chat-left-text text-success me-1"></i>Tin nhắn gần đây</h2>
+    <div class="table-responsive">
+        <table class="table table-sm align-middle mb-0">
+            <thead>
+                <tr class="small text-muted">
+                    <th>Thành viên</th>
+                    <th>Nội dung</th>
+                    <th class="text-end">Tác vụ</th>
+                </tr>
+            </thead>
+            <tbody class="small">
+                {% for m in chat_messages %}
+                <tr>
+                    <td class="fw-semibold text-nowrap">{{ m.user.avatar }} {{ m.user.display_name }}</td>
+                    <td>{{ m.content }}</td>
+                    <td class="text-end">
+                        <form action="{{ url_for('admin.delete_chat_message', msg_id=m.id) }}" method="POST" class="d-inline"
+                              onsubmit="return confirm('Bạn có chắc chắn muốn xóa tin nhắn này không?');">
+                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                            <button type="submit" class="btn btn-sm btn-outline-danger rounded-pill py-0 px-2">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="3" class="text-center text-muted py-3">Chưa có tin nhắn.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

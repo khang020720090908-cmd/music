@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}Bảng xếp hạng | SmartStudy{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
+    <div>
+        <h1 class="h4 fw-bold mb-1">Bảng xếp hạng</h1>
+        <p class="text-muted small mb-0">Thứ hạng học viên theo điểm kinh nghiệm tích lũy.</p>
+    </div>
+
+    <form method="GET" action="{{ url_for('main.leaderboard') }}" class="d-flex flex-wrap gap-2">
+        <select name="subject" class="form-select" style="width: auto;" onchange="this.form.submit()">
+            <option value="all" {% if selected_subject == 'all' %}selected{% endif %}>Tất cả môn học</option>
+            {% for s in subjects %}
+            <option value="{{ s.filename }}" {% if selected_subject == s.filename %}selected{% endif %}>{{ s.subject }}</option>
+            {% endfor %}
+        </select>
+
+        <select name="period" class="form-select" style="width: auto;" onchange="this.form.submit()">
+            <option value="all" {% if period == 'all' %}selected{% endif %}>Mọi thời gian</option>
+            <option value="month" {% if period == 'month' %}selected{% endif %}>30 ngày qua</option>
+            <option value="week" {% if period == 'week' %}selected{% endif %}>7 ngày qua</option>
+        </select>
+    </form>
+</div>
+
+{% if ranking|length >= 1 %}
+<div class="row g-3 mb-4 justify-content-center">
+    {% for item in ranking[:3] %}
+    <div class="col-sm-6 col-md-4">
+        <div class="card-smart podium-card p-3 p-md-4 text-center h-100 {% if item.rank == 1 %}podium-gold{% elif item.rank == 2 %}podium-silver{% else %}podium-bronze{% endif %}">
+            <div class="fw-bold small mb-2">
+                {% if item.rank == 1 %}🥇 Hạng 1{% elif item.rank == 2 %}🥈 Hạng 2{% else %}🥉 Hạng 3{% endif %}
+            </div>
+            <div class="fs-1 mb-1">{{ item.user.avatar }}</div>
+            <h2 class="h6 fw-bold mb-1">{{ item.user.display_name }}</h2>
+            <div class="small text-muted mb-2">{{ item.user.level_title }}</div>
+            <div class="h5 fw-bold text-primary mb-1">{{ item.xp }} XP</div>
+            <div class="small text-muted">Điểm TB: {{ item.avg_score }}% · {{ item.attempts }} bài</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if my_rank %}
+<div class="alert alert-primary rounded-3 d-flex flex-wrap justify-content-between align-items-center gap-2 py-2 px-3 mb-4 small">
+    <div>
+        <strong>Hạng của bạn: #{{ my_rank.rank }}</strong> ({{ my_rank.user.avatar }} {{ my_rank.user.display_name }})
+    </div>
+    <div class="fw-bold">{{ my_rank.xp }} XP · Điểm TB: {{ my_rank.avg_score }}%</div>
+</div>
+{% endif %}
+
+<div class="card-smart p-0 overflow-hidden">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr class="small text-muted">
+                    <th class="ps-3">Hạng</th>
+                    <th>Học viên</th>
+                    <th class="d-none d-md-table-cell">Cấp bậc</th>
+                    <th class="d-none d-sm-table-cell">Chuỗi ngày</th>
+                    <th class="d-none d-sm-table-cell">Số bài</th>
+                    <th>Điểm TB</th>
+                    <th class="text-end pe-3">Kinh nghiệm</th>
+                </tr>
+            </thead>
+            <tbody class="small">
+                {% for item in ranking %}
+                <tr class="{% if current_user.is_authenticated and item.user.id == current_user.id %}table-primary fw-semibold{% endif %}">
+                    <td class="ps-3 fw-semibold">
+                        {% if item.rank == 1 %}🥇
+                        {% elif item.rank == 2 %}🥈
+                        {% elif item.rank == 3 %}🥉
+                        {% else %}#{{ item.rank }}{% endif %}
+                    </td>
+                    <td>
+                        <span class="me-1">{{ item.user.avatar }}</span>
+                        <span>{{ item.user.display_name }}</span>
+                        {% if current_user.is_authenticated and item.user.id == current_user.id %}
+                        <span class="badge bg-primary rounded-pill ms-1">Bạn</span>
+                        {% endif %}
+                    </td>
+                    <td class="d-none d-md-table-cell"><span class="badge bg-secondary-subtle text-secondary rounded-pill">{{ item.user.level_title }}</span></td>
+                    <td class="d-none d-sm-table-cell">🔥 {{ item.user.streak_days }}</td>
+                    <td class="d-none d-sm-table-cell">{{ item.attempts }}</td>
+                    <td>{{ item.avg_score }}%</td>
+                    <td class="text-end pe-3 fw-bold text-primary">{{ item.xp }} XP</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="7" class="text-center text-muted py-4">Chưa có dữ liệu xếp hạng.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

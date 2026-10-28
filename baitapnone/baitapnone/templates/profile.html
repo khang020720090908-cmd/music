@@ -1,0 +1,247 @@
+{% extends "base.html" %}
+{% block title %}Hồ sơ — {{ current_user.display_name }} | SmartStudy{% endblock %}
+
+{% block content %}
+<div class="card-smart p-3 p-md-4 mb-4">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-5">
+            <div class="d-flex align-items-center gap-3">
+                <div class="fs-1 bg-primary-subtle p-3 rounded-4 lh-1">{{ current_user.avatar }}</div>
+                <div>
+                    <h1 class="h4 fw-bold mb-1">{{ current_user.display_name }}</h1>
+                    <div class="d-flex flex-wrap gap-2 align-items-center">
+                        <span class="badge bg-primary rounded-pill px-3 py-1">{{ current_user.level_title }}</span>
+                        <span class="badge bg-warning-subtle text-warning-emphasis rounded-pill px-3 py-1">🔥 {{ current_user.streak_days }} ngày</span>
+                        <span class="text-muted small">@{{ current_user.username }}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-3">
+                <div class="d-flex justify-content-between small fw-semibold mb-1">
+                    <span>Kinh nghiệm: {{ current_user.xp }} / {{ current_user.next_level_xp }} XP</span>
+                    <span>Đã làm: {{ current_user.total_questions_answered }} câu</span>
+                </div>
+                <div class="progress rounded-pill" style="height: 8px;">
+                    {% set xp_pct = ((current_user.xp / current_user.next_level_xp) * 100)|int %}
+                    <div class="progress-bar bg-primary rounded-pill" style="width: {{ xp_pct if xp_pct <= 100 else 100 }}%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-7 border-top border-lg-top-0 pt-3 pt-lg-0">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <h2 class="h6 fw-bold mb-2"><i class="bi bi-person-gear text-primary me-1"></i>Thiết lập tài khoản</h2>
+                    <form method="POST" class="row g-2">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                        <input type="hidden" name="action" value="update_profile">
+                        <div class="col-12">
+                            <label class="form-label small mb-1">Tên hiển thị</label>
+                            <input type="text" name="display_name" value="{{ current_user.display_name }}" class="form-control form-control-sm" required>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label small mb-1">Biểu tượng</label>
+                            <input type="text" name="avatar" value="{{ current_user.avatar }}" class="form-control form-control-sm text-center" maxlength="4">
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label small mb-1">Mục tiêu/ngày</label>
+                            <input type="number" name="daily_goal" value="{{ current_user.daily_goal }}" min="5" max="200" class="form-control form-control-sm">
+                        </div>
+                        <div class="col-12 mt-2">
+                            <button type="submit" class="btn btn-sm btn-primary rounded-pill px-3">Lưu thay đổi</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-6 border-top border-md-top-0 pt-3 pt-md-0">
+                    <h2 class="h6 fw-bold mb-2"><i class="bi bi-shield-lock text-success me-1"></i>Đổi mật khẩu</h2>
+                    <form method="POST" class="row g-2"
+                          onsubmit="return confirm('🔑 Bạn có chắc chắn muốn đổi mật khẩu mới không?');">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                        <input type="hidden" name="action" value="change_password">
+                        <div class="col-12">
+                            <input type="password" name="old_password" class="form-control form-control-sm" placeholder="Mật khẩu hiện tại" required>
+                        </div>
+                        <div class="col-6">
+                            <input type="password" name="new_password" class="form-control form-control-sm" placeholder="Mật khẩu mới" required minlength="4">
+                        </div>
+                        <div class="col-6">
+                            <input type="password" name="confirm_password" class="form-control form-control-sm" placeholder="Nhập lại MK mới" required minlength="4">
+                        </div>
+                        <div class="col-12 mt-2">
+                            <button type="submit" class="btn btn-sm btn-success rounded-pill px-3">Đổi mật khẩu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Huy hiệu -->
+<div class="card-smart p-3 p-md-4 mb-4">
+    <h2 class="h6 fw-bold mb-3">Danh hiệu đạt được</h2>
+    <div class="row g-2 g-md-3">
+        {% for b in all_badges %}
+        {% set unlocked = b.code in earned_badges %}
+        <div class="col-6 col-md-4 col-lg">
+            <div class="p-3 rounded-3 border h-100 text-center {% if unlocked %}bg-warning-subtle border-warning-subtle{% else %}opacity-50{% endif %}">
+                <div class="fs-2 mb-1">{{ b.icon }}</div>
+                <div class="fw-bold small mb-1">{{ b.name }}</div>
+                <div class="text-muted" style="font-size: 0.75rem;">{{ b.desc }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Biểu đồ & Phân tích chủ đề -->
+<div class="row g-4 mb-4">
+    <div class="col-lg-7">
+        <div class="card-smart p-3 p-md-4 h-100">
+            <h2 class="h6 fw-bold mb-3">Biểu đồ điểm số (15 bài gần nhất)</h2>
+            {% if chart_labels %}
+            <canvas id="progressChart" height="130"></canvas>
+            {% else %}
+            <p class="text-muted small py-5 text-center mb-0">Chưa có dữ liệu bài làm.</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="col-lg-5">
+        <div class="card-smart p-3 p-md-4 h-100">
+            <h2 class="h6 fw-bold mb-3">Thống kê theo chủ đề</h2>
+
+            <div class="mb-3">
+                <div class="fw-semibold text-success small mb-2"><i class="bi bi-check-circle-fill me-1"></i>Chủ đề nắm vững (≥ 70%)</div>
+                {% for t in strong_topics[:4] %}
+                <div class="d-flex justify-content-between small border-bottom py-1">
+                    <span class="text-truncate me-2">{{ t.topic }}</span>
+                    <span class="fw-bold text-success flex-shrink-0">{{ t.accuracy }}%</span>
+                </div>
+                {% else %}
+                <div class="small text-muted">Chưa có dữ liệu.</div>
+                {% endfor %}
+            </div>
+
+            <div>
+                <div class="fw-semibold text-danger small mb-2"><i class="bi bi-exclamation-circle-fill me-1"></i>Cần củng cố (&lt; 70%)</div>
+                {% for t in weak_topics[:4] %}
+                <div class="d-flex justify-content-between small border-bottom py-1">
+                    <span class="text-truncate me-2">{{ t.topic }}</span>
+                    <span class="fw-bold text-danger flex-shrink-0">{{ t.accuracy }}%</span>
+                </div>
+                {% else %}
+                <div class="small text-muted">Không có chủ đề nào dưới 70%.</div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Câu hỏi đã lưu & Lịch sử -->
+<div class="row g-4">
+    <div class="col-lg-6">
+        <div class="card-smart p-3 p-md-4 h-100">
+            <h2 class="h6 fw-bold mb-3">Câu hỏi đã lưu ({{ bookmarks|length }})</h2>
+            {% for bm in bookmarks %}
+            <div class="p-3 rounded-3 border mb-2">
+                <div class="small text-primary fw-semibold mb-1">{{ bm.topic }}</div>
+                <div class="fw-medium small mb-1">{{ bm.question_text }}</div>
+                {% if bm.explanation %}
+                <div class="text-muted" style="font-size: 0.78rem;">{{ bm.explanation }}</div>
+                {% endif %}
+            </div>
+            {% else %}
+            <p class="small text-muted mb-0">Chưa có câu hỏi nào được lưu.</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+        <div class="card-smart p-3 p-md-4 h-100">
+            <h2 class="h6 fw-bold mb-3">Lịch sử làm bài</h2>
+            <div class="table-responsive">
+                <table class="table table-sm align-middle mb-0">
+                    <thead>
+                        <tr class="small text-muted">
+                            <th>Bộ đề</th>
+                            <th>Điểm</th>
+                            <th>Kết quả</th>
+                            <th>XP</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="small">
+                        {% for a in attempts %}
+                        <tr>
+                            <td>
+                                <div class="fw-semibold">{{ a.subject_name }}</div>
+                                <div class="text-muted" style="font-size: 0.7rem;">{{ a.created_at.strftime('%d/%m/%Y %H:%M') }}</div>
+                            </td>
+                            <td>
+                                <span class="badge {% if a.score >= 80 %}bg-success{% elif a.score >= 50 %}bg-primary{% else %}bg-danger{% endif %} rounded-pill">
+                                    {{ a.score }}%
+                                </span>
+                            </td>
+                            <td>{{ a.correct_count }}/{{ a.total_count }}</td>
+                            <td class="text-primary fw-bold">+{{ a.xp_earned }}</td>
+                            <td class="text-end">
+                                <a href="{{ url_for('quiz.view_attempt', attempt_id=a.id) }}" class="btn btn-sm btn-outline-secondary rounded-pill py-0 px-2">
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td colspan="5" class="text-center text-muted py-3">Chưa có lịch sử làm bài.</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+{% if chart_labels %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const ctx = document.getElementById("progressChart");
+    if (!ctx) return;
+    new Chart(ctx, {
+        type: "line",
+        data: {
+            labels: {{ chart_labels | tojson }},
+            datasets: [{
+                label: "Điểm (%)",
+                data: {{ chart_scores | tojson }},
+                borderColor: "#4f46e5",
+                backgroundColor: "rgba(79, 70, 229, 0.12)",
+                borderWidth: 2.5,
+                tension: 0.35,
+                fill: true,
+                pointRadius: 4,
+                pointBackgroundColor: "#4f46e5"
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 100,
+                    ticks: { callback: (val) => val + "%" }
+                }
+            }
+        }
+    });
+});
+</script>
+{% endif %}
+{% endblock %}
