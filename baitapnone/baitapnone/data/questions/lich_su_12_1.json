@@ -1,0 +1,972 @@
+{
+  "subject": "Lịch sử 12",
+  "description": "Đề cương ôn tập Lịch sử 12 Giữa kì I: Trật tự thế giới hai cực I-an-ta, Liên hợp quốc, ASEAN, Trật tự thế giới sau Chiến tranh lạnh và Cách mạng tháng Tám năm 1945",
+  "questions": [
+    {
+      "id": "his12_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Mục tiêu trọng tâm hàng đầu của Liên hợp quốc, giữ vai trò cơ sở nền tảng để triển khai các mục tiêu còn lại là gì?",
+      "options": [
+        "Thúc đẩy quan hệ hữu nghị truyền thống giữa các quốc gia dân tộc.",
+        "Tôn trọng tuyệt đối quyền tự quyết của các dân tộc.",
+        "Duy trì nền hòa bình và an ninh quốc tế bền vững.",
+        "Hợp tác quốc tế đa phương nhằm đảm bảo quyền con người."
+      ],
+      "answer": 2,
+      "explanation": "Hiến chương Liên hợp quốc xác định nhiệm vụ duy trì hòa bình và an ninh thế giới là mục tiêu hàng đầu và là tiền đề quyết định các mục tiêu khác."
+    },
+    {
+      "id": "his12_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Nội dung nào phản ánh nhiệm vụ chủ chốt của tổ chức quốc tế lớn nhất hành tinh được quy định trong Hiến chương?",
+      "options": [
+        "Liên hợp quốc.",
+        "Tổ chức ASEAN.",
+        "Liên minh châu Âu.",
+        "Tổ chức Hiệp ước Bắc Đại Tây Dương (NATO)."
+      ],
+      "answer": 0,
+      "explanation": "Giữ gìn hòa bình, thúc đẩy hợp tác bình đẳng, tôn trọng chủ quyền và quyền tự quyết là tôn chỉ hoạt động cơ bản của Liên hợp quốc."
+    },
+    {
+      "id": "his12_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Tổ chức Liên hợp quốc chính thức ra đời trong bối cảnh lịch sử nào sau đây?",
+      "options": [
+        "Chiến tranh lạnh bùng nổ và lan rộng trên phạm vi toàn thế giới.",
+        "Liên Xô hoàn thành công cuộc khôi phục kinh tế xã hội và đạt nhiều thành tựu lớn.",
+        "Phe phát xít Đức - Italia - Nhật Bản phát triển và mở rộng bành trướng.",
+        "Chiến tranh thế giới thứ hai bước vào giai đoạn kết thúc."
+      ],
+      "answer": 3,
+      "explanation": "Liên hợp quốc được thành lập vào cuối năm 1945 khi Chiến tranh thế giới thứ hai vừa kết thúc nhằm thiết lập lại hòa bình và trật tự thế giới."
+    },
+    {
+      "id": "his12_004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Tại Hội nghị I-an-ta (2-1945), nguyên thủ của ba cường quốc nào đã thống nhất việc thành lập tổ chức Liên hợp quốc?",
+      "options": [
+        "Mỹ - Anh - Pháp.",
+        "Đức - Pháp - Mỹ.",
+        "Liên Xô - Anh - Pháp.",
+        "Liên Xô - Anh - Mỹ."
+      ],
+      "answer": 3,
+      "explanation": "Hội nghị I-an-ta có sự tham gia của nguyên thủ ba cường quốc nòng cốt chống phát xít là Liên Xô, Anh và Mỹ."
+    },
+    {
+      "id": "his12_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Liên hợp quốc",
+      "question": "Mốc thời gian nào đánh dấu tổ chức Liên hợp quốc chính thức được thành lập?",
+      "options": [
+        "Ngày 24-10-1945, khi các nước thành viên phê chuẩn bản Hiến chương.",
+        "Tháng 1-1942, khi 26 quốc gia ký kết Tuyên ngôn Liên hợp quốc.",
+        "Năm 1945, khi 50 quốc gia thông qua Hiến chương tại Xan Phran-xi-xcô.",
+        "Tháng 2-1945, khi lãnh đạo ba cường quốc họp tại Hội nghị I-an-ta."
+      ],
+      "answer": 0,
+      "explanation": "Ngày 24-10-1945, sau khi Hiến chương được các nước phê chuẩn và có hiệu lực, tổ chức Liên hợp quốc chính thức đi vào hoạt động (được lấy làm Ngày Liên hợp quốc)."
+    },
+    {
+      "id": "his12_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Cơ quan nào dưới đây là một trong sáu cơ quan chính của Liên hợp quốc được ghi nhận trong Hiến chương năm 1945?",
+      "options": [
+        "Hội đồng Kinh tế và Xã hội.",
+        "Ngân hàng Thế giới (WB).",
+        "Quỹ Nhi đồng Liên hợp quốc (UNICEF).",
+        "Tổ chức Thương mại Thế giới (WTO)."
+      ],
+      "answer": 0,
+      "explanation": "Sáu cơ quan chính của Liên hợp quốc gồm: Đại hội đồng, Hội đồng Bảo an, Hội đồng Kinh tế và Xã hội, Hội đồng Quản thác, Tòa án Quốc tế và Ban Thư ký."
+    },
+    {
+      "id": "his12_007",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Hội nghị quốc tế nào sau đây đã đặt nền tảng căn bản cho sự ra đời của tổ chức Liên hợp quốc?",
+      "options": [
+        "Hội nghị I-an-ta.",
+        "Hội nghị Pốt-xđam.",
+        "Hội nghị Pa-ri.",
+        "Hội nghị Oa-sinh-tơn."
+      ],
+      "answer": 0,
+      "explanation": "Hội nghị I-an-ta (2-1945) là sự kiện quan trọng thống nhất chủ trương thành lập một tổ chức quốc tế nhằm gìn giữ hòa bình toàn cầu."
+    },
+    {
+      "id": "his12_008",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Cơ quan nào của Liên hợp quốc bao gồm đại diện của tất cả các nước thành viên?",
+      "options": [
+        "Đại hội đồng.",
+        "Hội đồng Bảo an.",
+        "Ban Thư ký.",
+        "Tòa án Quốc tế."
+      ],
+      "answer": 0,
+      "explanation": "Đại hội đồng là cơ quan đại diện rộng rãi nhất, bao gồm đại biểu của tất cả các quốc gia thành viên của tổ chức."
+    },
+    {
+      "id": "his12_009",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Cơ quan nào của Liên hợp quốc chịu trách nhiệm chính trong việc duy trì hòa bình và an ninh thế giới?",
+      "options": [
+        "Hội đồng Bảo an.",
+        "Ban Thư ký.",
+        "Hội đồng Quản thác.",
+        "Tòa án Quốc tế."
+      ],
+      "answer": 0,
+      "explanation": "Hội đồng Bảo an là cơ quan giữ trọng trách tiên quyết trong việc gìn giữ hòa bình, ngăn chặn xung đột trên phạm vi toàn cầu."
+    },
+    {
+      "id": "his12_010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Hội nghị thượng đỉnh triệu tập từ ngày 4 đến 11-2-1945 tại Liên Xô quy tụ lãnh đạo ba cường quốc Liên Xô, Mỹ, Anh có tên gọi là gì?",
+      "options": [
+        "Hội nghị Pa-ri.",
+        "Hội nghị Béc-lin.",
+        "Hội nghị I-an-ta.",
+        "Hội nghị Xan Phran-xi-xcô."
+      ],
+      "answer": 2,
+      "explanation": "Hội nghị diễn ra tại thành phố I-an-ta trên bán đảo Crưm của Liên Xô từ ngày 4 đến 11-2-1945."
+    },
+    {
+      "id": "his12_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Hội nghị I-an-ta (tháng 2-1945) đã đưa ra quyết định quân sự - chính trị quan trọng nào sau đây?",
+      "options": [
+        "Tiêu diệt tận gốc chủ nghĩa phát xít Đức và quân phiệt Nhật Bản.",
+        "Thông qua bản Tuyên ngôn Nhân quyền phổ quát toàn cầu.",
+        "Ký kết hiệp ước cấm phổ biến và thử nghiệm vũ khí hạt nhân.",
+        "Thỏa hiệp với phe Trục để chấm dứt chiến sự sớm."
+      ],
+      "answer": 0,
+      "explanation": "Mục tiêu then chốt của ba cường quốc tại I-an-ta là tiêu diệt tận gốc chủ nghĩa phát xít Đức và chủ nghĩa quân phiệt Nhật Bản để kết thúc cuộc chiến."
+    },
+    {
+      "id": "his12_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Hội nghị I-an-ta (2-1945) đã thông qua nội dung trọng đại nào sau đây liên quan đến tình hình thế giới sau chiến tranh?",
+      "options": [
+        "Phân chia phạm vi ảnh hưởng ở châu Âu và châu Á.",
+        "Xây dựng một trật tự thế giới mới có lợi cho phe Trục.",
+        "Khôi phục hoạt động của Hội Quốc Liên.",
+        "Phân chia phạm vi ảnh hưởng của Mỹ và Liên Xô ở châu Phi."
+      ],
+      "answer": 0,
+      "explanation": "Hội nghị I-an-ta đã định đoạt việc phân chia phạm vi ảnh hưởng và đóng quân của các nước lớn tại hai chiến trường chính là châu Âu và châu Á."
+    },
+    {
+      "id": "his12_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Theo quyết định của Hội nghị I-an-ta (tháng 2-1945), quân đội Liên Xô đảm nhận chiếm đóng khu vực nào dưới đây?",
+      "options": [
+        "Đông Béc-lin và Đông Đức.",
+        "Tây Béc-lin.",
+        "Tây Âu.",
+        "Nam Âu."
+      ],
+      "answer": 0,
+      "explanation": "Theo sự phân chia khu vực chiếm đóng nước Đức, phía Đông nước Đức và Đông Béc-lin do quân đội Liên Xô quản lý chiếm đóng."
+    },
+    {
+      "id": "his12_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Trong giai đoạn từ năm 1945 đến đầu những năm 70 của thế kỉ XX, Trật tự thế giới hai cực I-an-ta có biểu hiện nào sau đây?",
+      "options": [
+        "Xác lập và phát triển nhanh với sự đối đầu diễn ra trên nhiều lĩnh vực.",
+        "Từ đối kháng chuyển sang đối đầu giữa hai hệ thống xã hội đối lập.",
+        "Phát triển mạnh và dẫn tới các cuộc chiến tranh cục bộ trực tiếp giữa Liên Xô - Mỹ.",
+        "Từ đối đầu căng thẳng chuyển sang hoà dịu và hoà hoãn Đông - Tây."
+      ],
+      "answer": 0,
+      "explanation": "Sau chiến tranh, trật tự hai cực nhanh chóng hình thành với tình trạng đối đầu gay gắt trên mọi lĩnh vực chính trị, quân sự, kinh tế giữa hai phe tư bản và xã hội chủ nghĩa."
+    },
+    {
+      "id": "his12_015",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Giai đoạn từ những năm 70 của thế kỉ XX đến năm 1991, Trật tự thế giới hai cực I-an-ta có biểu hiện nào rõ nét nhất?",
+      "options": [
+        "Hòa hoãn Đông - Tây, đối thoại, hợp tác và đi đến chấm dứt sự đối đầu.",
+        "Xác lập và phát triển nhanh với sự đối đầu gay gắt.",
+        "Dẫn tới các xung đột quân sự trực diện giữa Mỹ và Liên Xô.",
+        "Chiến tranh thế giới mới bùng nổ cục bộ ở khắp các châu lục."
+      ],
+      "answer": 0,
+      "explanation": "Xu thế hòa hoãn Đông - Tây xuất hiện từ đầu những năm 70 qua các cuộc gặp cấp cao, hiệp ước hạn chế vũ khí và chính thức chấm dứt Chiến tranh lạnh vào năm 1989-1991."
+    },
+    {
+      "id": "his12_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Sự kiện lịch sử nào mở ra bước đột phá đầu tiên góp phần làm xói mòn và sụp đổ trật tự thế giới hai cực I-an-ta?",
+      "options": [
+        "Thắng lợi của cách mạng Trung Quốc (1949).",
+        "Thắng lợi của Cách mạng tháng Tám ở Việt Nam (1945).",
+        "Thắng lợi của cách mạng Cuba lật đổ chế độ thân Mỹ (1959).",
+        "Quân đội Anh, Pháp rút quân khỏi kênh đào Xuy-ê (1956)."
+      ],
+      "answer": 0,
+      "explanation": "Thắng lợi của cách mạng Trung Quốc năm 1949 làm hệ thống xã hội chủ nghĩa nối liền từ Âu sang Á, phá vỡ thế bao vây và làm đảo lộn cấu trúc phân chia ảnh hưởng ban đầu của I-an-ta."
+    },
+    {
+      "id": "his12_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Nội dung nào tại Hội nghị I-an-ta là cơ sở định hình trật tự thế giới hai cực sau Thế chiến thứ hai?",
+      "options": [
+        "Sự phân chia phạm vi ảnh hưởng giữa hai siêu cường Liên Xô và Mỹ.",
+        "Quy định Đông Nam Á thuộc phạm vi chiếm đóng của Liên Xô.",
+        "Giải tán các khối phòng thủ khu vực.",
+        "Đưa toàn bộ Tây Âu và Đông Âu vào phạm vi chiếm đóng của quân đội Mỹ."
+      ],
+      "answer": 0,
+      "explanation": "Sự phân chia địa bàn chiếm đóng và ảnh hưởng giữa Liên Xô và Mỹ đã tạo nền tảng phân cực thế giới làm hai phe đối lập."
+    },
+    {
+      "id": "his12_018",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Yếu tố cơ bản nào chi phối đời sống chính trị quốc tế trong suốt nửa sau thế kỉ XX?",
+      "options": [
+        "Cục diện trật tự hai cực, hai phe: tư bản chủ nghĩa và xã hội chủ nghĩa.",
+        "Sự trỗi dậy của các tổ chức thương mại quốc tế tự do.",
+        "Xu hướng liên kết khu vực ở châu Á lấn át các châu lục khác.",
+        "Tình trạng suy thoái kinh tế trầm trọng ở các nước tư bản phát triển."
+      ],
+      "answer": 0,
+      "explanation": "Sự đối đầu giữa hai cực Xô - Mỹ đại diện cho hai khối chính trị - tư tưởng đối lập là nhân tố trung tâm định hình quan hệ quốc tế từ sau 1945 đến 1991."
+    },
+    {
+      "id": "his12_019",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chiến tranh lạnh",
+      "question": "Quan hệ quốc tế thời kì Chiến tranh lạnh luôn căng thẳng do Mỹ và Liên Xô tập trung đẩy mạnh hoạt động nào?",
+      "options": [
+        "Triển khai các kế hoạch viện trợ kinh tế nhân đạo.",
+        "Thúc đẩy tự do hóa thương mại toàn cầu.",
+        "Tăng cường chạy đua vũ trang và lập các khối quân sự.",
+        "Thành lập lực lượng gìn giữ hòa bình chung."
+      ],
+      "answer": 2,
+      "explanation": "Cuộc chạy đua sản xuất vũ khí quy ước và hạt nhân giữa hai phe khiến thế giới luôn đứng trước bờ vực chiến tranh bùng nổ."
+    },
+    {
+      "id": "his12_020",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chiến tranh lạnh",
+      "question": "Sự kiện bức tường Béc-lin sụp đổ vào tháng 11 năm 1989 mang ý nghĩa biểu tượng lớn cho sự kiện gì?",
+      "options": [
+        "Chiến tranh lạnh đi đến hồi kết.",
+        "Chủ nghĩa xã hội ở Đông Âu sụp đổ.",
+        "Mỹ xác lập vị thế thống trị toàn cầu.",
+        "Trật tự thế giới đa cực hình thành hoàn chỉnh."
+      ],
+      "answer": 0,
+      "explanation": "Bức tường Béc-lin sụp đổ phá bỏ ranh giới chia cắt giữa hai cực tại châu Âu, báo hiệu sự sụp đổ của bức màn sắt và kết thúc Chiến tranh lạnh."
+    },
+    {
+      "id": "his12_021",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Vai trò gia tăng của các trung tâm, định chế kinh tế - tài chính toàn cầu là minh chứng cụ thể cho xu thế nào?",
+      "options": [
+        "Xu thế phát triển theo hướng đa cực, nhiều trung tâm.",
+        "Xu thế đơn cực độc tôn.",
+        "Xu thế quân sự hóa toàn diện.",
+        "Xu thế cô lập kinh tế quốc gia."
+      ],
+      "answer": 0,
+      "explanation": "Sự trỗi dậy của các cực tăng trưởng kinh tế như EU, Nhật Bản, Trung Quốc... làm chuyển biến cục diện thế giới hướng tới đa cực."
+    },
+    {
+      "id": "his12_022",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Sau khi Chiến tranh lạnh kết thúc, các quốc gia trên thế giới đã điều chỉnh chiến lược phát triển, tập trung vào lĩnh vực nào làm trọng tâm?",
+      "options": [
+        "Tập trung phát triển kinh tế để nâng cao sức mạnh quốc gia.",
+        "Đẩy mạnh sản xuất và mở rộng kho vũ khí.",
+        "Gia tăng chạy đua vũ trang.",
+        "Phát triển các liên minh phòng thủ quân sự khu vực."
+      ],
+      "answer": 0,
+      "explanation": "Trong thời kỳ hậu Chiến tranh lạnh, các nước coi việc lấy phát triển kinh tế làm trọng tâm là nhân tố quyết định sức mạnh thực tế của quốc gia."
+    },
+    {
+      "id": "his12_023",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Ngày 8-8-1967, tại Băng Cốc (Thái Lan) đã diễn ra sự kiện lịch sử quan trọng nào?",
+      "options": [
+        "Ký kết bản Tuyên bố Băng Cốc thành lập tổ chức ASEAN.",
+        "Vấn đề xung đột tại Cam-pu-chia được giải quyết dứt điểm.",
+        "Việt Nam chính thức trở thành thành viên thứ 7 của ASEAN.",
+        "Hiệp ước Thân thiện và Hợp tác Đông Nam Á (Hiệp ước Ba-li) được ký kết."
+      ],
+      "answer": 0,
+      "explanation": "Năm quốc gia sáng lập (Indonesia, Malaysia, Philippines, Singapore và Thái Lan) đã ký Tuyên bố Băng Cốc, chính thức thành lập Hiệp hội các quốc gia Đông Nam Á (ASEAN)."
+    },
+    {
+      "id": "his12_024",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Mối quan hệ giữa Việt Nam và ASEAN từ năm 1979 đến năm 1989 có đặc điểm nổi bật nào?",
+      "options": [
+        "Việt Nam là quan sát viên của ASEAN.",
+        "Mở rộng hợp tác song phương toàn diện.",
+        "Tình trạng căng thẳng, đối đầu kéo dài do vấn đề Cam-pu-chia.",
+        "Đối thoại hòa bình và xây dựng lòng tin chính trị."
+      ],
+      "answer": 2,
+      "explanation": "Trong suốt thập niên 80, quan hệ giữa hai nhóm nước trở nên căng thẳng xung quanh 'vấn đề Cam-pu-chia', trước khi chuyển sang đối thoại từ cuối thập niên."
+    },
+    {
+      "id": "his12_025",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Nguyên nhân then chốt thúc đẩy Việt Nam đưa ra quyết định gia nhập tổ chức ASEAN là gì?",
+      "options": [
+        "Quan hệ giữa ASEAN và Việt Nam đã chuyển từ đối đầu sang đối thoại, hợp tác.",
+        "Chủ trương mở cửa phù hợp với chiến lược do phía Liên Xô gợi ý.",
+        "Các nước lớn ép buộc giải quyết xung đột.",
+        "Nhu cầu hỗ trợ quân sự từ các nước láng giềng."
+      ],
+      "answer": 0,
+      "explanation": "Việc giải quyết hòa bình vấn đề Cam-pu-chia đã tạo lập không khí tin cậy, giúp ASEAN và Việt Nam khép lại quá khứ để chuyển sang hợp tác xây dựng khu vực hòa bình."
+    },
+    {
+      "id": "his12_026",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Việc Việt Nam chính thức gia nhập ASEAN (năm 1995) đã tác động như thế nào đến quá trình phát triển của tổ chức?",
+      "options": [
+        "Đập tan âm mưu chống phá của các thế lực thù địch.",
+        "Củng cố hệ thống chính quyền quân quản tại khu vực.",
+        "Đẩy nhanh tiến trình mở rộng và phát triển của ASEAN.",
+        "Thúc đẩy giải giáp lực lượng vũ trang trong khu vực."
+      ],
+      "answer": 2,
+      "explanation": "Việt Nam gia nhập đã mở đường cho các nước còn lại (Lào, Myanmar, Campuchia) tiếp tục gia nhập, hiện thực hóa mục tiêu một ASEAN thống nhất 10 nước thành viên."
+    },
+    {
+      "id": "his12_027",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Văn kiện nào sau đây là cơ sở pháp lý cao nhất để các nước Đông Nam Á xây dựng Cộng đồng ASEAN?",
+      "options": [
+        "Hiến chương ASEAN.",
+        "Tuyên bố Băng Cốc.",
+        "Hiến chương Liên hợp quốc.",
+        "Hiệp ước Ba-li năm 1976."
+      ],
+      "answer": 0,
+      "explanation": "Hiến chương ASEAN (có hiệu lực từ năm 2008) tạo dựng khuôn khổ pháp lý và cơ cấu tổ chức để hiện thực hóa việc thành lập Cộng đồng ASEAN."
+    },
+    {
+      "id": "his12_028",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Đâu là mục tiêu cơ bản hướng tới của các quốc gia khi xây dựng Cộng đồng Văn hóa - Xã hội ASEAN?",
+      "options": [
+        "Thu hẹp khoảng cách phát triển, nâng cao chất lượng cuộc sống cho người dân.",
+        "Xây dựng liên minh chính trị đơn nhất giữa các nước thành viên.",
+        "Hỗ trợ nhau mua sắm vũ khí chiến lược bảo vệ an ninh.",
+        "Biến ASEAN thành khối liên minh có quân đội thường trực lớn nhất."
+      ],
+      "answer": 0,
+      "explanation": "Cộng đồng Văn hóa - Xã hội lấy con người làm trung tâm, nhằm nâng cao phúc lợi, công bằng xã hội và bảo vệ bản sắc truyền thống."
+    },
+    {
+      "id": "his12_029",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Trụ cột nào sau đây KHÔNG thuộc ba trụ cột hợp tác của Cộng đồng ASEAN?",
+      "options": [
+        "Cộng đồng Kinh tế ASEAN (AEC).",
+        "Cộng đồng Văn hóa - Thể thao ASEAN.",
+        "Cộng đồng Chính trị - An ninh ASEAN (APSC).",
+        "Cộng đồng Văn hóa - Xã hội ASEAN (ASCC)."
+      ],
+      "answer": 1,
+      "explanation": "Cộng đồng ASEAN được cấu thành từ ba trụ cột: Chính trị - An ninh, Kinh tế, và Văn hóa - Xã hội."
+    },
+    {
+      "id": "his12_030",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Nội dung nào dưới đây KHÔNG phải là thách thức thực tế đối với Cộng đồng ASEAN hiện nay?",
+      "options": [
+        "Sự chênh lệch về trình độ phát triển kinh tế giữa các quốc gia.",
+        "Tình hình diễn biến phức tạp tại khu vực Biển Đông.",
+        "Sự khác biệt về văn hóa, tôn giáo và chế độ chính trị.",
+        "ASEAN chưa có vị thế và tiếng nói trên trường quốc tế."
+      ],
+      "answer": 3,
+      "explanation": "Hiện nay ASEAN đã xác lập được vai trò trung tâm và có tiếng nói rất uy tín trong các cơ chế đối thoại quốc tế và khu vực châu Á - Thái Bình Dương."
+    },
+    {
+      "id": "his12_031",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Tổ chức Liên hợp quốc ra đời trong bối cảnh lịch sử quốc tế nào?",
+      "options": [
+        "Chiến tranh lạnh bùng nổ diện rộng.",
+        "Liên Xô hoàn tất các kế hoạch khôi phục đất nước.",
+        "Chủ nghĩa phát xít mở rộng bành trướng lãnh thổ.",
+        "Chiến tranh thế giới thứ hai bước vào giai đoạn kết thúc."
+      ],
+      "answer": 3,
+      "explanation": "Chiến tranh thế giới thứ hai sắp kết thúc đặt ra đòi hỏi cấp thiết về một cơ chế quốc tế duy trì hòa bình, ngăn chặn thảm họa chiến tranh tái diễn."
+    },
+    {
+      "id": "his12_032",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Tổ chức đa phương toàn cầu giữ vai trò chính trong việc duy trì hòa bình và an ninh quốc tế là",
+      "options": [
+        "Liên hợp quốc (UN).",
+        "Liên minh Châu Âu (EU).",
+        "Hiệp hội các quốc gia Đông Nam Á (ASEAN).",
+        "Diễn đàn hợp tác Á - Âu (ASEM)."
+      ],
+      "answer": 0,
+      "explanation": "Liên hợp quốc là tổ chức quốc tế lớn nhất thế giới gánh vác sứ mệnh duy trì nền hòa bình và an ninh cho nhân loại."
+    },
+    {
+      "id": "his12_033",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Liên hợp quốc",
+      "question": "Một trong những nguyên tắc hoạt động cơ bản của Liên hợp quốc là gì?",
+      "options": [
+        "Không can thiệp vào công việc nội bộ của bất kỳ quốc gia nào.",
+        "Xây dựng quân đội chung để giải quyết xung đột.",
+        "Quyết định dựa trên đa số phiếu của các nước lớn mà không cần thảo luận.",
+        "Chỉ hỗ trợ về mặt nhân đạo cho các nước nghèo."
+      ],
+      "answer": 0,
+      "explanation": "Tôn trọng chủ quyền, bình đẳng quốc gia và không can thiệp vào công việc nội bộ của các nước là nguyên tắc bất di bất dịch của Hiến chương."
+    },
+    {
+      "id": "his12_034",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Những nguyên thủ quốc gia nào đã tham dự Hội nghị I-an-ta (tháng 2-1945)?",
+      "options": [
+        "Nhật Bản, Mỹ, Anh.",
+        "Pháp, Anh, Liên Xô.",
+        "Đức, Mỹ, Anh.",
+        "Mỹ, Anh, Liên Xô."
+      ],
+      "answer": 3,
+      "explanation": "Ba vị nguyên thủ tham dự là F. Roosevelt (Mỹ), W. Churchill (Anh) và J. Stalin (Liên Xô)."
+    },
+    {
+      "id": "his12_035",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Nguyên nhân nào dưới đây KHÔNG dẫn đến sự xói mòn và sụp đổ của trật tự thế giới hai cực I-an-ta?",
+      "options": [
+        "Sự suy giảm thế mạnh kinh tế tương đối của cả Mỹ và Liên Xô do gánh nặng chạy đua vũ trang.",
+        "Thắng lợi to lớn của phong trào giải phóng dân tộc trên thế giới.",
+        "Sự vươn lên cạnh tranh quyết liệt của Nhật Bản và Tây Âu.",
+        "Tác động tiêu cực của cuộc cách mạng công nghiệp lần thứ tư."
+      ],
+      "answer": 3,
+      "explanation": "Cách mạng công nghiệp lần thứ tư (4.0) chỉ mới xuất hiện vào đầu thế kỷ XXI, trong khi trật tự hai cực I-an-ta đã tan rã từ năm 1991."
+    },
+    {
+      "id": "his12_036",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới hai cực I-an-ta",
+      "question": "Nhận xét nào sau đây phản ánh đúng vị thế của các cường quốc trong trật tự hai cực I-an-ta (1945 - 1991)?",
+      "options": [
+        "Liên Xô hoàn toàn áp đảo Mỹ về mọi mặt kinh tế và quân sự.",
+        "Nước Anh không còn giữ được vai trò đế quốc thống trị hàng đầu như giai đoạn trước Thế chiến.",
+        "Mỹ nắm quyền chi phối tuyệt đối tất cả các thể chế và tổ chức quốc tế.",
+        "Nhật Bản nhanh chóng trở thành một siêu cường quân sự đối trọng với Liên Xô."
+      ],
+      "answer": 1,
+      "explanation": "Sau chiến tranh thế giới thứ hai, nước Anh bị tàn phá nặng nề và mất dần hệ thống thuộc địa, vai trò cường quốc suy giảm, phải phụ thuộc vào Mỹ."
+    },
+    {
+      "id": "his12_037",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Nội dung nào phản ánh đúng xu thế phát triển của thế giới sau khi Chiến tranh lạnh kết thúc?",
+      "options": [
+        "Các quốc gia đều tập trung nguồn lực chạy đua vũ trang làm trọng tâm.",
+        "Thiết lập trật tự thế giới đơn cực dưới sự bảo trợ của một cường quốc.",
+        "Mỹ kiểm soát hoàn toàn mọi quan hệ kinh tế - chính trị toàn cầu.",
+        "Các nước điều chỉnh quan hệ theo hướng hòa hoãn, đối thoại và hợp tác phát triển."
+      ],
+      "answer": 3,
+      "explanation": "Sau Chiến tranh lạnh, xu thế hòa hoãn, đối thoại, tránh xung đột trực tiếp để cùng hợp tác phát triển kinh tế trở thành dòng chảy chính trong quan hệ quốc tế."
+    },
+    {
+      "id": "his12_038",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Nội dung nào dưới đây KHÔNG phản ánh đúng xu thế phát triển của thế giới sau Chiến tranh lạnh?",
+      "options": [
+        "Trật tự thế giới đơn cực được xác lập vững chắc trong quan hệ quốc tế.",
+        "Các quốc gia đều lấy phát triển kinh tế làm trọng tâm chiến lược.",
+        "Hòa bình, hợp tác và phát triển là xu thế chủ đạo.",
+        "Xu thế toàn cầu hóa diễn ra mạnh mẽ trên nhiều lĩnh vực."
+      ],
+      "answer": 0,
+      "explanation": "Dù Mỹ có tham vọng thiết lập trật tự 'đơn cực' nhưng thế giới đang thực tế chuyển biến mạnh mẽ theo xu thế 'đa cực'."
+    },
+    {
+      "id": "his12_039",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Quốc gia nào sau đây thuộc nhóm năm nước sáng lập tổ chức ASEAN vào năm 1967?",
+      "options": [
+        "Đông Ti-mo.",
+        "In-đô-nê-xi-a.",
+        "Việt Nam.",
+        "Bru-nây."
+      ],
+      "answer": 1,
+      "explanation": "Năm nước sáng lập ASEAN gồm có: Indonesia, Malaysia, Philippines, Singapore và Thái Lan."
+    },
+    {
+      "id": "his12_040",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Một trong những mục đích thành lập chính của tổ chức ASEAN là gì?",
+      "options": [
+        "Đưa Đông Nam Á trở thành cường quốc quân sự.",
+        "Xây dựng một liên minh quân sự có vũ khí hạt nhân.",
+        "Thúc đẩy hòa bình, ổn định và hợp tác phát triển kinh tế khu vực.",
+        "Tập trung chống lại các cường quốc tư bản."
+      ],
+      "answer": 2,
+      "explanation": "Mục tiêu cơ bản của ASEAN theo Tuyên bố Băng Cốc là thúc đẩy tăng trưởng kinh tế, tiến bộ xã hội và duy trì hòa bình, an ninh khu vực."
+    },
+    {
+      "id": "his12_041",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Ý nào sau đây KHÔNG phải là nguyên nhân thúc đẩy sự thành lập của tổ chức ASEAN?",
+      "options": [
+        "Nhu cầu hợp tác giữa các nước để cùng phát triển kinh tế - xã hội.",
+        "Mong muốn thiết lập sự áp đặt và ảnh hưởng bá quyền của một nước lên các nước láng giềng.",
+        "Nhu cầu liên kết nhằm hạn chế tác động của các cường quốc bên ngoài đối với khu vực.",
+        "Sự cổ vũ từ những thành công của các mô hình liên kết khu vực khác trên thế giới (như EEC)."
+      ],
+      "answer": 1,
+      "explanation": "ASEAN được hình thành trên cơ sở tự nguyện, bình đẳng và tôn trọng độc lập chủ quyền, không hướng tới việc áp đặt quyền lực đơn phương."
+    },
+    {
+      "id": "his12_042",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Ý tưởng xây dựng Cộng đồng ASEAN chính thức khởi nguồn từ thời điểm nào?",
+      "options": [
+        "Khi Việt Nam gia nhập ASEAN.",
+        "Khi tổ chức ASEAN được thành lập (năm 1967).",
+        "Khi Hiệp ước Ba-li được ký kết.",
+        "Khi kết nạp thành viên thứ 10."
+      ],
+      "answer": 1,
+      "explanation": "Ngay từ Tuyên bố Băng Cốc 1967, các nhà lập quốc đã ấp ủ tầm nhìn về một cộng đồng Đông Nam Á gắn kết, hòa bình và thịnh vượng."
+    },
+    {
+      "id": "his12_043",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Cộng đồng ASEAN ra đời hoàn toàn KHÔNG nhằm mục tiêu nào sau đây?",
+      "options": [
+        "Xây dựng một liên minh quân sự chung chặt chẽ.",
+        "Tăng cường liên kết sâu rộng về chính trị - an ninh.",
+        "Thắt chặt liên kết về văn hóa - xã hội.",
+        "Hợp tác sâu rộng về kinh tế và thị trường chung."
+      ],
+      "answer": 0,
+      "explanation": "ASEAN luôn chủ trương không trở thành một liên minh phòng thủ quân sự chung."
+    },
+    {
+      "id": "his12_044",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Mục tiêu trọng tâm của Cộng đồng Kinh tế ASEAN (AEC) là gì?",
+      "options": [
+        "Phát triển nguồn lực con người toàn diện.",
+        "Xây dựng mạng lưới an sinh và bảo hiểm xã hội tập trung.",
+        "Bảo tồn đa dạng sinh học và phát triển bền vững môi trường.",
+        "Tạo dựng một thị trường đơn nhất và cơ sở sản xuất chung."
+      ],
+      "answer": 3,
+      "explanation": "AEC hướng đến việc tạo lập một thị trường và nền tảng sản xuất thống nhất, tự do lưu chuyển hàng hóa, dịch vụ, vốn và lao động có tay nghề."
+    },
+    {
+      "id": "his12_045",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Cách mạng tháng Tám năm 1945",
+      "question": "Trong Cách mạng tháng Tám năm 1945, nhân dân địa phương nào đã đứng lên khởi nghĩa giành chính quyền sớm nhất cả nước?",
+      "options": [
+        "Bắc Giang.",
+        "Thái Nguyên.",
+        "Nam Định.",
+        "Quảng Ninh."
+      ],
+      "answer": 0,
+      "explanation": "Bốn tỉnh giành chính quyền sớm nhất cả nước (ngày 18-8-1945) là: Bắc Giang, Hải Dương, Hà Tĩnh và Quảng Nam."
+    },
+    {
+      "id": "his12_046",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Cách mạng tháng Tám năm 1945",
+      "question": "Nguyên nhân khách quan đóng vai trò thuận lợi quyết định đưa tới thắng lợi của Cách mạng tháng Tám năm 1945 ở Việt Nam là gì?",
+      "options": [
+        "Lực lượng vũ trang ba thứ quân được chuẩn bị chu đáo.",
+        "Thắng lợi quyết định của quân Đồng minh trong việc tiêu diệt chủ nghĩa phát xít.",
+        "Sự hỗ trợ trực tiếp từ phong trào giải phóng dân tộc ở Lào và Cam-pu-chia.",
+        "Truyền thống yêu nước chống ngoại xâm của toàn dân tộc."
+      ],
+      "answer": 1,
+      "explanation": "Việc Liên Xô và Đồng minh đánh bại phát xít Đức và quân phiệt Nhật đã khiến quân Nhật ở Đông Dương tê liệt và suy sụp tinh thần, tạo thời cơ 'ngàn năm có một'."
+    },
+    {
+      "id": "his12_047",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Cách mạng tháng Tám năm 1945",
+      "question": "Tháng 8-1945, Đại hội Quốc dân Tân Trào được triệu tập trong bối cảnh tình hình trong nước có diễn biến nổi bật nào?",
+      "options": [
+        "Mặt trận Việt Minh giải phóng hoàn toàn miền Nam.",
+        "Chính quyền phong kiến nhà Nguyễn vừa thành lập nội các mới.",
+        "Chính phủ bù nhìn Trần Trọng Kim hoang mang dao động cực độ.",
+        "Quân đội Mỹ rút hoàn toàn lực lượng cố vấn khỏi miền Bắc."
+      ],
+      "answer": 2,
+      "explanation": "Sau khi Nhật tuyên bố đầu hàng Đồng minh, chính phủ Trần Trọng Kim rơi vào khủng hoảng, mất phương hướng và phân rã nhanh chóng."
+    },
+    {
+      "id": "his12_048",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Cách mạng tháng Tám năm 1945",
+      "question": "Những địa phương nào sau đây giành được chính quyền muộn nhất trong cuộc Tổng khởi nghĩa tháng Tám năm 1945?",
+      "options": [
+        "Vĩnh Long, Cần Thơ.",
+        "Đồng Nai Thượng, Hà Tiên.",
+        "Yên Bái, Hà Giang.",
+        "Lào Cai, Lai Châu."
+      ],
+      "answer": 1,
+      "explanation": "Đồng Nai Thượng và Hà Tiên là hai tỉnh giành được chính quyền muộn nhất vào ngày 28-8-1945."
+    },
+    {
+      "id": "his12_049",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Cách mạng tháng Tám năm 1945",
+      "question": "Nhân tố chủ quan hàng đầu quyết định trực tiếp đến mọi thắng lợi của Cách mạng tháng Tám năm 1945 ở Việt Nam là",
+      "options": [
+        "sự lãnh đạo đúng đắn, sáng tạo của Đảng Cộng sản Đông Dương.",
+        "tinh thần yêu nước quật cường của nhân dân.",
+        "chiến thắng vang dội của quân Đồng minh trước phe phát xít.",
+        "quá trình chuẩn bị lâu dài suốt 15 năm kể từ khi thành lập Đảng."
+      ],
+      "answer": 0,
+      "explanation": "Sự lãnh đạo của Đảng và Chủ tịch Hồ Chí Minh với đường lối cách mạng đúng đắn, chớp thời cơ chính xác là nhân tố có ý nghĩa quyết định bậc nhất."
+    },
+    {
+      "id": "his12_050",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Cách mạng tháng Tám năm 1945",
+      "question": "Bài học kinh nghiệm nào từ Tổng khởi nghĩa tháng Tám năm 1945 tiếp tục được Đảng vận dụng sáng tạo trong công cuộc đổi mới hiện nay?",
+      "options": [
+        "Linh hoạt áp dụng các hình thức đấu tranh quân sự cục bộ.",
+        "Kết hợp bạo lực vũ trang với đàm phán quốc tế.",
+        "Quy tụ và phát huy sức mạnh khối đại đoàn kết toàn dân tộc.",
+        "Tranh thủ sự can thiệp của các cường quốc tư bản lớn."
+      ],
+      "answer": 2,
+      "explanation": "Bài học đại đoàn kết toàn dân trong Mặt trận Việt Minh là nền tảng chiến lược vô giá để củng cố sức mạnh xây dựng và bảo vệ đất nước ngày nay."
+    },
+    {
+      "id": "his12_051",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Dựa vào tư liệu về Trật tự thế giới đa cực: Đoạn trích phản ánh những dấu hiệu chứng minh trật tự đa cực đã được định hình một cách hoàn chỉnh và cố định trong quan hệ quốc tế.",
+      "answer": false,
+      "explanation": "Sai. Tư liệu nêu trật tự đa cực 'đang được hình thành' và phụ thuộc vào nhiều biến số thực lực tương quan chứ chưa hoàn chỉnh."
+    },
+    {
+      "id": "his12_052",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Dựa vào tư liệu về Trật tự thế giới đa cực: Cuộc chạy đua về sức mạnh tổng hợp quốc gia giữa các cường quốc là yếu tố quan trọng tác động đến diện mạo của trật tự thế giới mới.",
+      "answer": true,
+      "explanation": "Đúng. Năng lực cạnh tranh tổng hợp (kinh tế, công nghệ, quân sự, đối ngoại) quyết định vị thế của từng cực trong trật tự quốc tế mới."
+    },
+    {
+      "id": "his12_053",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Dựa vào tư liệu về Trật tự thế giới đa cực: Mỹ, Nga và Trung Quốc là những cường quốc giữ vị thế chi phối tuyệt đối quan hệ quốc tế trong cả trật tự hai cực I-an-ta và trật tự đa cực.",
+      "answer": false,
+      "explanation": "Sai. Trong trật tự hai cực I-an-ta, chỉ có hai siêu cường đứng đầu hai phe là Liên Xô và Mỹ đóng vai trò phân cực chủ đạo."
+    },
+    {
+      "id": "his12_054",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Dựa vào tư liệu về Trật tự thế giới đa cực: Tiến bộ khoa học - kĩ thuật vừa là tác nhân làm xói mòn trật tự hai cực I-an-ta, vừa tác động mạnh mẽ đến việc định hình trật tự đa cực.",
+      "answer": true,
+      "explanation": "Đúng. Đột phá khoa học công nghệ làm chuyển dịch cán cân kinh tế thế giới và tạo nên những trung tâm quyền lực mới."
+    },
+    {
+      "id": "his12_055",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Dựa vào tư liệu Thỏa ước Ba-li (2003): Cộng đồng ASEAN được xây dựng dựa trên ba trụ cột chính nhằm tăng cường liên kết sâu rộng và hợp tác khu vực.",
+      "answer": true,
+      "explanation": "Đúng. Ba trụ cột gồm: Chính trị - An ninh, Kinh tế và Văn hóa - Xã hội liên kết chặt chẽ với nhau."
+    },
+    {
+      "id": "his12_056",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Dựa vào tư liệu Thỏa ước Ba-li (2003): Trong ba trụ cột, trụ cột Văn hóa - Xã hội được xem là nền tảng cốt lõi chi phối toàn bộ các hoạt động hợp tác an ninh.",
+      "answer": false,
+      "explanation": "Sai. Cả ba trụ cột đều gắn kết chặt chẽ và tương hỗ lẫn nhau, trong đó hợp tác an ninh và kinh tế giữ vai trò nền tảng quan trọng."
+    },
+    {
+      "id": "his12_057",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Dựa vào tư liệu Thỏa ước Ba-li (2003): Một trong những mục đích xuyên suốt của Cộng đồng ASEAN là giữ vững môi trường hòa bình, ổn định lâu dài tại Đông Nam Á.",
+      "answer": true,
+      "explanation": "Đúng. Mục tiêu then chốt ghi rõ trong văn kiện là đảm bảo hòa bình, ổn định bền vững và phồn vinh cho khu vực."
+    },
+    {
+      "id": "his12_058",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Dựa vào tư liệu Thỏa ước Ba-li (2003): Việc xác lập ba trụ cột của Cộng đồng ASEAN phản ánh quy luật hợp tác tất yếu của khu vực trong xu thế hòa hoãn Đông - Tây.",
+      "answer": false,
+      "explanation": "Sai. Xu thế hòa hoãn Đông - Tây diễn ra vào giai đoạn 1970 - 1991, trong khi Thỏa ước Ba-li II xây dựng Cộng đồng ASEAN ký vào năm 2003 thuộc thời kỳ hội nhập đa cực sau Chiến tranh lạnh."
+    },
+    {
+      "id": "his12_059",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Phong trào giải phóng dân tộc",
+      "question": "Dựa vào tư liệu về giải trừ chủ nghĩa thực dân: Liên hợp quốc đóng vai trò quyết định, trực tiếp tiến hành giải phóng toàn bộ các dân tộc thuộc địa trên thế giới.",
+      "answer": false,
+      "explanation": "Sai. Nhân tố quyết định nhất là phong trào đấu tranh kiên cường, tự lực cánh sinh của chính nhân dân các nước thuộc địa; Liên hợp quốc đóng vai trò cổ vũ, hậu thuẫn pháp lý."
+    },
+    {
+      "id": "his12_060",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Phong trào giải phóng dân tộc",
+      "question": "Dựa vào tư liệu về giải trừ chủ nghĩa thực dân: Thắng lợi của phong trào cách mạng Việt Nam đã đóng góp tích cực và trở thành biểu tượng cổ vũ tiến trình phi thực dân hóa trên toàn cầu.",
+      "answer": true,
+      "explanation": "Đúng. Thắng lợi của Cách mạng tháng Tám năm 1945 và cuộc kháng chiến chống thực dân Pháp (với đỉnh cao Điện Biên Phủ) đã thức tỉnh, cổ vũ mạnh mẽ phong trào giải phóng dân tộc ở Á, Phi và Mỹ Latinh."
+    },
+    {
+      "id": "his12_061",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Phong trào giải phóng dân tộc",
+      "question": "Dựa vào tư liệu về giải trừ chủ nghĩa thực dân: Mỹ và các nước tư bản phương Tây là lực lượng tiên phong đi đầu trong việc thúc đẩy giải phóng các vùng thuộc địa ở châu Á và châu Phi.",
+      "answer": false,
+      "explanation": "Sai. Các cường quốc phương Tây nắm giữ hệ thống thuộc địa lâu đời và luôn tìm cách đàn áp hoặc thiết lập chủ nghĩa thực dân mới sau khi thoái lui."
+    },
+    {
+      "id": "his12_062",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Phong trào giải phóng dân tộc",
+      "question": "Dựa vào tư liệu về giải trừ chủ nghĩa thực dân: Quá trình đấu tranh xóa bỏ ách thống trị thuộc địa do các nước đế quốc lập ra được gọi là tiến trình phi thực dân hóa.",
+      "answer": true,
+      "explanation": "Đúng. Phi thực dân hóa (decolonization) là thuật ngữ lịch sử chỉ tiến trình các dân tộc thuộc địa giành lại độc lập tự chủ từ tay các nước đế quốc thực dân."
+    },
+    {
+      "id": "his12_063",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Dựa vào đoạn trích về kinh tế thế giới: Mỹ và Trung Quốc là hai nền kinh tế có tầm ảnh hưởng hàng đầu trong cục diện kinh tế thế giới hiện nay.",
+      "answer": true,
+      "explanation": "Đúng. Đoạn tư liệu khẳng định Mỹ giữ vị thế số 1 và Trung Quốc đã vươn lên thành nền kinh tế lớn thứ hai toàn cầu."
+    },
+    {
+      "id": "his12_064",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Dựa vào đoạn trích về kinh tế thế giới: Sự tan rã của trật tự I-an-ta là tiền đề trực tiếp quyết định giúp Trung Quốc vươn lên trở thành nền kinh tế lớn thứ hai thế giới.",
+      "answer": false,
+      "explanation": "Sai. Thành tựu kinh tế của Trung Quốc chủ yếu bắt nguồn từ đường lối Cải cách - Mở cửa toàn diện khởi xướng từ năm 1978 và nỗ lực nội sinh của chính quốc gia này."
+    },
+    {
+      "id": "his12_065",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Dựa vào đoạn trích về kinh tế thế giới: Phát huy nội lực và nâng cao sức mạnh tổng hợp quốc gia là yếu tố then chốt để các nước khẳng định vị thế trong xu thế đa cực.",
+      "answer": true,
+      "explanation": "Đúng. Đoạn văn chỉ rõ mỗi quốc gia đều nỗ lực củng cố tiềm lực bên trong để nâng cao uy tín và tầm ảnh hưởng quốc tế."
+    },
+    {
+      "id": "his12_066",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Trật tự thế giới sau Chiến tranh lạnh",
+      "question": "Dựa vào đoạn trích về kinh tế thế giới: Toàn cầu hóa và xu thế đa cực mang lại cơ hội mở rộng thị trường, đồng thời cũng đặt ra nhiều thách thức và rào cản gay gắt cho các quốc gia.",
+      "answer": true,
+      "explanation": "Đúng. Quá trình hội nhập quốc tế luôn song hành giữa thời cơ bứt phá và áp lực cạnh tranh gay gắt."
+    },
+    {
+      "id": "his12_067",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chiến tranh lạnh",
+      "question": "Dựa vào tư liệu về Học thuyết Tơ-ru-man (1947): Thông điệp của Tổng thống Mỹ Tơ-ru-man đọc trước Quốc hội vào ngày 12-3-1947 chính thức phát động cuộc Chiến tranh lạnh chống Liên Xô và phe xã hội chủ nghĩa.",
+      "answer": true,
+      "explanation": "Đúng. Học thuyết Tơ-ru-man là sự kiện khởi đầu cho việc triển khai chính sách ngăn chặn chủ nghĩa cộng sản và bùng nổ Chiến tranh lạnh."
+    },
+    {
+      "id": "his12_068",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chiến tranh lạnh",
+      "question": "Dựa vào tư liệu về Học thuyết Tơ-ru-man (1947): Nguyên nhân sâu xa dẫn đến đối đầu Xô - Mỹ xuất phát trực tiếp từ các xung đột biên giới tại Hy Lạp và Thổ Nhĩ Kỳ.",
+      "answer": false,
+      "explanation": "Sai. Khủng hoảng tại Hy Lạp và Thổ Nhĩ Kỳ chỉ là cái cớ trực tiếp để Mỹ viện trợ; nguyên nhân sâu xa là sự đối lập về hệ tư tưởng, chế độ chính trị và mục tiêu chiến lược giữa hai phe."
+    },
+    {
+      "id": "his12_069",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chiến tranh lạnh",
+      "question": "Dựa vào tư liệu về Học thuyết Tơ-ru-man (1947): Học thuyết Tơ-ru-man thể hiện tham vọng thiết lập địa vị bá chủ toàn cầu của giới cầm quyền Mỹ sau Thế chiến thứ hai.",
+      "answer": true,
+      "explanation": "Đúng. Học thuyết đặt mục tiêu ngăn chặn ảnh hưởng của Liên Xô nhằm đưa nước Mỹ lên vị trí lãnh đạo thế giới tự do."
+    },
+    {
+      "id": "his12_070",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chiến tranh lạnh",
+      "question": "Dựa vào tư liệu về Học thuyết Tơ-ru-man (1947): Học thuyết Tơ-ru-man không chỉ là biện pháp ứng phó tình thế mà còn trở thành kim chỉ nam cho đường lối đối ngoại của Mỹ trong suốt thời kỳ Chiến tranh lạnh.",
+      "answer": true,
+      "explanation": "Đúng. Tư tưởng ngăn chặn và chống phá chủ nghĩa cộng sản của học thuyết này đã chi phối hầu hết các chiến lược đối ngoại của Mỹ đến năm 1991."
+    },
+    {
+      "id": "his12_071",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Dựa vào tư liệu về Cộng đồng Chính trị - An ninh ASEAN: Nội dung tư liệu phản ánh các mục tiêu và nguyên tắc hoạt động cơ bản của trụ cột Cộng đồng Chính trị - An ninh ASEAN (APSC).",
+      "answer": true,
+      "explanation": "Đúng. Đoạn văn mô tả việc xây dựng một khu vực đoàn kết, hòa bình, tự cường, hợp tác bảo đảm an ninh toàn diện."
+    },
+    {
+      "id": "his12_072",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Dựa vào tư liệu về Cộng đồng Chính trị - An ninh ASEAN: Định hướng xây dựng Cộng đồng ASEAN hoàn toàn phù hợp với xu thế toàn cầu hóa và hội nhập khu vực.",
+      "answer": true,
+      "explanation": "Đúng. Việc tăng cường liên kết khu vực giúp Đông Nam Á thích ứng linh hoạt và nâng cao năng lực ứng phó trước các tác động toàn cầu."
+    },
+    {
+      "id": "his12_073",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Tổ chức ASEAN",
+      "question": "Dựa vào tư liệu về Cộng đồng Chính trị - An ninh ASEAN: Cộng đồng Chính trị - An ninh giữ vai trò thiết yếu trong việc bảo đảm môi trường hòa bình, ổn định lâu dài cho các nước Đông Nam Á.",
+      "answer": true,
+      "explanation": "Đúng. Trụ cột này thúc đẩy đối thoại, xây dựng lòng tin, ngăn ngừa tranh chấp và duy trì ổn định an ninh khu vực."
+    },
+    {
+      "id": "his12_074",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Tổ chức ASEAN",
+      "question": "Dựa vào tư liệu về Cộng đồng Chính trị - An ninh ASEAN: Ý tưởng thành lập Cộng đồng Chính trị - An ninh ASEAN là sáng kiến riêng của ba nước Đông Dương.",
+      "answer": false,
+      "explanation": "Sai. Đây là sáng kiến chung xuất phát từ ý chí và đồng thuận của toàn thể các quốc gia thành viên trong đại gia đình ASEAN."
+    }
+  ]
+}

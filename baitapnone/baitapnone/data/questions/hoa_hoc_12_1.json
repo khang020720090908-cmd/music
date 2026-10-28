@@ -1,0 +1,1551 @@
+{
+  "subject": "Hóa học 12",
+  "description": "Đề cương ôn tập kiểm tra giữa kì I môn Hóa học lớp 12 (Năm học 2026 - 2027) gồm Ester - Lipid, Carbohydrate và Amine với các phần Trắc nghiệm khách quan, Đúng/Sai và Trả lời ngắn",
+  "questions": [
+    {
+      "id": "chem12_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Ester no, đơn chức, mạch hở có công thức tổng quát là:",
+      "options": [
+        "CnH2nO2 (n ≥ 2).",
+        "CnH2n-2O2 (n ≥ 2).",
+        "CnH2n+2O2 (n ≥ 2).",
+        "CnH2nO (n ≥ 2)."
+      ],
+      "answer": 0,
+      "explanation": "Ester no, đơn chức, mạch hở có 1 liên kết pi ở nhóm COO và mạch carbon no nên công thức phân tử chung là CnH2nO2 với n ≥ 2."
+    },
+    {
+      "id": "chem12_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Chất nào sau đây là ester?",
+      "options": [
+        "C2H5COOH.",
+        "HO-C2H4-CHO.",
+        "CH3COOCH3.",
+        "C2H5OH."
+      ],
+      "answer": 2,
+      "explanation": "CH3COOCH3 (methyl acetate) có nhóm chức -COO- liên kết với hai gốc hydrocarbon nên là ester."
+    },
+    {
+      "id": "chem12_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Chất X có công thức phân tử C3H6O2, là ester của acetic acid. Công thức cấu tạo thu gọn của X là:",
+      "options": [
+        "C2H5COOH.",
+        "HO-C2H4-CHO.",
+        "CH3COOCH3.",
+        "HCOOC2H5."
+      ],
+      "answer": 2,
+      "explanation": "Ester của acetic acid (CH3COOH) có dạng CH3COOR'. Với CTPT C3H6O2 thì R' là -CH3, vậy công thức là CH3COOCH3."
+    },
+    {
+      "id": "chem12_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "C3H6O2 có bao nhiêu đồng phân đơn chức mạch hở?",
+      "options": [
+        "4.",
+        "5.",
+        "6.",
+        "3."
+      ],
+      "answer": 3,
+      "explanation": "C3H6O2 đơn chức mạch hở gồm: 2 đồng phân ester (HCOOC2H5, CH3COOCH3) và 1 đồng phân carboxylic acid (C2H5COOH), tổng cộng có 3 đồng phân."
+    },
+    {
+      "id": "chem12_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "C4H8O2 có bao nhiêu đồng phân ester?",
+      "options": [
+        "4.",
+        "5.",
+        "6.",
+        "7."
+      ],
+      "answer": 0,
+      "explanation": "Các đồng phân ester của C4H8O2 gồm: HCOOCH2CH2CH3, HCOOCH(CH3)2, CH3COOC2H5, C2H5COOCH3 (tổng cộng 4 đồng phân)."
+    },
+    {
+      "id": "chem12_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Hợp chất X có công thức cấu tạo: CH3CH2COOCH3. Tên gọi của X là",
+      "options": [
+        "ethyl acetate.",
+        "methyl propionate.",
+        "methyl acetate.",
+        "propyl acetate."
+      ],
+      "answer": 1,
+      "explanation": "Gốc ancol là methyl (-CH3), gốc acid là propionate (CH3CH2COO-), do đó tên gọi là methyl propionate."
+    },
+    {
+      "id": "chem12_007",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Ester ethyl formate có công thức là",
+      "options": [
+        "CH3COOCH3.",
+        "HCOOC2H5.",
+        "HCOOCH=CH2.",
+        "HCOOCH3."
+      ],
+      "answer": 1,
+      "explanation": "Gốc formate là HCOO-, gốc ethyl là -C2H5, nên ethyl formate là HCOOC2H5."
+    },
+    {
+      "id": "chem12_008",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Dầu chuối là ester có tên isoamyl acetate, được điều chế từ",
+      "options": [
+        "CH3OH, CH3COOH.",
+        "(CH3)2CH-CH2OH, CH3COOH.",
+        "CH3COOH, (CH3)2CH-OH.",
+        "CH3COOH, (CH3)2CH-CH2-CH2OH."
+      ],
+      "answer": 3,
+      "explanation": "Isoamyl acetate được tổng hợp từ phản ứng ester hóa giữa acetic acid (CH3COOH) và ancol isoamylic ((CH3)2CH-CH2-CH2OH)."
+    },
+    {
+      "id": "chem12_009",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Một số ester có mùi thơm, không độc, được dùng làm chất tạo mùi hương trong công nghiệp thực phẩm, mỹ phẩm. Benzyl acetate có mùi thơm của loại hoa (quả) nào sau đây?",
+      "options": [
+        "Hoa nhài.",
+        "Dứa chín.",
+        "Chuối chín.",
+        "Hoa hồng."
+      ],
+      "answer": 0,
+      "explanation": "Benzyl acetate (CH3COOCH2C6H5) có mùi thơm đặc trưng của hoa nhài."
+    },
+    {
+      "id": "chem12_010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Câu nào dưới đây đúng?",
+      "options": [
+        "Chất béo là chất rắn không tan trong nước.",
+        "Chất béo không tan trong nước, nhẹ hơn nước nhưng tan nhiều trong dung môi hữu cơ.",
+        "Dầu ăn và mỡ bôi trơn có cùng thành phần nguyên tố.",
+        "Chất béo là triester của glycerol với acid."
+      ],
+      "answer": 1,
+      "explanation": "Chất béo nhẹ hơn nước, không tan trong nước nhưng tan tốt trong các dung môi hữu cơ không phân cực (xăng, benzen, ether...)."
+    },
+    {
+      "id": "chem12_011",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Dãy các acid béo là",
+      "options": [
+        "acetic acid, acrylic acid, propionic acid.",
+        "palmitic acid, oleic acid, acetic acid.",
+        "formic acid, acetic acid, stearic acid.",
+        "palmitic acid, stearic acid, oleic acid."
+      ],
+      "answer": 3,
+      "explanation": "Acid béo là monocarboxylic acid mạch dài, không phân nhánh, chẵn carbon. Nhóm này gồm: palmitic acid (C15H31COOH), stearic acid (C17H35COOH), oleic acid (C17H33COOH)..."
+    },
+    {
+      "id": "chem12_012",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Công dụng quan trọng nhất của xà phòng là",
+      "options": [
+        "làm nhiên liệu.",
+        "tẩy rửa.",
+        "làm đẹp.",
+        "chất phụ gia."
+      ],
+      "answer": 1,
+      "explanation": "Công dụng chính và phổ biến nhất của xà phòng là dùng để giặt giũ, làm sạch và tẩy rửa các vết bẩn dầu mỡ."
+    },
+    {
+      "id": "chem12_013",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Hợp chất nào dưới đây được dùng để tẩy giặt làm xà phòng?",
+      "options": [
+        "CH3COONa",
+        "CH3(CH2)12COOCH3.",
+        "CH3(CH2)15COONa.",
+        "CH3(CH2)5O(CH2)5CH3."
+      ],
+      "answer": 2,
+      "explanation": "Xà phòng là muối sodium hoặc potassium của acid béo mạch dài. CH3(CH2)15COONa (sodium margarate / muối acid béo) có tính chất xà phòng."
+    },
+    {
+      "id": "chem12_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Xà phòng được dùng để tẩy giặt là do:",
+      "options": [
+        "Vải chỉ được sạch bằng xà phòng.",
+        "Xà phòng thấm được vải, làm cho sợi vải trương phồng.",
+        "Xà phòng có tính chất hoạt động bề mặt, chúng có tác dụng giảm sức căng bề mặt của các vết bẩn dầu mỡ bám trên da, vải.",
+        "Có khả năng hoà tan tốt trong nước."
+      ],
+      "answer": 2,
+      "explanation": "Xà phòng chứa đầu ưa nước và đuôi kị nước giúp giảm sức căng bề mặt, phân tán các hạt dầu mỡ thành dạng nhũ tương trôi theo dòng nước."
+    },
+    {
+      "id": "chem12_015",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Ưu điểm của chất giặt rửa tổng hợp so với xà phòng là",
+      "options": [
+        "nguyên liệu để điều chế có sẵn hơn.",
+        "ít gây ô nhiễm môi trường.",
+        "không hại da tay.",
+        "không bị mất hoạt tính trong nước cứng."
+      ],
+      "answer": 3,
+      "explanation": "Chất giặt rửa tổng hợp không tạo kết tủa với ion Ca2+, Mg2+ nên dùng được và giữ nguyên hoạt tính tẩy rửa trong nước cứng."
+    },
+    {
+      "id": "chem12_016",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Xà phòng hóa CH3COOC2H5 trong dung dịch KOH đun nóng, thu được muối có công thức",
+      "options": [
+        "C2H5OK.",
+        "HCOOK.",
+        "CH3COOK.",
+        "C2H5COOK."
+      ],
+      "answer": 2,
+      "explanation": "CH3COOC2H5 + KOH -> CH3COOK + C2H5OH. Muối thu được là CH3COOK (potassium acetate)."
+    },
+    {
+      "id": "chem12_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Ester nào sau đây tác dụng với dung dịch NaOH thu được methyl alcohol?",
+      "options": [
+        "C2H5COOC2H5.",
+        "HCOOC3H7.",
+        "CH3COOCH3.",
+        "HCOOC2H5."
+      ],
+      "answer": 2,
+      "explanation": "CH3COOCH3 thủy phân trong NaOH sinh ra CH3OH (methyl alcohol) và CH3COONa."
+    },
+    {
+      "id": "chem12_018",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Dầu mỡ để lâu bị ôi, thiu là do chất béo bị",
+      "options": [
+        "cộng hydrogen thành chất béo no.",
+        "khử chậm bởi oxygen không khí.",
+        "thủy phân với nước trong không khí.",
+        "oxygen hoá chậm thành các chất có mùi khó chịu."
+      ],
+      "answer": 3,
+      "explanation": "Liên kết đôi C=C ở gốc acid béo không no bị oxygen không khí oxi hóa chậm tạo peroxide, sau đó phân hủy thành aldehyde, ketone có mùi ôi khét."
+    },
+    {
+      "id": "chem12_019",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Triolein không tác dụng với chất (hoặc dung dịch) nào sau đây?",
+      "options": [
+        "H2O (xúc tác H2SO4 loãng, đun nóng).",
+        "Cu(OH)2 (ở nhiệt độ thường).",
+        "Dung dịch NaOH (đun nóng).",
+        "H2 (xúc tác Ni, đun nóng)."
+      ],
+      "answer": 1,
+      "explanation": "Triolein là ester nên không có các nhóm -OH liền kề tự do để tạo phức màu xanh lam với Cu(OH)2 ở nhiệt độ thường."
+    },
+    {
+      "id": "chem12_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Hợp chất nào sau đây được sử dụng làm chất giặt rửa tổng hợp?",
+      "options": [
+        "CH3COONa.",
+        "CH3[CH2]12COONa.",
+        "CH3[CH2]12COOCH3.",
+        "CH3[CH2]11OSO3Na."
+      ],
+      "answer": 3,
+      "explanation": "CH3[CH2]11OSO3Na (sodium lauryl sulfate) là chất hoạt động bề mặt tổng hợp gốc alkyl sulfate phổ biến trong bột giặt, dầu gội."
+    },
+    {
+      "id": "chem12_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Chất nào dưới đây không phải acid béo?",
+      "options": [
+        "Acetic acid.",
+        "Stearic acid.",
+        "Oleic acid.",
+        "Palmitic acid."
+      ],
+      "answer": 0,
+      "explanation": "Acetic acid (CH3COOH) có phân tử khối nhỏ và mạch carbon ngắn nên không phải là acid béo."
+    },
+    {
+      "id": "chem12_022",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Ở ruột non cơ thể người, nhờ tác dụng xúc tác của các enzim như lipaza và dịch mật chất béo bị thuỷ phân thành",
+      "options": [
+        "acid béo và glycerol.",
+        "carboxylic acid và glycerol.",
+        "CO2 và H2O.",
+        "NH3, CO2, H2O."
+      ],
+      "answer": 0,
+      "explanation": "Quá trình tiêu hóa lipid ở ruột non nhờ lipase thủy phân chất béo (triglyceride) thành acid béo và glycerol."
+    },
+    {
+      "id": "chem12_023",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Chất giặt rửa tổng hợp có chứa gốc hydrocarbon phân nhánh không gây ô nhiễm môi trường vì chúng bị các vi sinh vật phân huỷ.",
+      "answer": false,
+      "explanation": "Sai. Gốc hydrocarbon phân nhánh rất khó bị vi sinh vật phân hủy sinh học, tích tụ lâu dài gây ô nhiễm nguồn nước nghiêm trọng."
+    },
+    {
+      "id": "chem12_024",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Chất giặt rửa tổng hợp có ưu điểm là dùng được với nước cứng vì chúng ít bị kết tủa bởi ion calcium và magnesium.",
+      "answer": true,
+      "explanation": "Đúng. Muối sulfonate hoặc sulfate của Ca2+, Mg2+ tan tốt nên không làm giảm khả năng tạo bọt và giặt rửa."
+    },
+    {
+      "id": "chem12_025",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Chất giặt rửa tổng hợp được điều chế từ các sản phẩm của dầu mỏ.",
+      "answer": true,
+      "explanation": "Đúng. Nguồn nguyên liệu chính để sản xuất chất giặt rửa tổng hợp là alkylbenzene hoặc alcohol mạch dài từ dầu mỏ."
+    },
+    {
+      "id": "chem12_026",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Chất giặt rửa tổng hợp cũng có cấu tạo “đầu phân cực, đuôi không phân cực”.",
+      "answer": true,
+      "explanation": "Đúng. Phân tử gồm đuôi dài kị nước (gốc hydrocarbon) và đầu ưa nước phân cực (-SO3Na, -OSO3Na...)."
+    },
+    {
+      "id": "chem12_027",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Công thức phân tử của ethyl propionate là CH3COOC2H5.",
+      "answer": false,
+      "explanation": "Sai. Ethyl propionate có CTCT là C2H5COOC2H5 (CTPT C5H10O2), còn CH3COOC2H5 là ethyl acetate."
+    },
+    {
+      "id": "chem12_028",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Ở điều kiện thường, ethyl propionate là chất khí.",
+      "answer": false,
+      "explanation": "Sai. Các ester thông thường có khối lượng phân tử thấp như ethyl propionate tồn tại ở thể lỏng ở điều kiện thường."
+    },
+    {
+      "id": "chem12_029",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Phản ứng thủy phân ethyl propionate trong môi trường acid là phản ứng thuận nghịch.",
+      "answer": true,
+      "explanation": "Đúng. Phản ứng thủy phân ester trong môi trường acid vô cơ loãng là phản ứng thuận nghịch (hai chiều)."
+    },
+    {
+      "id": "chem12_030",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Ethyl propionate được điều chế từ propanoic acid và ethyl alcohol.",
+      "answer": true,
+      "explanation": "Đúng. C2H5COOH + C2H5OH <-> C2H5COOC2H5 + H2O (xúc tác H2SO4 đặc, đun nóng)."
+    },
+    {
+      "id": "chem12_031",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Công thức cấu tạo của methyl methacrylate là CH2=C(CH3)COOCH3.",
+      "answer": true,
+      "explanation": "Đúng. Đây là ester không no được dùng để trùng hợp sản xuất thủy tinh hữu cơ plexiglas."
+    },
+    {
+      "id": "chem12_032",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Methyl methacrylate không làm mất màu dung dịch bromine ở điều kiện thường.",
+      "answer": false,
+      "explanation": "Sai. Phân tử có liên kết đôi C=C nên phản ứng cộng làm mất màu nước bromine dễ dàng."
+    },
+    {
+      "id": "chem12_033",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Thủy phân hoàn toàn methyl methacrylate thu được ethanol.",
+      "answer": false,
+      "explanation": "Sai. Thủy phân sinh ra methanol (CH3OH) và methacrylic acid."
+    },
+    {
+      "id": "chem12_034",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Methyl methacrylate tan trong nước kém hơn methyl formate.",
+      "answer": true,
+      "explanation": "Đúng. Methyl methacrylate có gốc hydrocarbon lớn hơn và kị nước mạnh hơn so với methyl formate."
+    },
+    {
+      "id": "chem12_035",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Công thức cấu tạo của sodium laureth sulfate có thể viết CH3(CH2)11(OCH2CH2)nOSO3Na.",
+      "answer": true,
+      "explanation": "Đúng. Sodium laureth sulfate (SLES) có các mắt xích ethoxy (-OCH2CH2-) gắn giữa gốc lauryl và nhóm sulfate."
+    },
+    {
+      "id": "chem12_036",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Sodium laureth sulfate có khả năng tẩy rửa.",
+      "answer": true,
+      "explanation": "Đúng. Đây là chất hoạt động bề mặt anion có tính năng tẩy rửa và tạo bọt mạnh mẽ."
+    },
+    {
+      "id": "chem12_037",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Sodium laureth sulfate có thể dùng với nước cứng vì ít bị kết tủa với Ca2+.",
+      "answer": true,
+      "explanation": "Đúng. Muối sulfate của ion calci tan tốt trong nước, không làm giảm tính tẩy rửa trong nước cứng."
+    },
+    {
+      "id": "chem12_038",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Sodium laureth sulfate được điều chế bằng phản ứng xà phòng hóa chất béo rắn.",
+      "answer": false,
+      "explanation": "Sai. Chất này được tổng hợp hóa học từ dẫn xuất dầu mỏ qua các phản ứng ethoxyl hóa và sulfat hóa, không phải xà phòng hóa chất béo."
+    },
+    {
+      "id": "chem12_039",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Trong thí nghiệm điều chế xà phòng: Ở bước 2, nếu không thêm nước cất, hỗn hợp bị cạn khô thì phản ứng thủy phân không xảy ra.",
+      "answer": true,
+      "explanation": "Đúng. Nước vừa là chất phản ứng vừa là dung môi phân tán nhiệt, nếu cạn khô hỗn hợp sẽ bị khét và phản ứng ngừng lại."
+    },
+    {
+      "id": "chem12_040",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Việc thêm dung dịch NaCl bão hòa ở bước 4 nhằm giúp xà phòng nổi lên trên mặt, dễ dàng tách ra khỏi hỗn hợp.",
+      "answer": true,
+      "explanation": "Đúng. NaCl bão hòa làm tăng tỉ trọng dung dịch và làm giảm độ tan của muối acid béo (hiệu ứng muối kết xà phòng)."
+    },
+    {
+      "id": "chem12_041",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Sau bước 3, khi để nguội ta thấy phần dung dịch bên trên có một lớp chất lỏng màu trắng đục.",
+      "answer": false,
+      "explanation": "Sai. Muối xà phòng kết tinh lại tạo thành lớp chất rắn màu trắng đục nổi lên trên, không phải chất lỏng."
+    },
+    {
+      "id": "chem12_042",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Ở bước 1 của thí nghiệm điều chế xà phòng, có thể thay thế dầu dừa bằng mỡ động vật.",
+      "answer": true,
+      "explanation": "Đúng. Cả dầu dừa và mỡ động vật đều chứa thành phần chính là triglyceride nên đều xà phòng hóa được."
+    },
+    {
+      "id": "chem12_043",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Sodium palmitate và sodium laurylsulfate đều là thành phần chính của xà phòng.",
+      "answer": false,
+      "explanation": "Sai. Sodium palmitate là xà phòng, còn sodium laurylsulfate là chất giặt rửa tổng hợp."
+    },
+    {
+      "id": "chem12_044",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Sodium palmitate và sodium laurylsulfate đều có tính năng giặt rửa.",
+      "answer": true,
+      "explanation": "Đúng. Cả hai đều là các chất hoạt động bề mặt có khả năng làm sạch dầu mỡ."
+    },
+    {
+      "id": "chem12_045",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Sodium palmitate và sodium laurylsulfate đều tạo muối khó tan trong nước cứng.",
+      "answer": false,
+      "explanation": "Sai. Sodium laurylsulfate không tạo kết tủa với ion nước cứng."
+    },
+    {
+      "id": "chem12_046",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Sodium palmitate và sodium laurylsulfate đều có đầu ưa nước gắn với đuôi kị nước.",
+      "answer": true,
+      "explanation": "Đúng. Cấu trúc lưỡng ái (đầu phân cực ưa nước và đuôi hydrocarbon kị nước) là đặc trưng chung của chất giặt rửa."
+    },
+    {
+      "id": "chem12_047",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Cho các chất: HCHO, C2H2, CH3COOH, CH3COOCH=CH2, HCOOCH3, HCOOH, C2H5OH. Trong các chất trên, có bao nhiêu chất thuộc loại ester?",
+      "answer": [
+        "2",
+        "2 chất"
+      ],
+      "explanation": "Có 2 chất thuộc loại ester là CH3COOCH=CH2 và HCOOCH3."
+    },
+    {
+      "id": "chem12_048",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Số đồng phân ester ứng với công thức phân tử C4H8O2 là bao nhiêu?",
+      "answer": [
+        "4",
+        "4 đồng phân"
+      ],
+      "explanation": "4 đồng phân: HCOOCH2CH2CH3, HCOOCH(CH3)2, CH3COOC2H5, C2H5COOCH3."
+    },
+    {
+      "id": "chem12_049",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Chương I: Ester - Lipid",
+      "question": "Số nguyên tử oxygen trong chất béo là bao nhiêu?",
+      "answer": [
+        "6",
+        "6 nguyên tử"
+      ],
+      "explanation": "Chất béo là triester của glycerol và acid béo có 3 nhóm -COO-, mỗi nhóm có 2 nguyên tử O, tổng cộng có 6 nguyên tử oxygen."
+    },
+    {
+      "id": "chem12_050",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Chất thuộc loại disaccharide là",
+      "options": [
+        "saccharose.",
+        "glucose.",
+        "cellulose.",
+        "fructose."
+      ],
+      "answer": 0,
+      "explanation": "Saccharose (sucrose) là disaccharide được tạo từ một gốc alpha-glucose và một gốc beta-fructose."
+    },
+    {
+      "id": "chem12_051",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Chất nào sau đây còn gọi là đường kính?",
+      "options": [
+        "Fructose.",
+        "Glucose.",
+        "Saccharose.",
+        "Chất béo."
+      ],
+      "answer": 2,
+      "explanation": "Saccharose kết tinh có độ tinh khiết cao thường được gọi phổ biến là đường kính."
+    },
+    {
+      "id": "chem12_052",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Công thức phân tử của tinh bột là :",
+      "options": [
+        "(C6H12O6)n.",
+        "C6H12O6.",
+        "(C6H10O5)n.",
+        "C12H22O11."
+      ],
+      "answer": 2,
+      "explanation": "Tinh bột là polysaccharide cấu thành từ các gốc alpha-glucose, công thức chung là (C6H10O5)n."
+    },
+    {
+      "id": "chem12_053",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Hợp chất đường chiếm thành phần chủ yếu trong mật ong là :",
+      "options": [
+        "fructose.",
+        "glucose.",
+        "maltose.",
+        "saccharose."
+      ],
+      "answer": 0,
+      "explanation": "Fructose chiếm khoảng 40% khối lượng mật ong, tạo nên vị ngọt sắc đặc trưng."
+    },
+    {
+      "id": "chem12_054",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Tinh bột trong gạo nếp chứa khoảng 98% là :",
+      "options": [
+        "Amylopectin.",
+        "Amylose.",
+        "Glycerol.",
+        "Alanin."
+      ],
+      "answer": 0,
+      "explanation": "Gạo nếp chứa hàm lượng amylopectin rất cao (khoảng 98%) tạo nên độ dẻo đặc trưng của xôi nếp."
+    },
+    {
+      "id": "chem12_055",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Tinh bột và cellulose khác nhau về",
+      "options": [
+        "Sản phẩm của phản ứng thuỷ phân.",
+        "Khả năng phản ứng với Cu(OH)2.",
+        "Thành phần phân tử.",
+        "Cấu trúc mạch carbon."
+      ],
+      "answer": 3,
+      "explanation": "Tinh bột gồm gốc alpha-glucose có cấu trúc mạch xoắn hoặc phân nhánh, còn cellulose gồm gốc beta-glucose liên kết thành mạch kéo dài không phân nhánh."
+    },
+    {
+      "id": "chem12_056",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Công thức nào sau đây là của glucose ở dạng mạch hở?",
+      "options": [
+        "CH2OH–(CHOH)4–CHO.",
+        "CH2OH–(CHOH)3–COCH2OH.",
+        "CH2OH–CO–CHOH–CO–CHOH–CHOH.",
+        "CH2OH–(CHOH)2–CO–CHOH–CH2OH."
+      ],
+      "answer": 0,
+      "explanation": "Glucose mạch hở là pentahydroxyhexanal: CH2OH-CHOH-CHOH-CHOH-CHOH-CHO."
+    },
+    {
+      "id": "chem12_057",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Glucose không tác dụng với chất hoặc dung dịch nào sau đây ở điều kiện thích hợp?",
+      "options": [
+        "H2 (xúc tác Ni, t°).",
+        "Cu(OH)2.",
+        "Dung dịch AgNO3/NH3, t°.",
+        "Dung dịch NaOH."
+      ],
+      "answer": 3,
+      "explanation": "Glucose không phản ứng với dung dịch kiềm loãng NaOH ở điều kiện thường."
+    },
+    {
+      "id": "chem12_058",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Carbohydrate nào dưới đây làm mất màu nước bromine?",
+      "options": [
+        "Cellulose.",
+        "Fructose.",
+        "Glucose.",
+        "Sachcarose."
+      ],
+      "answer": 2,
+      "explanation": "Glucose có nhóm aldehyde (-CHO) bị nước bromine oxi hóa thành gluconic acid và làm mất màu dung dịch."
+    },
+    {
+      "id": "chem12_059",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Chất nào sau đây không bị thuỷ phân trong dung dịch sulfuric acid loãng, đun nóng?",
+      "options": [
+        "Saccharose.",
+        "Glucose.",
+        "Cellulose.",
+        "Ethyl acetate."
+      ],
+      "answer": 1,
+      "explanation": "Glucose là monosaccharide đơn giản nhất nên không bị thủy phân tiếp."
+    },
+    {
+      "id": "chem12_060",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Tinh bột, cellulose, saccharose, maltose đều có khả năng tham gia phản ứng",
+      "options": [
+        "hoà tan Cu(OH)2.",
+        "trùng ngưng.",
+        "thủy phân.",
+        "tráng gương."
+      ],
+      "answer": 2,
+      "explanation": "Tất cả các disaccharide và polysaccharide đều tham gia phản ứng thủy phân trong môi trường acid hoặc có xúc tác enzyme."
+    },
+    {
+      "id": "chem12_061",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Phương trình: 6nCO2 + 5nH2O -> (C6H10O5)n + 6nO2 (ánh sáng, diệp lục) là phản ứng hoá học chính của quá trình nào sau đây?",
+      "options": [
+        "Quá trình quang hợp.",
+        "Quá trình hô hấp.",
+        "Quá trình khử.",
+        "Quá trình oxi hoá."
+      ],
+      "answer": 0,
+      "explanation": "Đây là phương trình tổng quát biểu diễn quá trình quang hợp của cây xanh tạo tinh bột."
+    },
+    {
+      "id": "chem12_062",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Glucose và fructose không có phản ứng nào sau đây?",
+      "options": [
+        "Tráng gương.",
+        "Thủy phân.",
+        "Hòa tan Cu(OH)2.",
+        "Khử bởi H2."
+      ],
+      "answer": 1,
+      "explanation": "Cả hai chất đều là monosaccharide nên không tham gia phản ứng thủy phân."
+    },
+    {
+      "id": "chem12_063",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Số nguyên tử hydrogen trong phân tử fructose là",
+      "options": [
+        "11.",
+        "6.",
+        "12.",
+        "10."
+      ],
+      "answer": 2,
+      "explanation": "Fructose có CTPT là C6H12O6, chứa 12 nguyên tử hydrogen."
+    },
+    {
+      "id": "chem12_064",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Saccharose có nhiều trong cây mía, củ cải đường. Số nguyên tử carbon trong phân tử saccharose là:",
+      "options": [
+        "6.",
+        "11.",
+        "12.",
+        "22."
+      ],
+      "answer": 2,
+      "explanation": "Saccharose có CTPT là C12H22O11, gồm 12 nguyên tử carbon."
+    },
+    {
+      "id": "chem12_065",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Chất nào sau đây là chất rắn, tinh thể không màu, dễ tan trong nước vị ngọt kém đường mía và có tới 30% trong mật ong?",
+      "options": [
+        "Cellulose.",
+        "Tinh bột.",
+        "Fructose.",
+        "Glucose."
+      ],
+      "answer": 3,
+      "explanation": "Glucose chiếm khoảng 30% trong mật ong và có vị ngọt thanh kém đường mía."
+    },
+    {
+      "id": "chem12_066",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Saccharose được cấu tạo từ một gốc glucose và một gốc fructose liên kết với nhau qua nguyên tử",
+      "options": [
+        "oxygen.",
+        "nitrogen.",
+        "hydrogen.",
+        "carbon."
+      ],
+      "answer": 0,
+      "explanation": "Hai gốc monosaccharide liên kết với nhau qua cầu nối nguyên tử oxygen (liên kết glycosidic)."
+    },
+    {
+      "id": "chem12_067",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Chất nào sau đây có thể điều chế từ glucose qua quá trình lên men rượu?",
+      "options": [
+        "Ethanol.",
+        "Lactic acid.",
+        "Methane.",
+        "Fructose."
+      ],
+      "answer": 0,
+      "explanation": "C6H12O6 -> 2C2H5OH + 2CO2 (lên men rượu tạo ra ethanol)."
+    },
+    {
+      "id": "chem12_068",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Tinh thể chất rắn X không màu, vị ngọt, dễ tan trong nước, có nhiều trong quả nho chín. Khử chất X bằng H2 thu được chất hữu cơ Y. Tên gọi của X và Y lần lượt là",
+      "options": [
+        "glucose và sobitol.",
+        "fructose và sobitol.",
+        "glucose và fructose.",
+        "saccharose và glucose."
+      ],
+      "answer": 0,
+      "explanation": "X là glucose (đường nho), khi bị khử bởi H2 sinh ra sobitol (sorbitol)."
+    },
+    {
+      "id": "chem12_069",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Chất X có trong cồn y tế diệt khuẩn, được điều chế từ phản ứng lên men chất Y, từ chất Y bằng phản ứng hydrogen hóa tạo ra chất Z. Các chất Y và Z lần lượt là",
+      "options": [
+        "Glucose và ethylene.",
+        "Glucose và sobitol.",
+        "Ethanol và glucose.",
+        "Ethanol và sobitol."
+      ],
+      "answer": 1,
+      "explanation": "Chất X là ethanol (cồn). Lên men từ glucose (Y). Glucose phản ứng cộng H2 tạo thành sobitol (Z)."
+    },
+    {
+      "id": "chem12_070",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Giữa saccharose và glucose có đặc điểm giống nhau là :",
+      "options": [
+        "Đều được lấy từ củ cải đường.",
+        "Đều bị oxi hoá bởi ion phức bạc ammonia [Ag(NH3)2]+.",
+        "Đều có trong “huyết thanh ngọt”.",
+        "Đều hoà tan Cu(OH)2 ở nhiệt độ thường cho dung dịch màu xanh lam."
+      ],
+      "answer": 3,
+      "explanation": "Cả hai chất đều có nhiều nhóm -OH liền kề (polyalcohol) nên đều hòa tan Cu(OH)2 tạo phức chất màu xanh lam thẫm."
+    },
+    {
+      "id": "chem12_071",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Phát biểu nào sau đây sai?",
+      "options": [
+        "Glucose và saccharose đều là carbohydrate.",
+        "Trong dung dịch, glucose và fructose đều hoà tan được Cu(OH)2.",
+        "Glucose và saccharose đều có phản ứng tráng bạc.",
+        "Glucose và fructose là đồng phân của nhau."
+      ],
+      "answer": 2,
+      "explanation": "Saccharose không có nhóm aldehyde (-CHO) tự do nên không tham gia phản ứng tráng bạc."
+    },
+    {
+      "id": "chem12_072",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Cho dãy các chất: glucose, cellulose, saccharose, tinh bột. Số chất trong dãy tham gia phản ứng tráng gương là",
+      "options": [
+        "3.",
+        "4.",
+        "2.",
+        "1."
+      ],
+      "answer": 3,
+      "explanation": "Chỉ có 1 chất duy nhất tham gia phản ứng tráng gương là glucose."
+    },
+    {
+      "id": "chem12_073",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Carbohydrate X có trong mật ong (khoảng 40%): Ở dạng mạch hở X có 5 nhóm OH.",
+      "answer": true,
+      "explanation": "Đúng. X là fructose, ở dạng mạch hở có 5 nhóm hydroxy (-OH) và 1 nhóm ketone (-CO-)."
+    },
+    {
+      "id": "chem12_074",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Thủy phân hoàn toàn tinh bột thu được fructose.",
+      "answer": false,
+      "explanation": "Sai. Tinh bột thủy phân hoàn toàn chỉ thu được glucose."
+    },
+    {
+      "id": "chem12_075",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Fructose không tác dụng với dung dịch Br2.",
+      "answer": true,
+      "explanation": "Đúng. Fructose không chứa nhóm chức aldehyde nên không làm mất màu nước bromine."
+    },
+    {
+      "id": "chem12_076",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Chất Y thu được khi hydrogen hóa hoàn toàn fructose có công thức phân tử C6H14O6.",
+      "answer": true,
+      "explanation": "Đúng. Fructose (C6H12O6) cộng 1 H2 tạo thành polyalcohol sobitol C6H14O6."
+    },
+    {
+      "id": "chem12_077",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Trong thí nghiệm tráng bạc của glucose: Sau bước 4 quan sát thấy thành ống nghiệm sáng bóng như gương.",
+      "answer": true,
+      "explanation": "Đúng. Bạc kim loại (Ag) sinh ra bám đều lên bề mặt thủy tinh của thành ống nghiệm."
+    },
+    {
+      "id": "chem12_078",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Có thể thay glucose bằng saccharose thì các hiện tượng không đổi.",
+      "answer": false,
+      "explanation": "Sai. Saccharose không tráng bạc nên không xuất hiện lớp kim loại sáng như gương."
+    },
+    {
+      "id": "chem12_079",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Sản phẩm hữu cơ thu được trong dung dịch sau bước 4 có công thức phân tử là C6H15NO7.",
+      "answer": true,
+      "explanation": "Đúng. Muối ammonium gluconate hình thành có CTCT là CH2OH(CHOH)4COONH4 (CTPT C6H15NO7)."
+    },
+    {
+      "id": "chem12_080",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Thí nghiệm tráng bạc chứng tỏ glucose là hợp chất tạp chức, phân tử chứa nhiều nhóm -OH và một nhóm -CHO.",
+      "answer": false,
+      "explanation": "Sai. Phản ứng tráng bạc chỉ chứng minh được glucose chứa nhóm chức aldehyde (-CHO), không chứng minh được sự tồn tại của các nhóm -OH."
+    },
+    {
+      "id": "chem12_081",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Số nguyên tử Carbon (C) trong phân tử glucose là bao nhiêu?",
+      "answer": [
+        "6",
+        "6 nguyên tử"
+      ],
+      "explanation": "Glucose có công thức phân tử là C6H12O6, gồm 6 nguyên tử carbon."
+    },
+    {
+      "id": "chem12_082",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Chương II: Carbohydrate",
+      "question": "Số nguyên tử Hydrogen (H) trong phân tử saccharose là bao nhiêu?",
+      "answer": [
+        "22",
+        "22 nguyên tử"
+      ],
+      "explanation": "Saccharose có công thức phân tử là C12H22O11, gồm 22 nguyên tử hydrogen."
+    },
+    {
+      "id": "chem12_083",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Trong phân tử chất nào sau đây có chứa vòng benzene?",
+      "options": [
+        "Phenylamin.",
+        "Methylamine.",
+        "Propylamin.",
+        "Ethylamine."
+      ],
+      "answer": 0,
+      "explanation": "Phenylamin (aniline) có công thức là C6H5NH2, chứa vòng benzene."
+    },
+    {
+      "id": "chem12_084",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Amine nào sau đây có chứa vòng benzene?",
+      "options": [
+        "Aniline.",
+        "Methylamine.",
+        "Ethylamine.",
+        "Propylamine."
+      ],
+      "answer": 0,
+      "explanation": "Aniline có công thức phân tử C6H5NH2 là arylamine chứa nhân thơm benzene."
+    },
+    {
+      "id": "chem12_085",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Amine là dẫn xuất của",
+      "options": [
+        "methane.",
+        "ammonia.",
+        "ethanol.",
+        "acetic acid."
+      ],
+      "answer": 1,
+      "explanation": "Khi thay thế một hay nhiều nguyên tử hydrogen trong phân tử ammonia (NH3) bằng các gốc hydrocarbon, ta thu được amine."
+    },
+    {
+      "id": "chem12_086",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Amine nào sau đây là amine bậc hai?",
+      "options": [
+        "CH3CH2CH2NH2.",
+        "CH3CH(NH2)CH3.",
+        "CH3NHCH2CH3.",
+        "(CH3)3N."
+      ],
+      "answer": 2,
+      "explanation": "CH3NHCH2CH3 (ethylmethylamine) có nguyên tử N liên kết với 2 gốc hydrocarbon nên là amine bậc 2."
+    },
+    {
+      "id": "chem12_087",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Nhóm chức nào sau đây là đặc trưng cho amine bậc 1?",
+      "options": [
+        "- OH.",
+        "- COOH.",
+        "- NH2.",
+        "- CHO."
+      ],
+      "answer": 2,
+      "explanation": "Nhóm amino (-NH2) là nhóm chức đặc trưng của amine bậc một."
+    },
+    {
+      "id": "chem12_088",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Mô hình phân tử gồm 1 nguyên tử N liên kết với 1 nguyên tử C và 5 nguyên tử H (CH3NH2) là của chất nào?",
+      "options": [
+        "CH3OH",
+        "C2H5NH2",
+        "CH3NH2",
+        "C6H5NH2"
+      ],
+      "answer": 2,
+      "explanation": "Mô hình biểu diễn một nhóm methyl -CH3 nối với nhóm amino -NH2, chính là methylamine (CH3NH2)."
+    },
+    {
+      "id": "chem12_089",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Aniline có thể thế nguyên tử X trên vòng benzene do ảnh hưởng của nhóm NH2. Nguyên tử X là",
+      "options": [
+        "C",
+        "H",
+        "N",
+        "O"
+      ],
+      "answer": 1,
+      "explanation": "Nhóm -NH2 định hướng thế dễ dàng các nguyên tử H ở các vị trí ortho và para trên vòng thơm (như phản ứng với nước bromine)."
+    },
+    {
+      "id": "chem12_090",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Amine nào sau đây là chất lỏng ở điều kiện thường và thuộc loại arylamine?",
+      "options": [
+        "Methylamine.",
+        "Aniline.",
+        "N-methylpropan-2-amine.",
+        "ethylamine."
+      ],
+      "answer": 1,
+      "explanation": "Aniline (C6H5NH2) là arylamine dạng lỏng ở điều kiện thường, ít tan trong nước và để ngoài không khí dễ bị thẫm màu."
+    },
+    {
+      "id": "chem12_091",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Amine nào sau đây ở trạng thái lỏng ở nhiệt độ phòng?",
+      "options": [
+        "Methylamine.",
+        "Ethylamine.",
+        "Dimethylamine.",
+        "Aniline."
+      ],
+      "answer": 3,
+      "explanation": "Methylamine, dimethylamine, trimethylamine và ethylamine là các chất khí, còn aniline là chất lỏng."
+    },
+    {
+      "id": "chem12_092",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Dung dịch amine nào sau đây làm quỳ tím hóa xanh?",
+      "options": [
+        "Diphenyl amine.",
+        "Aniline.",
+        "Triphenylamine.",
+        "ethylamine."
+      ],
+      "answer": 3,
+      "explanation": "Ethylamine (amine béo) có tính base mạnh hơn ammonia nên làm dung dịch quỳ tím chuyển màu xanh."
+    },
+    {
+      "id": "chem12_093",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Dung dịch amine nào sau đây không làm quỳ tím hóa xanh?",
+      "options": [
+        "Methylamine.",
+        "Aniline.",
+        "trimethylamine.",
+        "ethylamine."
+      ],
+      "answer": 1,
+      "explanation": "Aniline có tính base rất yếu do hiệu ứng hút electron của vòng benzene nên không làm đổi màu quỳ tím."
+    },
+    {
+      "id": "chem12_094",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Dung dịch methylamine là một base yếu chứng minh thông qua phản ứng nào sau đây?",
+      "options": [
+        "CH3NH2 + HCl -> CH3NH3Cl",
+        "CH3NH2 + HCl <-> CH3NH3Cl",
+        "CH3NH2 + H2O -> [CH3NH3]+ + OH-",
+        "CH3NH2 + H2O <-> [CH3NH3]+ + OH-"
+      ],
+      "answer": 3,
+      "explanation": "Tính base trong dung môi nước được thể hiện qua sự nhận proton thuận nghịch từ nước tạo môi trường OH- yếu: CH3NH2 + H2O <-> [CH3NH3]+ + OH-."
+    },
+    {
+      "id": "chem12_095",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Thêm ethylamine đến dư vào dung dịch CuSO4 thì thu được",
+      "options": [
+        "kết tủa màu xanh nhạt.",
+        "dung dịch màu xanh lam.",
+        "kết tủa màu xanh lam.",
+        "dung dịch màu xanh nhạt."
+      ],
+      "answer": 1,
+      "explanation": "Đầu tiên tạo kết tủa Cu(OH)2 màu xanh, sau đó amine dư hòa tan kết tủa tạo phức [Cu(C2H5NH2)4](OH)2 dung dịch màu xanh lam thẩm."
+    },
+    {
+      "id": "chem12_096",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Thêm methylamine đến dư vào dung dịch FeCl3 thì thu được",
+      "options": [
+        "kết tủa màu nâu đỏ.",
+        "dung dịch màu vàng nâu.",
+        "kết tủa màu vàng nâu.",
+        "dung dịch màu nâu đỏ."
+      ],
+      "answer": 0,
+      "explanation": "Methylamine tạo môi trường kiềm kết tủa ion Fe3+ thành Fe(OH)3 màu nâu đỏ (không bị hòa tan tạo phức)."
+    },
+    {
+      "id": "chem12_097",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Methyl amine không phản ứng với chất nào sau đây?",
+      "options": [
+        "Dung dịch NaOH.",
+        "Dung dịch HCl.",
+        "Dung dịch CuSO4.",
+        "HNO2 trong HCl."
+      ],
+      "answer": 0,
+      "explanation": "Methylamine mang tính base nên không tác dụng với dung dịch base kiềm NaOH."
+    },
+    {
+      "id": "chem12_098",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Số nguyên tử hydrogen có trong một phân tử aniline là",
+      "options": [
+        "5.",
+        "9.",
+        "7.",
+        "11."
+      ],
+      "answer": 2,
+      "explanation": "Aniline có công thức phân tử là C6H7N (C6H5NH2), có 7 nguyên tử hydrogen."
+    },
+    {
+      "id": "chem12_099",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Công thức phân tử của dimethylamine là",
+      "options": [
+        "C2H8N2.",
+        "C2H7N.",
+        "C4H11N.",
+        "CH6N2."
+      ],
+      "answer": 1,
+      "explanation": "Dimethylamine có công thức cấu tạo là (CH3)2NH, công thức phân tử là C2H7N."
+    },
+    {
+      "id": "chem12_100",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Số đồng phân amine có cùng công thức phân tử C3H9N là",
+      "options": [
+        "4.",
+        "3.",
+        "2.",
+        "5."
+      ],
+      "answer": 0,
+      "explanation": "Gồm 4 đồng phân: CH3CH2CH2NH2, CH3CH(NH2)CH3 (bậc 1), CH3CH2NHCH3 (bậc 2), (CH3)3N (bậc 3)."
+    },
+    {
+      "id": "chem12_101",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "topic": "Bài Amine",
+      "question": "Số đồng phân amine có công thức phân tử C4H11N là",
+      "options": [
+        "5.",
+        "7.",
+        "6.",
+        "8."
+      ],
+      "answer": 3,
+      "explanation": "C4H11N có tổng cộng 8 đồng phân amine: 4 amine bậc 1, 3 amine bậc 2 và 1 amine bậc 3."
+    },
+    {
+      "id": "chem12_102",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Hợp chất (CH3)2NH có tên là",
+      "options": [
+        "propylamine.",
+        "diethylamine.",
+        "ethylmethylamine.",
+        "dimethylamine."
+      ],
+      "answer": 3,
+      "explanation": "Hai nhóm methyl liên kết với nhóm NH nên hợp chất có tên gọi là dimethylamine."
+    },
+    {
+      "id": "chem12_103",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Mùi tanh của cá chủ yếu do trimethylamine gây ra. Có thể dùng chất nào sau đây phù hợp nhất để khử mùi tanh của cá?",
+      "options": [
+        "Hydrochloric acid",
+        "Sodium hydroxide.",
+        "Sodium acetate.",
+        "giấm ăn."
+      ],
+      "answer": 3,
+      "explanation": "Giấm ăn chứa acetic acid (an toàn trong thực phẩm) phản ứng chuyển amine thành muối không bay hơi, loại bỏ mùi tanh."
+    },
+    {
+      "id": "chem12_104",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Dung dịch làm quỳ tím chuyển sang màu xanh là",
+      "options": [
+        "C2H5NH2.",
+        "C2H5OH",
+        "HCOOH.",
+        "CH3COOH"
+      ],
+      "answer": 0,
+      "explanation": "Ethylamine C2H5NH2 có tính base làm quỳ tím hóa xanh."
+    },
+    {
+      "id": "chem12_105",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Chất không có khả năng làm xanh nước quỳ tím là",
+      "options": [
+        "Aniline",
+        "Sodium hydroxide.",
+        "Sodium acetate.",
+        "Ammonia."
+      ],
+      "answer": 0,
+      "explanation": "Aniline có tính base quá yếu nên không thể làm đổi màu giấy quỳ tím."
+    },
+    {
+      "id": "chem12_106",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Dãy gồm các chất được xếp theo chiều tính base giảm dần từ trái sang phải là",
+      "options": [
+        "CH3NH2, NH3, C6H5NH2.",
+        "CH3NH2, C6H5NH2, NH3.",
+        "C6H5NH2, NH3, CH3NH2.",
+        "NH3, CH3NH2, C6H5NH2."
+      ],
+      "answer": 0,
+      "explanation": "Gốc alkyl đẩy e làm tăng tính base, gốc phenyl hút e làm giảm tính base: CH3NH2 > NH3 > C6H5NH2."
+    },
+    {
+      "id": "chem12_107",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Mùi tanh của cá là hỗn hợp các amine và một số tạp chất khác. Để khử mùi tanh của cá trước khi chế biến thực phẩm, nên áp dụng cách nào sau đây?",
+      "options": [
+        "Ngâm cá trong nước để amine tan vào nước.",
+        "Rửa cá bằng giấm ăn.",
+        "Rửa cá bằng dung dịch soda Na2CO3.",
+        "Rửa cá bằng dung dịch nước muối."
+      ],
+      "answer": 1,
+      "explanation": "Dùng giấm ăn (chứa acid CH3COOH) giúp trung hòa các amine tạo muối tan dễ rửa trôi và không bay hơi."
+    },
+    {
+      "id": "chem12_108",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Nhỏ dung dịch của mỗi chất methylamine, ethylamine, ammonia, aniline vào các mẩu giấy quỳ tím riêng rẽ. Số trường hợp mẩu giấy quỳ tím bị chuyển thành màu xanh là:",
+      "options": [
+        "4",
+        "3.",
+        "2.",
+        "1."
+      ],
+      "answer": 1,
+      "explanation": "Có 3 chất làm quỳ tím chuyển màu xanh gồm: methylamine, ethylamine, và ammonia (aniline không làm đổi màu)."
+    },
+    {
+      "id": "chem12_109",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Histamine có công thức chung dạng CnH2n+3N (n ≥ 1).",
+      "answer": false,
+      "explanation": "Sai. Phân tử Histamine có vòng và chứa 3 nguyên tử nitrogen, không thỏa mãn công thức của amine đơn chức no mạch hở."
+    },
+    {
+      "id": "chem12_110",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Công thức phân tử Histamine là C5H9N3.",
+      "answer": true,
+      "explanation": "Đúng. Cấu trúc gồm vòng imidazole liên kết nhóm ethylamine có CTPT là C5H9N3."
+    },
+    {
+      "id": "chem12_111",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Histamine là một amine đơn chức bậc một.",
+      "answer": false,
+      "explanation": "Sai. Histamine chứa 3 nguyên tử N nên là đa chức."
+    },
+    {
+      "id": "chem12_112",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Histamine là amine có cấu tạo dị vòng.",
+      "answer": true,
+      "explanation": "Đúng. Phân tử chứa nhân dị vòng imidazole gồm 3 carbon và 2 nitrogen."
+    },
+    {
+      "id": "chem12_113",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Một số bạn trẻ cho rằng hút thuốc là 'sành điệu' thuốc lá điện tử không gây hại đây là ý nghĩ sai lầm.",
+      "answer": true,
+      "explanation": "Đúng. Khói thuốc lá điện tử chứa nicotine và nhiều hợp chất aldehyde, kim loại nặng độc hại gây ung thư."
+    },
+    {
+      "id": "chem12_114",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Trong thuốc lá điện tử có chứa các chất không gây hại cho sức khỏe.",
+      "answer": false,
+      "explanation": "Sai. Hầu hết các chất phát tán qua hơi khói thuốc lá điện tử đều gây tổn thương phổi, tim mạch và thần kinh."
+    },
+    {
+      "id": "chem12_115",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Nicotine là một amine đơn chức bậc một.",
+      "answer": false,
+      "explanation": "Sai. Nicotine là amine hai chức, gồm 1 vòng pyridin (bậc ba) và 1 vòng pyrrolidin có nhóm N-CH3 (bậc ba)."
+    },
+    {
+      "id": "chem12_116",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Công thức phân tử nicotine là C10H14N2.",
+      "answer": true,
+      "explanation": "Đúng. Phân tử gồm 1 vòng pyridin và 1 vòng pyrrolidine gắn với nhau có CTPT là C10H14N2."
+    },
+    {
+      "id": "chem12_117",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Số đồng phân amine bậc 2 ứng với công thức phân tử C4H11N bằng bao nhiêu?",
+      "answer": [
+        "3",
+        "3 đồng phân"
+      ],
+      "explanation": "Có 3 đồng phân amine bậc 2: CH3-NH-CH2CH2CH3, CH3-NH-CH(CH3)2, và CH3CH2-NH-CH2CH3."
+    },
+    {
+      "id": "chem12_118",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Cho các dung dịch sau: HCl, NaOH, CH3COOH, CuSO4. Có bao nhiêu dung dịch tác dụng được với ethylamine?",
+      "answer": [
+        "3",
+        "3 dung dịch"
+      ],
+      "explanation": "Có 3 dung dịch phản ứng được gồm: HCl (tạo muối), CH3COOH (tạo muối), CuSO4 (tạo kết tủa rồi tạo phức tan)."
+    },
+    {
+      "id": "chem12_119",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Có bao nhiêu amine bậc 2 trong các amine sau: CH3–NH2, CH3–CH2–NH2, CH3–NH–CH3, (CH3)3N, CH3–CH(NH2)–CH3, CH3–CH(CH3)–NH–CH3?",
+      "answer": [
+        "2",
+        "2 chất"
+      ],
+      "explanation": "Có 2 amine bậc 2 là CH3-NH-CH3 và CH3-CH(CH3)-NH-CH3."
+    },
+    {
+      "id": "chem12_120",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Bài Amine",
+      "question": "Mùi tanh của cá chủ yếu do amine gây ra, trong đó có trimethylamine. Số nguyên tử hydrogen có trong trimethylamine là bao nhiêu?",
+      "answer": [
+        "9",
+        "9 nguyên tử"
+      ],
+      "explanation": "Trimethylamine có công thức cấu tạo là (CH3)3N, có 9 nguyên tử hydrogen."
+    },
+    {
+      "id": "chem12_121",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "topic": "Bài Amine",
+      "question": "Trong số các amine sau: ethylamine; dimethylamine; aniline; diphenylamine; propan-2-amine. Có bao nhiêu amine bậc 1?",
+      "answer": [
+        "3",
+        "3 chất"
+      ],
+      "explanation": "Có 3 amine bậc 1 là ethylamine (C2H5NH2), aniline (C6H5NH2) và propan-2-amine (CH3CH(NH2)CH3)."
+    }
+  ]
+}

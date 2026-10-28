@@ -1,0 +1,597 @@
+{
+  "subject": "Vật lí 12",
+  "description": "Đề cương ôn tập Vật lí 12 - Mô hình động học phân tử, Nhiệt học, Thang nhiệt độ, Nhiệt dung riêng, Nhiệt nóng chảy riêng, Nhiệt hóa hơi riêng và Định luật I Nhiệt động lực học",
+  "questions": [
+    {
+      "id": "phy12_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Cấu tạo chất",
+      "question": "Chất được cấu tạo từ những hạt riêng biệt được gọi là",
+      "options": [
+        "hạt vật chất.",
+        "phân tử.",
+        "điện tích.",
+        "electron."
+      ],
+      "answer": 1,
+      "explanation": "Theo thuyết động học phân tử, các chất được cấu tạo từ các hạt riêng biệt gọi là phân tử (hoặc nguyên tử)."
+    },
+    {
+      "id": "phy12_002",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Mô hình động học phân tử",
+      "question": "Chọn phát biểu sai khi nói về mô hình động học phân tử về cấu tạo chất.",
+      "options": [
+        "Các chất được cấu tạo từ các hạt riêng biệt là phân tử.",
+        "Các phân tử chuyển động hỗn loạn, không ngừng.",
+        "Tốc độ chuyển động của các phân tử cấu tạo nên vật càng lớn thì thể tích của vật càng lớn.",
+        "Giữa các phân tử có lực hút và đẩy gọi chung là lực liên kết phân tử."
+      ],
+      "answer": 2,
+      "explanation": "Nhiệt độ của vật càng cao thì tốc độ chuyển động nhiệt của các phân tử càng lớn; tốc độ này không đồng nghĩa trực tiếp làm thể tích vật càng lớn."
+    },
+    {
+      "id": "phy12_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Mô hình động học phân tử",
+      "question": "Chuyển động của các phân tử được gọi là chuyển động",
+      "options": [
+        "cơ học.",
+        "quang.",
+        "nhiệt.",
+        "từ."
+      ],
+      "answer": 2,
+      "explanation": "Chuyển động hỗn loạn không ngừng của các phân tử được gọi là chuyển động nhiệt."
+    },
+    {
+      "id": "phy12_004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Mô hình động học phân tử",
+      "question": "Theo mô hình động học phân tử,",
+      "options": [
+        "giữa các phân tử chỉ có lực hút.",
+        "giữa các phân tử chỉ có lực đẩy.",
+        "các phân tử chuyển động không ngừng.",
+        "giữa các phân tử không có khoảng cách."
+      ],
+      "answer": 2,
+      "explanation": "Các phân tử cấu tạo nên chất luôn chuyển động hỗn loạn không ngừng về mọi phía."
+    },
+    {
+      "id": "phy12_005",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Tương tác phân tử",
+      "question": "Phát biểu nào sau đây là đúng khi nói về lực tương tác phân tử?",
+      "options": [
+        "Lực tương tác phân tử không đáng kể khi các phân tử ở rất xa nhau.",
+        "Lực hút phân tử lớn hơn lực đẩy phân tử khi các phân tử ở gần nhau.",
+        "Lực hút phân tử không thể lớn hơn lực đẩy phân tử.",
+        "Lực đẩy phân tử lớn hơn lực hút phân tử khi các phân tử ở xa nhau."
+      ],
+      "answer": 0,
+      "explanation": "Khi khoảng cách giữa các phân tử rất lớn so với kích thước phân tử, lực tương tác phân tử giảm nhanh và coi như không đáng kể."
+    },
+    {
+      "id": "phy12_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Các thể của chất",
+      "question": "Các chất có thể tồn tại ở những thể nào?",
+      "options": [
+        "Thể rắn, thể lỏng.",
+        "Thể lỏng, thể khí.",
+        "Thể rắn, thể khí.",
+        "Thể rắn, thể lỏng, thể khí."
+      ],
+      "answer": 3,
+      "explanation": "Các chất thông thường tồn tại ở ba trạng thái phổ biến là thể rắn, thể lỏng và thể khí."
+    },
+    {
+      "id": "phy12_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Mô hình động học phân tử",
+      "question": "Với mô hình động học phân tử, sự khác biệt về cấu trúc của chất rắn, chất lỏng và chất khí là do sự khác biệt về",
+      "options": [
+        "thành phần các phân tử cấu tạo của mỗi chất.",
+        "độ lớn của lực liên kết giữa các phân tử trong mỗi chất.",
+        "số lượng phân tử cấu tạo nên mỗi chất.",
+        "kích thước của các phân tử cấu tạo mỗi chất."
+      ],
+      "answer": 1,
+      "explanation": "Khoảng cách và độ lớn của lực tương tác/liên kết giữa các phân tử quy định các trạng thái rắn, lỏng, khí khác nhau."
+    },
+    {
+      "id": "phy12_008",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Tương tác phân tử",
+      "question": "Phát biểu nào sau đây là sai khi nói về lực liên kết giữa các phân tử?",
+      "options": [
+        "Lực liên kết giữa các phân tử càng mạnh thì khoảng cách giữa chúng càng lớn.",
+        "Khi các phân tử sắp xếp càng có trật tự thì lực liên kết giữa chúng càng mạnh.",
+        "Lực liên kết giữa các phân tử một chất ở thể rắn sẽ lớn hơn lực liên kết giữa các phân tử chất đó ở thể khí.",
+        "Lực liên kết giữa các phân tử gồm cả lực hút và lực đẩy."
+      ],
+      "answer": 0,
+      "explanation": "Lực liên kết giữa các phân tử càng mạnh thì khoảng cách giữa chúng càng nhỏ."
+    },
+    {
+      "id": "phy12_009",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Tương tác phân tử",
+      "question": "Gọi X, Y, Z lần lượt là lực liên kết giữa các phân tử của một chất ở thể rắn, thể lỏng và thể khí. Hệ thức nào sau đây là đúng?",
+      "options": [
+        "X < Y < Z.",
+        "Z < Y < X.",
+        "Y < Z < X.",
+        "Z < X < Y."
+      ],
+      "answer": 1,
+      "explanation": "Lực liên kết ở thể rắn là mạnh nhất, sau đó đến thể lỏng, yếu nhất ở thể khí: Z (khí) < Y (lỏng) < X (rắn)."
+    },
+    {
+      "id": "phy12_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Chất rắn",
+      "question": "Vật rắn có hình dạng xác định vì các phân tử cấu tạo nên vật rắn",
+      "options": [
+        "không chuyển động.",
+        "chuyển động với vận tốc nhỏ không đáng kể.",
+        "đứng sát nhau.",
+        "chuyển động quanh một vị trí cân bằng xác định."
+      ],
+      "answer": 3,
+      "explanation": "Trong vật rắn, các phân tử liên kết chặt chẽ và chỉ dao động nhiệt xung quanh vị trí cân bằng cố định xác định."
+    },
+    {
+      "id": "phy12_011",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chất rắn",
+      "question": "Phát biểu nào sau đây là đúng khi nói về những đặc điểm của chất rắn?",
+      "options": [
+        "Có hình dạng xác định nhưng thể tích không xác định.",
+        "Có thể tích xác định nhưng không có hình dạng xác định.",
+        "Có thể tích và hình dạng xác định.",
+        "Có thể tích và hình dạng không xác định."
+      ],
+      "answer": 2,
+      "explanation": "Vật rắn có cả thể tích và hình dạng riêng xác định do lực liên kết phân tử rất lớn."
+    },
+    {
+      "id": "phy12_012",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chất rắn",
+      "question": "Chất rắn được phân loại thành",
+      "options": [
+        "hai loại là chất rắn tinh thể và chất rắn đơn tinh thể.",
+        "hai loại là chất rắn đơn tinh thể và chất rắn đa tinh thể.",
+        "hai loại là chất rắn kết tinh và chất rắn vô định hình.",
+        "bốn loại là chất rắn kết tinh, chất rắn vô định hình, chất rắn đơn tinh thể và chất rắn đa tinh thể."
+      ],
+      "answer": 2,
+      "explanation": "Chất rắn được phân thành hai nhóm chính: chất rắn kết tinh (có cấu trúc tinh thể) và chất rắn vô định hình."
+    },
+    {
+      "id": "phy12_013",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Chất rắn",
+      "question": "Chất rắn kết tinh là chất rắn",
+      "options": [
+        "có cấu trúc đơn tinh thể.",
+        "có cấu trúc đa tinh thể.",
+        "không có cấu trúc mạng tinh thể.",
+        "có cấu trúc mạng tinh thể."
+      ],
+      "answer": 3,
+      "explanation": "Chất rắn kết tinh được đặc trưng bởi cấu trúc mạng tinh thể trật tự tuần hoàn trong không gian."
+    },
+    {
+      "id": "phy12_014",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Nội năng",
+      "question": "Phát biểu nào sau đây là đúng khi nói về nội năng của một vật? Nội năng của vật",
+      "options": [
+        "là tổng động năng và thế năng của vật.",
+        "là tổng động năng và thế năng của các phân tử cấu tạo nên vật.",
+        "chỉ phụ thuộc vào nhiệt độ và không phụ thuộc vào thể tích của vật.",
+        "bằng tổng công và nhiệt lượng mà vật nhận được."
+      ],
+      "answer": 1,
+      "explanation": "Nội năng của một vật là tổng động năng chuyển động nhiệt và thế năng tương tác của các phân tử cấu tạo nên vật."
+    },
+    {
+      "id": "phy12_015",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Nội năng",
+      "question": "Nội năng của một vật phụ thuộc vào",
+      "options": [
+        "nhiệt độ và thể tích của vật.",
+        "nhiệt độ, áp suất và thể tích của vật.",
+        "khoảng cách trung bình giữa các phân tử.",
+        "tốc độ trung bình của các phân tử."
+      ],
+      "answer": 0,
+      "explanation": "Nội năng của vật phụ thuộc vào nhiệt độ $T$ (quy định động năng phân tử) và thể tích $V$ (quy định khoảng cách và thế năng tương tác phân tử)."
+    },
+    {
+      "id": "phy12_016",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Nội năng",
+      "question": "Phát biểu nào sau đây là đúng khi nói về các cách thay đổi nội năng của một vật?",
+      "options": [
+        "Chỉ có thể làm thay đổi nội năng của một vật bằng cách thực hiện công.",
+        "Chỉ có thể làm thay đổi nội năng của một vật bằng cách truyền năng lượng nhiệt.",
+        "Có thể làm thay đổi nội năng của một vật: truyền năng lượng nhiệt và thực hiện công.",
+        "Có thể làm thay đổi nội năng của một vật bằng cách đưa vật đó lên cao."
+      ],
+      "answer": 2,
+      "explanation": "Có hai cách làm biến đổi nội năng của một vật: thực hiện công và truyền nhiệt."
+    },
+    {
+      "id": "phy12_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Định luật I Nhiệt động lực học",
+      "question": "Công thức định luật 1 của nhiệt động lực học là $\\Delta U = A + Q$, với $A$ là kí hiệu công và $Q$ là kí hiệu",
+      "options": [
+        "nhiệt độ.",
+        "nhiệt lượng.",
+        "nhiệt dung riêng.",
+        "nhiệt nóng chảy riêng."
+      ],
+      "answer": 1,
+      "explanation": "Trong biểu thức $\\Delta U = A + Q$, $Q$ là nhiệt lượng mà hệ nhận vào hoặc truyền ra."
+    },
+    {
+      "id": "phy12_018",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Nhiệt độ",
+      "question": "Chọn phát biểu đúng khi so sánh nhiệt độ của một vật nóng với nhiệt độ của một vật lạnh.",
+      "options": [
+        "Vật lạnh có nhiệt độ cao gấp đôi nhiệt độ của vật nóng.",
+        "Vật lạnh có nhiệt độ thấp hơn nhiệt độ của vật nóng.",
+        "Vật lạnh có nhiệt độ bằng nhiệt độ của vật nóng.",
+        "Vật nóng có nhiệt độ cao gấp đôi nhiệt độ của vật lạnh."
+      ],
+      "answer": 1,
+      "explanation": "Theo khái niệm nhiệt học, vật có cảm giác lạnh hơn thì có nhiệt độ thấp hơn vật nóng."
+    },
+    {
+      "id": "phy12_019",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Truyền nhiệt",
+      "question": "Khi hai vật có nhiệt độ khác nhau tiếp xúc trực tiếp với nhau, nhiệt năng sẽ truyền từ vật có",
+      "options": [
+        "khối lượng lớn hơn sang vật có khối lượng nhỏ hơn.",
+        "nhiệt độ cao hơn sang vật có nhiệt độ thấp hơn.",
+        "nhiệt năng lớn hơn sang vật có nhiệt năng nhỏ hơn.",
+        "vị trí cao hơn sang vật có vị trí thấp hơn."
+      ],
+      "answer": 1,
+      "explanation": "Quá trình truyền nhiệt tự phát luôn diễn ra từ vật có nhiệt độ cao hơn sang vật có nhiệt độ thấp hơn."
+    },
+    {
+      "id": "phy12_020",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Thang nhiệt độ",
+      "question": "Nhiệt độ của nước tinh khiết khi đông đặc và khi sôi ở áp suất 1 atm theo thang nhiệt độ Kelvin lần lượt là",
+      "options": [
+        "0 K và 100 K.",
+        "273 K và 373 K.",
+        "73 K và 3 K.",
+        "32 K và 212 K."
+      ],
+      "answer": 1,
+      "explanation": "Nhiệt độ đông đặc là 0°C = 273 K; nhiệt độ sôi là 100°C = 373 K."
+    },
+    {
+      "id": "phy12_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Nhiệt dung riêng",
+      "question": "Trong hệ đơn vị SI, đơn vị đo của nhiệt dung riêng của một chất là",
+      "options": [
+        "J/(kg.K).",
+        "J.",
+        "J.K/kg.",
+        "J/kg."
+      ],
+      "answer": 0,
+      "explanation": "Đơn vị SI của nhiệt dung riêng $c = Q / (m \\cdot \\Delta T)$ là Jun trên kilôgam Kenvin: J/(kg.K)."
+    },
+    {
+      "id": "phy12_022",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Nhiệt dung riêng",
+      "question": "Nhiệt dung riêng của đồng lớn hơn chì. Vì vậy để tăng nhiệt độ của khối đồng và khối chì có cùng khối lượng thêm $\\Delta t$ (°C) thì",
+      "options": [
+        "khối chì cần nhận nhiều nhiệt lượng hơn khối đồng.",
+        "khối đồng cần nhận nhiều nhiệt lượng hơn khối chì.",
+        "hai khối đều cần nhiệt lượng như nhau.",
+        "khối chì cần tỏa nhiều nhiệt lượng hơn khối đồng."
+      ],
+      "answer": 1,
+      "explanation": "Theo công thức $Q = m \\cdot c \\cdot \\Delta t$, vì khối lượng và độ tăng nhiệt độ như nhau nên vật nào có nhiệt dung riêng $c$ lớn hơn sẽ cần cung cấp nhiệt lượng nhiều hơn."
+    },
+    {
+      "id": "phy12_023",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Nhiệt nóng chảy riêng",
+      "question": "Nhiệt nóng chảy riêng của một chất là nhiệt lượng cần cung cấp cho",
+      "options": [
+        "một kilôgam chất đó nóng chảy hoàn toàn từ nhiệt độ bất kì.",
+        "một kilôgam chất đó nóng chảy hoàn toàn ở nhiệt độ nóng chảy.",
+        "một vật bất kì làm bằng chất đó nóng chảy hoàn toàn.",
+        "một vật bất kì của chất đó để nhiệt độ của vật tăng thêm 1 K."
+      ],
+      "answer": 1,
+      "explanation": "Nhiệt nóng chảy riêng là nhiệt lượng cần thiết để làm cho 1 kg chất đó chuyển hoàn toàn từ thể rắn sang thể lỏng ở nhiệt độ nóng chảy."
+    },
+    {
+      "id": "phy12_024",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Nhiệt nóng chảy riêng",
+      "question": "Đơn vị nào sau đây là đơn vị của nhiệt nóng chảy riêng?",
+      "options": [
+        "J/kg.độ.",
+        "J/kg.",
+        "J.",
+        "J/độ."
+      ],
+      "answer": 1,
+      "explanation": "Công thức tính nhiệt nóng chảy riêng là $\\lambda = Q / m$, có đơn vị chuẩn là Jun trên kilôgam (J/kg)."
+    },
+    {
+      "id": "phy12_025",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Thực hành đo nhiệt dung",
+      "question": "Trong thí nghiệm xác định nhiệt nóng chảy riêng của nước đá, dụng cụ nào sau đây là KHÔNG cần thiết phải có?",
+      "options": [
+        "Watt kế.",
+        "Nhiệt lượng kế.",
+        "Đồng hồ bấm giây.",
+        "Thước mét."
+      ],
+      "answer": 3,
+      "explanation": "Thí nghiệm đo nhiệt nóng chảy riêng chỉ cần đo công suất dòng điện, khối lượng nước đá, thời gian đun và nhiệt độ, không cần dùng thước mét để đo khoảng cách."
+    },
+    {
+      "id": "phy12_026",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Nhiệt lượng",
+      "question": "Một miếng đồng khối lượng 2 kg có nhiệt độ 30°C. Cho nhiệt dung riêng, nhiệt nóng chảy riêng và nhiệt độ nóng chảy của đồng lần lượt là 385 J/(kg.K), 180 kJ/kg, 1084°C. Nhiệt lượng cần cung cấp cho miếng đồng trên để nóng chảy hoàn toàn ở nhiệt độ nóng chảy là",
+      "options": [
+        "1171580 kJ.",
+        "117158 kJ.",
+        "117158 J.",
+        "1171580 J."
+      ],
+      "answer": 3,
+      "explanation": "Nhiệt lượng đưa đồng từ 30°C lên 1084°C: $Q_1 = m \\cdot c \\cdot (t_2 - t_1) = 2 \\cdot 385 \\cdot (1084 - 30) = 811.580\\text{ J}$. Nhiệt lượng làm nóng chảy hoàn toàn: $Q_2 = m \\cdot \\lambda = 2 \\cdot 180.000 = 360.000\\text{ J}$. Tổng nhiệt lượng: $Q = Q_1 + Q_2 = 811.580 + 360.000 = 1.171.580\\text{ J}$."
+    },
+    {
+      "id": "phy12_027",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Nhiệt hóa hơi riêng",
+      "question": "Nhiệt hóa hơi riêng là",
+      "options": [
+        "nhiệt lượng cần để làm cho một kilôgam chất lỏng đó hóa hơi hoàn toàn ở nhiệt độ sôi.",
+        "nhiệt lượng cần để làm cho một gam chất lỏng đó hóa hơi hoàn toàn ở nhiệt độ sôi.",
+        "nhiệt lượng cần để làm cho một kilôgam chất đó để làm cho nhiệt độ của nó tăng thêm 1°C.",
+        "nhiệt lượng cần để làm cho một kilôgam chất đó nóng chảy hoàn toàn ở nhiệt độ nóng chảy."
+      ],
+      "answer": 0,
+      "explanation": "Nhiệt hóa hơi riêng $L$ là nhiệt lượng cần thiết để chuyển hoàn toàn 1 kg chất lỏng thành hơi ở nhiệt độ sôi."
+    },
+    {
+      "id": "phy12_028",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Nhiệt hóa hơi riêng",
+      "question": "Đơn vị của nhiệt hóa hơi riêng là",
+      "options": [
+        "J/kg.K.",
+        "J/kg.",
+        "J.",
+        "J/K."
+      ],
+      "answer": 1,
+      "explanation": "Nhiệt hóa hơi riêng $L = Q / m$ có đơn vị là Jun trên kilôgam (J/kg)."
+    },
+    {
+      "id": "phy12_029",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Đồ thị chuyển thể",
+      "question": "Hình bên dưới là đường biểu diễn sự thay đổi nhiệt độ theo thời gian của một chất. Nhiệt độ nóng chảy của chất đó là bao nhiêu?",
+      "options": [
+        "80°C.",
+        "40°C.",
+        "160°C.",
+        "120°C."
+      ],
+      "answer": 0,
+      "explanation": "Quan sát đồ thị chuyển thể từ lỏng sang rắn (đông đặc/nóng chảy), đoạn nằm ngang song song trục thời gian ứng với quá trình chuyển thể diễn ra ở nhiệt độ 80°C."
+    },
+    {
+      "id": "phy12_030",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "topic": "Cân bằng nhiệt & Hóa hơi",
+      "question": "Vận động viên điền kinh bị mất rất nhiều nước trong khi thi đấu. Các vận động viên thường chỉ có thể chuyển hoá khoảng 22% năng lượng dự trữ trong cơ thể thành năng lượng dùng cho các hoạt động của cơ thể. Phần năng lượng còn lại chuyển thành nhiệt thải ra ngoài nhờ sự bay hơi của nước qua hô hấp và da để giữ cho nhiệt độ cơ thể không đổi. Nếu vận động viên dùng hết 10800 kJ trong cuộc thi thì có khoảng bao nhiêu lít nước đã thoát ra ngoài cơ thể? Coi nhiệt độ cơ thể của vận động viên hoàn toàn không đổi và nhiệt hoá hơi riêng của nước ở nhiệt độ của vận động viên là 2,4.10⁶ J/kg. Khối lượng riêng của nước là 1,0.10³ kg/m³.",
+      "options": [
+        "1,6 lít.",
+        "2,6 lít.",
+        "3,5 lít.",
+        "4,6 lít."
+      ],
+      "answer": 2,
+      "explanation": "Năng lượng chuyển thành nhiệt tỏa ra: $Q = (100\\% - 22\\%) \\cdot 10.800\\text{ kJ} = 0,78 \\cdot 10.800.000 = 8.424.000\\text{ J}$. Khối lượng nước bay hơi thoát ra: $m = Q / L = 8.424.000 / (2,4 \\cdot 10^6) = 3,51\\text{ kg}$. Với $D = 1000\\text{ kg/m}^3$, thể tích nước tương ứng là $V = 3,51\\text{ lít} \\approx 3,5\\text{ lít}$."
+    },
+    {
+      "id": "phy12_031",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Nhiệt hóa hơi & Tỏa nhiệt",
+      "question": "Nước là loại chất lỏng có nhiệt dung riêng là 4180 J/(kg.K) và nhiệt hóa hơi riêng là 2,3.10⁶ J/kg. Nhiệt lượng tỏa ra khi 2 kg hơi nước ở 100°C ngưng tụ thành nước ở 27°C xấp xỉ bằng",
+      "options": [
+        "3,52 MJ.",
+        "4,67 MJ.",
+        "5,21 MJ.",
+        "7,02 MJ."
+      ],
+      "answer": 2,
+      "explanation": "Nhiệt lượng tỏa ra khi ngưng tụ ở 100°C: $Q_1 = m \\cdot L = 2 \\cdot (2,3 \\cdot 10^6) = 4,6 \\cdot 10^6\\text{ J}$. Nhiệt lượng tỏa ra khi nước hạ từ 100°C xuống 27°C: $Q_2 = m \\cdot c \\cdot \\Delta t = 2 \\cdot 4180 \\cdot (100 - 27) = 610.280\\text{ J}$. Tổng nhiệt lượng tỏa ra: $Q = Q_1 + Q_2 = 4.600.000 + 610.280 = 5.210.280\\text{ J} \\approx 5,21\\text{ MJ}$."
+    },
+    {
+      "id": "phy12_032",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Định luật I Nhiệt động lực học",
+      "question": "Nội năng của khối khí là tổng động năng và thế năng tương tác của các phân tử khí.",
+      "answer": true,
+      "explanation": "Đúng. Đây là định nghĩa chuẩn về nội năng của một lượng khí."
+    },
+    {
+      "id": "phy12_033",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Định luật I Nhiệt động lực học",
+      "question": "Khối khí nhận công nên A > 0 và A = 100 J.",
+      "answer": true,
+      "explanation": "Đúng. Theo quy ước dấu của định luật 1 NĐLH, hệ nhận công thì $A > 0$ ($A = +100\\text{ J}$)."
+    },
+    {
+      "id": "phy12_034",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Định luật I Nhiệt động lực học",
+      "question": "Khối khí truyền nhiệt lượng ra môi trường nên Q > 0 và Q = 20 J.",
+      "answer": false,
+      "explanation": "Sai. Theo quy ước dấu, hệ truyền nhiệt lượng ra môi trường thì $Q < 0$ ($Q = -20\\text{ J}$)."
+    },
+    {
+      "id": "phy12_035",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Định luật I Nhiệt động lực học",
+      "question": "Độ biến thiên nội năng của khối khí là ΔU = 80 J.",
+      "answer": true,
+      "explanation": "Đúng. $\\Delta U = A + Q = 100 + (-20) = 80\\text{ J}$."
+    },
+    {
+      "id": "phy12_036",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Thực hành đo nhiệt dung riêng",
+      "question": "Nhiệt kế điện tử dùng để đo nhiệt độ của nước, cân điện tử dùng để đo khối lượng nước.",
+      "answer": true,
+      "explanation": "Đúng. Nhiệt kế dùng để theo dõi sự thay đổi nhiệt độ, còn cân điện tử dùng để xác định khối lượng nước."
+    },
+    {
+      "id": "phy12_037",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Thực hành đo nhiệt dung riêng",
+      "question": "Đơn vị của nhiệt dung riêng là J/kg.",
+      "answer": false,
+      "explanation": "Sai. Đơn vị chuẩn của nhiệt dung riêng là J/(kg.K) hoặc J/(kg.°C)."
+    },
+    {
+      "id": "phy12_038",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Thực hành đo nhiệt dung riêng",
+      "question": "Nếu bỏ qua mọi hao phí nhiệt thì nhiệt dung riêng của nước đo được là 4200 J/(kg.K).",
+      "answer": true,
+      "explanation": "Đúng. $Q = \\mathcal{P} \\cdot t = 12.600\\text{ J}$. Khi không có hao phí: $c = Q / (m \\cdot \\Delta t) = 12.600 / [0,15 \\cdot (45 - 25)] = 4200\\text{ J/(kg.K)}$."
+    },
+    {
+      "id": "phy12_039",
+      "type": "true_false",
+      "difficulty": "hard",
+      "topic": "Thực hành đo nhiệt dung riêng",
+      "question": "Nếu thực tế có 5% năng lượng điện cung cấp bị hao phí ra môi trường thì nhiệt dung riêng của nước tính được là 4410 J/(kg.K).",
+      "answer": false,
+      "explanation": "Sai. Khi hao phí 5%, nhiệt lượng thực tế nước nhận là $Q' = 0,95 \\cdot 12.600 = 11.970\\text{ J}$. Nhiệt dung riêng thực là $c' = 11.970 / (0,15 \\cdot 20) = 3990\\text{ J/(kg.K)}$."
+    },
+    {
+      "id": "phy12_040",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Thang nhiệt độ",
+      "question": "Ở áp suất tiêu chuẩn, nước nguyên chất sôi ở nhiệt độ bao nhiêu kelvin (K)?",
+      "answer": [
+        "373",
+        "373 K",
+        "373,15",
+        "373.15"
+      ],
+      "explanation": "Nước sôi ở 100°C. Đổi sang nhiệt độ tuyệt đối Kelvin: $T = t + 273 = 100 + 273 = 373\\text{ K}$ (hoặc 373,15 K)."
+    },
+    {
+      "id": "phy12_041",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Định luật I Nhiệt động lực học",
+      "question": "Khối khí trong một xilanh nhận nhiệt lượng 250 J và thực hiện công 70 J đẩy pít-tông đi lên. Độ biến thiên nội năng của khối khí là bao nhiêu jun (J)?",
+      "answer": [
+        "180",
+        "180 J"
+      ],
+      "explanation": "Khí nhận nhiệt lượng nên $Q = +250\\text{ J}$. Khí thực hiện công nên $A = -70\\text{ J}$. Độ biến thiên nội năng: $\\Delta U = A + Q = -70 + 250 = 180\\text{ J}$."
+    },
+    {
+      "id": "phy12_042",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "topic": "Nhiệt lượng chuyển thể",
+      "question": "Cần cung cấp một nhiệt lượng bao nhiêu kilôjun (kJ) để 0,4 kg nước đá ở -10 °C chuyển hoàn toàn thành nước ở 0 °C? Biết nhiệt dung riêng của nước đá là 2100 J/(kg.K), nhiệt nóng chảy riêng của nước đá là 3,34.10⁵ J/kg.",
+      "answer": [
+        "142",
+        "142 kJ",
+        "141.98",
+        "142,0"
+      ],
+      "explanation": "Nhiệt lượng tăng từ -10°C lên 0°C: $Q_1 = m \\cdot c \\cdot \\Delta t = 0,4 \\cdot 2100 \\cdot [0 - (-10)] = 8400\\text{ J}$. Nhiệt lượng làm nóng chảy: $Q_2 = m \\cdot \\lambda = 0,4 \\cdot 3,34 \\cdot 10^5 = 133.600\\text{ J}$. Tổng nhiệt lượng: $Q = 8400 + 133.600 = 142.000\\text{ J} = 142\\text{ kJ}$."
+    },
+    {
+      "id": "phy12_043",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "topic": "Phương trình cân bằng nhiệt",
+      "question": "Thả một quả cầu bằng nhôm khối lượng 0,2 kg đã được nung nóng tới 100 °C vào một cốc chứa 0,5 kg nước ở 20 °C. Biết nhiệt dung riêng của nhôm là 880 J/(kg.K), của nước là 4200 J/(kg.K). Bỏ qua sự trao đổi nhiệt với cốc và môi trường. Nhiệt độ của nước khi có cân bằng nhiệt là bao nhiêu °C? (làm tròn kết quả đến chữ số hàng phần mười)",
+      "answer": [
+        "26.2",
+        "26,2",
+        "26.2 °C",
+        "26,2 °C"
+      ],
+      "explanation": "Phương trình cân bằng nhiệt $Q_{\\text{tỏa}} = Q_{\\text{thu}}$: $m_{\\text{Al}} \\cdot c_{\\text{Al}} \\cdot (100 - t) = m_{\\text{nước}} \\cdot c_{\\text{nước}} \\cdot (t - 20) \\Leftrightarrow 0,2 \\cdot 880 \\cdot (100 - t) = 0,5 \\cdot 4200 \\cdot (t - 20) \\Leftrightarrow 176 \\cdot (100 - t) = 2100 \\cdot (t - 20) \\Leftrightarrow 17.600 - 176t = 2100t - 42.000 \\Leftrightarrow 2276t = 59.600 \\Rightarrow t \\approx 26,186°\\text{C} \\approx 26,2°\\text{C}$."
+    }
+  ]
+}
