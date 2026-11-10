@@ -1,0 +1,149 @@
+{
+  "subject": "Địa lí 12",
+  "description": "Bộ câu hỏi ôn thi tốt nghiệp THPT chuẩn hóa cấu trúc đề mới: Trắc nghiệm 4 lựa chọn, Trắc nghiệm Đúng/Sai và Trả lời ngắn tính toán số liệu",
+  "questions": [
+    {
+      "id": "geo_tn_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Vị trí địa lí và phạm vi lãnh thổ",
+      "question": "Tính chất nhiệt đới của khí hậu nước ta được quy định chủ yếu bởi nhân tố nào sau đây?",
+      "options": [
+        "Vị trí nằm hoàn toàn trong vùng nội chí tuyến bán cầu Bắc.",
+        "Địa hình nhiều đồi núi thấp và thấp dần ra biển.",
+        "Tiếp giáp với vùng Biển Đông rộng lớn và kín.",
+        "Hoạt động thường xuyên của gió Tín phong bán cầu Bắc."
+      ],
+      "answer": 0,
+      "explanation": "Nước ta nằm hoàn toàn trong vùng nội chí tuyến ở bán cầu Bắc nên hằng năm nhận được lượng bức xạ mặt trời lớn, tổng số giờ nắng cao, quy định tính chất nhiệt đới."
+    },
+    {
+      "id": "geo_tn_002",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Thiên nhiên nhiệt đới ẩm gió mùa",
+      "question": "Gió mùa Tây Nam hoạt động vào đầu mùa hạ ở nước ta có nguồn gốc từ khối khí nào sau đây?",
+      "options": [
+        "Áp cao cận chí tuyến bán cầu Nam.",
+        "Khối khí nhiệt đới ẩm từ Bắc Ấn Độ Dương.",
+        "Áp cao lạnh lục địa Xi-bia.",
+        "Khối khí nhiệt đới từ vịnh Tây Băng-gan thổi trực tiếp."
+      ],
+      "answer": 1,
+      "explanation": "Đầu mùa hạ, khối khí nhiệt đới ẩm từ Bắc Ấn Độ Dương (TBg) di chuyển theo hướng tây nam thổi vào nước ta, gây mưa lớn cho Nam Bộ, Tây Nguyên và gây hiệu ứng phơn khô nóng cho Bắc Trung Bộ và sườn đông Trường Sơn."
+    },
+    {
+      "id": "geo_tn_003",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Địa hình và khoáng sản",
+      "question": "Đặc điểm cơ bản của địa hình vùng núi Đông Bắc nước ta là gì?",
+      "options": [
+        "Địa hình núi cao hiểm trở, chạy theo hướng tây bắc - đông nam.",
+        "Gồm các khối núi cổ, cao nguyên badan xếp tầng màu mỡ.",
+        "Đồi núi thấp chiếm ưu thế, có 4 cánh cung lớn chụm đầu ở Tam Đảo.",
+        "Địa hình bị chia cắt mạnh với nhiều hẻm vực sâu và dốc."
+      ],
+      "answer": 2,
+      "explanation": "Vùng núi Đông Bắc nằm ở tả ngạn sông Hồng với đặc trưng nổi bật là đồi núi thấp chiếm ưu thế và hệ thống 4 cánh cung mở rộng về phía bắc/đông bắc: Sông Gâm, Ngân Sơn, Bắc Sơn, Đông Triều."
+    },
+    {
+      "id": "geo_tn_004",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "topic": "Sự phân hóa đa dạng của thiên nhiên",
+      "question": "Đai ôn đới gió mùa trên núi ở nước ta chỉ xuất hiện ở vùng núi nào sau đây?",
+      "options": [
+        "Vùng núi Đông Bắc.",
+        "Vùng núi Tây Bắc.",
+        "Vùng núi Trường Sơn Bắc.",
+        "Vùng núi Trường Sơn Nam."
+      ],
+      "answer": 1,
+      "explanation": "Đai ôn đới gió mùa trên núi chỉ hình thành ở độ cao từ 2.600 m trở lên. Ở nước ta, chỉ có dãy Hoàng Liên Sơn thuộc vùng núi Tây Bắc có đủ độ cao này (đỉnh Phan-xi-păng 3.143 m)."
+    },
+    {
+      "id": "geo_tn_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Địa lí ngành nông nghiệp",
+      "question": "Khó khăn lớn nhất trong việc sử dụng hợp lí và cải tạo đất đai ở vùng Đồng bằng sông Cửu Long là gì?",
+      "options": [
+        "Mạng lưới sông ngòi chằng chịt gây khó khăn cho giao thông đường bộ.",
+        "Diện tích đất phèn, đất mặn chiếm tỉ lệ lớn và mùa khô sâu sắc kéo dài.",
+        "Hiện tượng xói mòn, rửa trôi mạnh mẽ lớp đất mặt.",
+        "Tình trạng đất bị bạc màu do canh tác lúa nước liên tục nhiều vụ."
+      ],
+      "answer": 1,
+      "explanation": "Đồng bằng sông Cửu Long có diện tích đất phèn và đất mặn chiếm phần lớn diện tích tự nhiên; vào mùa khô kéo dài, nước biển xâm nhập sâu vào nội đồng làm tình trạng phèn hóa, mặn hóa thêm trầm trọng."
+    },
+    {
+      "id": "geo_tf_001",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Dân số và nguồn lao động",
+      "question": "Cho nhận định: 'Cơ cấu dân số theo nhóm tuổi ở nước ta hiện nay đang chuyển dịch theo hướng tăng tỉ trọng nhóm dưới tuổi lao động và giảm tỉ trọng nhóm trên tuổi lao động.'",
+      "answer": false,
+      "explanation": "Sai. Dân số Việt Nam đang trong giai đoạn già hóa, tỉ lệ sinh giảm dẫn đến tỉ trọng nhóm 0-14 tuổi có xu hướng giảm, trong khi tỉ trọng nhóm trên tuổi lao động (60/65 tuổi trở lên) tăng lên."
+    },
+    {
+      "id": "geo_tf_002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Địa lí ngành thủy sản",
+      "question": "Cho nhận định: 'Nuôi trồng thủy sản ở nước ta hiện nay phát triển nhanh hơn khai thác chủ yếu do thị trường tiêu thụ rộng mở và hiệu quả kinh tế cao, giúp chủ động nguồn nguyên liệu.'",
+      "answer": true,
+      "explanation": "Đúng. Nuôi trồng thủy sản giúp chủ động nguồn cung, đáp ứng tốt các tiêu chuẩn xuất khẩu khắt khe và mang lại giá trị gia tăng cao hơn khai thác tự nhiên."
+    },
+    {
+      "id": "geo_tf_003",
+      "type": "true_false",
+      "difficulty": "hard",
+      "topic": "Địa lí ngành năng lượng",
+      "question": "Cho nhận định: 'Cơ cấu sản lượng điện năng của nước ta những năm gần đây có sự chuyển biến rõ nét theo hướng tỉ trọng năng lượng tái tạo (điện mặt trời, điện gió) tăng nhanh chóng.'",
+      "answer": true,
+      "explanation": "Đúng. Nhờ cơ chế khuyến khích đầu tư và định hướng chuyển dịch năng lượng xanh, nguồn điện từ gió và mặt trời tại Nam Trung Bộ, Tây Nguyên phát triển bùng nổ, làm thay đổi đáng kể cơ cấu nguồn điện quốc gia."
+    },
+    {
+      "id": "geo_sa_001",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Kĩ năng xử lí số liệu địa lí - Biên độ nhiệt",
+      "question": "Năm 2024, nhiệt độ trung bình tháng 7 tại Hà Nội là 29,8°C và tháng 1 là 16,4°C. Hãy tính biên độ nhiệt độ năm của Hà Nội (°C).",
+      "answer": [
+        "13.4",
+        "13,4",
+        "13.4°C",
+        "13,4°C"
+      ],
+      "explanation": "Biên độ nhiệt năm = Nhiệt độ tháng cao nhất - Nhiệt độ tháng thấp nhất = 29,8 - 16,4 = 13,4°C."
+    },
+    {
+      "id": "geo_sa_002",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "topic": "Kĩ năng xử lí số liệu địa lí - Mật độ dân số",
+      "question": "Biết năm 2024, vùng Đồng bằng sông Hồng có diện tích là 21 278,6 km² và dân số là 23 450 000 người. Hãy tính mật độ dân số của vùng (làm tròn kết quả đến hàng đơn vị, người/km²).",
+      "answer": [
+        "1102",
+        "1102 người/km2",
+        "1102 người/km²"
+      ],
+      "explanation": "Mật độ dân số = Dân số / Diện tích = 23.450.000 / 21.278,6 ≈ 1102,04 người/km². Làm tròn đến hàng đơn vị là 1102."
+    },
+    {
+      "id": "geo_sa_003",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "topic": "Kĩ năng xử lí số liệu địa lí - Cân bằng ẩm",
+      "question": "Một trạm khí tượng ghi nhận lượng mưa trung bình năm đạt 1930 mm và lượng bốc hơi trung bình năm là 1045 mm. Hãy tính cân bằng ẩm tại trạm khí tượng đó (đơn vị: mm).",
+      "answer": [
+        "885",
+        "885 mm",
+        "+885",
+        "+885 mm"
+      ],
+      "explanation": "Cân bằng ẩm = Lượng mưa - Lượng bốc hơi = 1930 - 1045 = 885 mm."
+    }
+  ]
+}
