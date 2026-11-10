@@ -1,149 +1,474 @@
 {
-  "subject": "Địa lí 12",
-  "description": "Bộ câu hỏi ôn thi tốt nghiệp THPT chuẩn hóa cấu trúc đề mới: Trắc nghiệm 4 lựa chọn, Trắc nghiệm Đúng/Sai và Trả lời ngắn tính toán số liệu",
+  "subject": "Địa lí 12 - Luyện thi Tốt nghiệp THPT",
+  "description": "Ngân hàng câu hỏi trắc nghiệm Địa lí 12 chuẩn hóa cấu trúc đề thi Tốt nghiệp THPT (gồm Trắc nghiệm nhiều lựa chọn, Trắc nghiệm Đúng/Sai và Trắc nghiệm Trả lời ngắn tính toán số liệu)",
   "questions": [
     {
-      "id": "geo_tn_001",
+      "id": "geo_thpt_001",
       "type": "multiple_choice",
       "difficulty": "easy",
       "topic": "Vị trí địa lí và phạm vi lãnh thổ",
-      "question": "Tính chất nhiệt đới của khí hậu nước ta được quy định chủ yếu bởi nhân tố nào sau đây?",
+      "question": "Vị trí địa lí nằm hoàn toàn trong vùng nội chí tuyến bán cầu Bắc mang lại cho thiên nhiên nước ta đặc điểm cơ bản nào sau đây?",
       "options": [
-        "Vị trí nằm hoàn toàn trong vùng nội chí tuyến bán cầu Bắc.",
-        "Địa hình nhiều đồi núi thấp và thấp dần ra biển.",
-        "Tiếp giáp với vùng Biển Đông rộng lớn và kín.",
-        "Hoạt động thường xuyên của gió Tín phong bán cầu Bắc."
+        "Nền nhiệt độ cao, chan hòa ánh nắng và có hai lần Mặt Trời lên thiên đỉnh.",
+        "Khí hậu khô hạn gay gắt quanh năm giống như các nước cùng vĩ độ ở Tây Á.",
+        "Cảnh quan rừng rậm nhiệt đới ẩm quanh năm không có mùa khô sâu sắc.",
+        "Mùa đông lạnh buốt kéo dài 6 tháng ở hầu hết các vùng đồng bằng."
       ],
       "answer": 0,
-      "explanation": "Nước ta nằm hoàn toàn trong vùng nội chí tuyến ở bán cầu Bắc nên hằng năm nhận được lượng bức xạ mặt trời lớn, tổng số giờ nắng cao, quy định tính chất nhiệt đới."
+      "explanation": "Nằm trong vùng nội chí tuyến bán cầu Bắc quy định góc nhập xạ lớn, mọi nơi đều có 2 lần Mặt Trời lên thiên đỉnh trong năm, mang lại tổng bức xạ lớn và cán cân bức xạ luôn dương quanh năm."
     },
     {
-      "id": "geo_tn_002",
+      "id": "geo_thpt_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Vị trí địa lí và phạm vi lãnh thổ",
+      "question": "Nước ta có nguồn tài nguyên khoáng sản phong phú chủ yếu do nguyên nhân nào sau đây?",
+      "options": [
+        "Nằm ở nơi tiếp giáp giữa lục địa Á - Âu và đại dương Thái Bình Dương.",
+        "Nằm liền kề hai vành đai sinh khoáng lớn Thái Bình Dương và Địa Trung Hải.",
+        "Trải qua lịch sử phát triển địa chất lâu dài chỉ gồm giai đoạn Tân kiến tạo.",
+        "Địa hình nhiều đồi núi với các khối núi cổ bị xâm thực chia cắt mạnh mẽ."
+      ],
+      "answer": 1,
+      "explanation": "Việt Nam nằm ở vị trí giao thoa và tiếp giáp giữa hai vành đai sinh khoáng lớn của thế giới là Thái Bình Dương và Địa Trung Hải, tạo nên sự phong phú về chủng loại khoáng sản."
+    },
+    {
+      "id": "geo_thpt_003",
       "type": "multiple_choice",
       "difficulty": "medium",
       "topic": "Thiên nhiên nhiệt đới ẩm gió mùa",
-      "question": "Gió mùa Tây Nam hoạt động vào đầu mùa hạ ở nước ta có nguồn gốc từ khối khí nào sau đây?",
+      "question": "Hiện tượng mưa ngâu đặc trưng vào nửa cuối mùa hạ ở vùng Đồng bằng Bắc Bộ nước ta chủ yếu gắn liền với",
       "options": [
-        "Áp cao cận chí tuyến bán cầu Nam.",
-        "Khối khí nhiệt đới ẩm từ Bắc Ấn Độ Dương.",
-        "Áp cao lạnh lục địa Xi-bia.",
-        "Khối khí nhiệt đới từ vịnh Tây Băng-gan thổi trực tiếp."
+        "hoạt động của gió mùa Tây Nam có tầng ẩm dày kết hợp dải hội tụ nhiệt đới.",
+        "tác động của gió phơn Tây Nam thổi vượt qua dãy Hoàng Liên Sơn.",
+        "ảnh hưởng trực tiếp của các đợt gió mùa Đông Bắc biến tính qua biển.",
+        "hoạt động của gió Tín phong bán cầu Bắc khi đi qua vùng biển nhiệt đới."
       ],
-      "answer": 1,
-      "explanation": "Đầu mùa hạ, khối khí nhiệt đới ẩm từ Bắc Ấn Độ Dương (TBg) di chuyển theo hướng tây nam thổi vào nước ta, gây mưa lớn cho Nam Bộ, Tây Nguyên và gây hiệu ứng phơn khô nóng cho Bắc Trung Bộ và sườn đông Trường Sơn."
+      "answer": 0,
+      "explanation": "Mưa ngâu ở Đồng bằng Bắc Bộ diễn ra vào khoảng tháng 8 (tháng 7 âm lịch), gây ra bởi hoạt động của dải hội tụ nhiệt đới kết hợp với luồng gió mùa Tây Nam nóng ẩm dày."
     },
     {
-      "id": "geo_tn_003",
+      "id": "geo_thpt_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Thiên nhiên nhiệt đới ẩm gió mùa",
+      "question": "Gió mùa Đông Bắc khi di chuyển lệch qua biển vào nửa sau mùa đông gây ra hiện tượng thời tiết đặc trưng nào cho miền Bắc?",
+      "options": [
+        "Thời tiết lạnh khô, trời quang mây và ban đêm có sương muối.",
+        "Thời tiết lạnh ẩm, nhiều mây và có mưa phùn kéo dài ven biển, đồng bằng.",
+        "Thời tiết hanh khô, nhiệt độ ban ngày tăng cao tạo hiệu ứng phơn.",
+        "Thời tiết rét đậm, rét hại với những đợt mưa rào kèm dông lốc lớn."
+      ],
+      "answer": 1,
+      "explanation": "Nửa sau mùa đông (từ tháng 2 đến tháng 4), áp cao Xi-bia dịch chuyển về phía đông, khối khí cực đới lục địa đi qua biển được tiếp nhận ẩm, gây nên thời tiết lạnh ẩm và mưa phùn cho đồng bằng, duyên hải Bắc Bộ và Bắc Trung Bộ."
+    },
+    {
+      "id": "geo_thpt_005",
       "type": "multiple_choice",
       "difficulty": "medium",
       "topic": "Địa hình và khoáng sản",
-      "question": "Đặc điểm cơ bản của địa hình vùng núi Đông Bắc nước ta là gì?",
+      "question": "Điểm khác biệt rõ nét nhất của địa hình vùng núi Trường Sơn Nam so với vùng núi Trường Sơn Bắc là gì?",
       "options": [
-        "Địa hình núi cao hiểm trở, chạy theo hướng tây bắc - đông nam.",
-        "Gồm các khối núi cổ, cao nguyên badan xếp tầng màu mỡ.",
-        "Đồi núi thấp chiếm ưu thế, có 4 cánh cung lớn chụm đầu ở Tam Đảo.",
-        "Địa hình bị chia cắt mạnh với nhiều hẻm vực sâu và dốc."
-      ],
-      "answer": 2,
-      "explanation": "Vùng núi Đông Bắc nằm ở tả ngạn sông Hồng với đặc trưng nổi bật là đồi núi thấp chiếm ưu thế và hệ thống 4 cánh cung mở rộng về phía bắc/đông bắc: Sông Gâm, Ngân Sơn, Bắc Sơn, Đông Triều."
-    },
-    {
-      "id": "geo_tn_004",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "topic": "Sự phân hóa đa dạng của thiên nhiên",
-      "question": "Đai ôn đới gió mùa trên núi ở nước ta chỉ xuất hiện ở vùng núi nào sau đây?",
-      "options": [
-        "Vùng núi Đông Bắc.",
-        "Vùng núi Tây Bắc.",
-        "Vùng núi Trường Sơn Bắc.",
-        "Vùng núi Trường Sơn Nam."
+        "Có các đỉnh núi cao hiểm trở chạy song song và so le nhau theo hướng tây bắc - đông nam.",
+        "Địa hình bất đối xứng rõ rệt giữa hai sườn Đông - Tây và khối núi Kon Tum, Nam Trung Bộ đồ sộ kết hợp các cao nguyên xếp tầng.",
+        "Chủ yếu là đồi núi thấp với các cánh cung lớn mở rộng về phía bắc.",
+        "Có nhiều thung lũng sông lớn hướng tây bắc - đông nam ăn sâu vào đất liền."
       ],
       "answer": 1,
-      "explanation": "Đai ôn đới gió mùa trên núi chỉ hình thành ở độ cao từ 2.600 m trở lên. Ở nước ta, chỉ có dãy Hoàng Liên Sơn thuộc vùng núi Tây Bắc có đủ độ cao này (đỉnh Phan-xi-păng 3.143 m)."
+      "explanation": "Trường Sơn Nam có đặc điểm nổi bật là tính bất đối xứng sâu sắc giữa sườn đông dốc đứng và sườn tây thoai thoải hình thành hệ thống cao nguyên badan rộng lớn (Pleiku, Đắk Lắk, Mơ Nông, Di Linh)."
     },
     {
-      "id": "geo_tn_005",
+      "id": "geo_thpt_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Sự phân hóa đa dạng của thiên nhiên",
+      "question": "Ranh giới tự nhiên phân chia phần lãnh thổ phía Bắc và phần lãnh thổ phía Nam của nước ta là",
+      "options": [
+        "dãy Hoành Sơn.",
+        "dãy Tam Điệp.",
+        "dãy Bạch Mã.",
+        "sông Gianh."
+      ],
+      "answer": 2,
+      "explanation": "Dãy Bạch Mã (nằm ở khoảng vĩ tuyến 16°B) ngăn chặn các đợt gió mùa Đông Bắc tràn sâu xuống phía nam, trở thành ranh giới phân chia tự nhiên giữa miền khí hậu phía Bắc và phía Nam."
+    },
+    {
+      "id": "geo_thpt_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Sự phân hóa đa dạng của thiên nhiên",
+      "question": "Đặc trưng khí hậu nổi bật của phần lãnh thổ phía Nam (từ dãy Bạch Mã trở vào) là",
+      "options": [
+        "khí hậu cận xích đạo gió mùa, nền nhiệt cao quanh năm và phân thành hai mùa mưa - khô rõ rệt.",
+        "khí hậu nhiệt đới ẩm gió mùa có mùa đông lạnh, biên độ nhiệt độ năm rất lớn.",
+        "khí hậu cận nhiệt đới gió mùa với mùa hạ nóng ẩm, mùa đông ấm áp kéo dài.",
+        "khí hậu ôn hòa quanh năm, mưa đều các tháng và không có tháng nào nhiệt độ dưới 20°C."
+      ],
+      "answer": 0,
+      "explanation": "Phần lãnh thổ phía Nam mang khí hậu cận xích đạo gió mùa: nhiệt độ trung bình năm luôn trên 25°C, không có mùa đông lạnh, biên độ nhiệt năm nhỏ và có hai mùa mưa - khô tương phản sâu sắc."
+    },
+    {
+      "id": "geo_thpt_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Bảo vệ môi trường và phòng chống thiên tai",
+      "question": "Biện pháp cấp bách và quan trọng hàng đầu trong việc bảo vệ tài nguyên đất vùng đồi núi nước ta là gì?",
+      "options": [
+        "Áp dụng các biện pháp thủy lợi thau chua, rửa mặn và bón vôi cải tạo đất.",
+        "Áp dụng đồng bộ các mô hình nông - lâm kết hợp, làm ruộng bậc thang và chống xói mòn.",
+        "Tăng cường sử dụng các loại phân bón hóa học để kích thích sinh trưởng cây trồng.",
+        "Tiến hành khai hoang triệt để các triền đồi dốc để mở rộng diện tích gieo cấy lúa nước."
+      ],
+      "answer": 1,
+      "explanation": "Địa hình miền núi dốc, mưa tập trung nên biện pháp bảo vệ đất cốt lõi là bảo vệ rừng, trồng rừng kết hợp làm ruộng bậc thang, đào hố vảy cá, nông - lâm kết hợp để ngăn chặn rửa trôi, xói mòn."
+    },
+    {
+      "id": "geo_thpt_009",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "topic": "Địa lí dân cư",
+      "question": "Đặc điểm nào sau đây mô tả đúng nhất về nguồn lao động của nước ta hiện nay?",
+      "options": [
+        "Số lượng dồi dào, cần cù, sáng tạo; trình độ chuyên môn kĩ thuật ngày càng được nâng cao.",
+        "Lực lượng lao động có trình độ cao đã đáp ứng hoàn toàn nhu cầu các ngành công nghệ cao.",
+        "Phân bố đồng đều giữa các vùng kinh tế trọng điểm và miền núi xa xôi.",
+        "Tỉ lệ lao động đã qua đào tạo chiếm đại đa số tổng số lao động đang làm việc."
+      ],
+      "answer": 0,
+      "explanation": "Nguồn lao động nước ta dồi dào, cần cù, có kinh nghiệm sản xuất phong phú và tỉ lệ lao động qua đào tạo có bằng cấp, chứng chỉ đang tăng nhanh qua từng năm."
+    },
+    {
+      "id": "geo_thpt_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Địa lí dân cư - Đô thị hóa",
+      "question": "Quá trình đô thị hóa ở nước ta hiện nay diễn ra với đặc điểm nổi trội nào?",
+      "options": [
+        "Diễn ra nhanh chóng, mạng lưới đô thị đồng đều ở khắp các vùng đồi núi.",
+        "Tỉ lệ dân thành thị tăng nhanh nhưng chất lượng đô thị hóa vẫn còn thấp so với chuẩn mực khu vực.",
+        "Đô thị hóa tự phát hoàn toàn, không có sự định hướng quy hoạch của Nhà nước.",
+        "Dân số nông thôn giảm tuyệt đối cả về số lượng và tỉ lệ trong cơ cấu cả nước."
+      ],
+      "answer": 1,
+      "explanation": "Đô thị hóa ở nước ta có chuyển biến tích cực, lối sống đô thị lan tỏa, tỉ lệ dân thành thị tăng liên tục, song nếp sống, cơ sở hạ tầng kĩ thuật đô thị còn chưa đồng bộ."
+    },
+    {
+      "id": "geo_thpt_011",
       "type": "multiple_choice",
       "difficulty": "medium",
       "topic": "Địa lí ngành nông nghiệp",
-      "question": "Khó khăn lớn nhất trong việc sử dụng hợp lí và cải tạo đất đai ở vùng Đồng bằng sông Cửu Long là gì?",
+      "question": "Nguyên nhân chủ yếu làm cho cơ cấu cây trồng nông nghiệp ở nước ta chuyển dịch theo hướng đa dạng hóa là gì?",
       "options": [
-        "Mạng lưới sông ngòi chằng chịt gây khó khăn cho giao thông đường bộ.",
-        "Diện tích đất phèn, đất mặn chiếm tỉ lệ lớn và mùa khô sâu sắc kéo dài.",
-        "Hiện tượng xói mòn, rửa trôi mạnh mẽ lớp đất mặt.",
-        "Tình trạng đất bị bạc màu do canh tác lúa nước liên tục nhiều vụ."
+        "Sự phân hóa đa dạng của khí hậu kết hợp nhu cầu thị trường ngày càng phong phú.",
+        "Sự mở rộng tối đa diện tích đất canh tác ở các vùng đồi núi đá vôi.",
+        "Sự suy giảm liên tục nhu cầu tiêu thụ lương thực truyền thống trong nước.",
+        "Do khí hậu toàn cầu nóng lên khiến các giống cây nhiệt đới bị thoái hóa."
       ],
-      "answer": 1,
-      "explanation": "Đồng bằng sông Cửu Long có diện tích đất phèn và đất mặn chiếm phần lớn diện tích tự nhiên; vào mùa khô kéo dài, nước biển xâm nhập sâu vào nội đồng làm tình trạng phèn hóa, mặn hóa thêm trầm trọng."
+      "answer": 0,
+      "explanation": "Khí hậu nước ta có sự phân hóa theo chiều Bắc - Nam, Đông - Tây và theo đai cao, kết hợp cùng nhu cầu thị trường trong nước và quốc tế ngày càng đa dạng đã thúc đẩy đa dạng hóa cơ cấu mùa vụ, giống cây trồng."
     },
     {
-      "id": "geo_tf_001",
-      "type": "true_false",
-      "difficulty": "medium",
-      "topic": "Dân số và nguồn lao động",
-      "question": "Cho nhận định: 'Cơ cấu dân số theo nhóm tuổi ở nước ta hiện nay đang chuyển dịch theo hướng tăng tỉ trọng nhóm dưới tuổi lao động và giảm tỉ trọng nhóm trên tuổi lao động.'",
-      "answer": false,
-      "explanation": "Sai. Dân số Việt Nam đang trong giai đoạn già hóa, tỉ lệ sinh giảm dẫn đến tỉ trọng nhóm 0-14 tuổi có xu hướng giảm, trong khi tỉ trọng nhóm trên tuổi lao động (60/65 tuổi trở lên) tăng lên."
-    },
-    {
-      "id": "geo_tf_002",
-      "type": "true_false",
-      "difficulty": "medium",
+      "id": "geo_thpt_012",
+      "type": "multiple_choice",
+      "difficulty": "hard",
       "topic": "Địa lí ngành thủy sản",
-      "question": "Cho nhận định: 'Nuôi trồng thủy sản ở nước ta hiện nay phát triển nhanh hơn khai thác chủ yếu do thị trường tiêu thụ rộng mở và hiệu quả kinh tế cao, giúp chủ động nguồn nguyên liệu.'",
-      "answer": true,
-      "explanation": "Đúng. Nuôi trồng thủy sản giúp chủ động nguồn cung, đáp ứng tốt các tiêu chuẩn xuất khẩu khắt khe và mang lại giá trị gia tăng cao hơn khai thác tự nhiên."
+      "question": "Yếu tố tự nhiên nào đóng vai trò tiên quyết tạo nên các ngư trường đánh bắt hải sản trọng điểm ở nước ta?",
+      "options": [
+        "Đường bờ biển dài, có nhiều vụng vịnh sâu kín gió thuận lợi xây dựng cảng.",
+        "Các vùng biển ấm, có dòng hải lưu giao nhau, nhiều bãi triều và rừng ngập mặn phát triển.",
+        "Vùng biển có các bãi ngầm rộng lớn, bãi cá, bãi tôm tập trung phong phú sinh vật phù du.",
+        "Các con sông lớn hằng năm đổ lượng phù sa dồi dào ra cửa biển."
+      ],
+      "answer": 2,
+      "explanation": "Ngư trường hình thành ở những nơi có thềm lục địa nông, nguồn thức ăn phù du dồi dào tập trung bãi đẻ và bãi sinh trưởng của các loài hải sản (Hải Phòng - Quảng Ninh, Ninh Thuận - Bình Thuận - Bà Rịa - Vũng Tàu, Cà Mau - Kiên Giang, Hoàng Sa - Trường Sa)."
     },
     {
-      "id": "geo_tf_003",
+      "id": "geo_thpt_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Địa lí ngành công nghiệp",
+      "question": "Cơ cấu ngành công nghiệp nước ta hiện nay đang chuyển dịch theo hướng nào sau đây?",
+      "options": [
+        "Tăng tỉ trọng ngành công nghiệp chế biến, chế tạo; giảm tỉ trọng ngành công nghiệp khai khoáng.",
+        "Ưu tiên phát triển tuyệt đối công nghiệp nặng, bỏ qua các ngành công nghiệp hàng tiêu dùng.",
+        "Tập trung đầu tư toàn bộ vốn nhà nước vào các ngành công nghiệp khai thác tài nguyên thô.",
+        "Chỉ phát triển công nghiệp tại các thành phố trực thuộc trung ương có cảng biển nước sâu."
+      ],
+      "answer": 0,
+      "explanation": "Chiến lược công nghiệp hóa hiện đại hóa của Việt Nam định hướng đẩy mạnh các ngành tạo giá trị gia tăng cao (chế biến, chế tạo, công nghệ cao), hạn chế xuất khẩu khoáng sản thô."
+    },
+    {
+      "id": "geo_thpt_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Địa lí ngành giao thông vận tải",
+      "question": "Tuyến đường bộ có ý nghĩa chiến lược quan trọng nhất trong việc phát triển kinh tế - xã hội vùng Tây Nguyên và kết nối liên vùng với duyên hải miền Trung là",
+      "options": [
+        "đường Hồ Chí Minh kết hợp các tuyến quốc lộ ngang (14, 19, 24, 25, 26, 27).",
+        "đường cao tốc Bắc - Nam phía đông dọc theo dải đồng bằng ven biển.",
+        "tuyến đường sắt Thống Nhất chạy song song dọc theo Quốc lộ 1A.",
+        "tuyến hành lang đường vành đai biên giới phía tây giáp Lào."
+      ],
+      "answer": 0,
+      "explanation": "Trục đường Hồ Chí Minh (QL14) chạy dọc Tây Nguyên, kết nối với mạng lưới quốc lộ ngang hướng ra biển giúp thông thương hàng hóa nông sản Tây Nguyên ra các cảng biển miền Trung."
+    },
+    {
+      "id": "geo_thpt_015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "topic": "Trung du và miền núi Bắc Bộ",
+      "question": "Ý nghĩa chủ yếu của việc phát triển các vùng chuyên canh cây công nghiệp lâu năm và cây ăn quả ở Trung du và miền núi Bắc Bộ là gì?",
+      "options": [
+        "Tạo khối lượng hàng hóa lớn phục vụ xuất khẩu, khai thác thế mạnh đồi núi và nâng cao đời sống nhân dân.",
+        "Giải quyết triệt để tình trạng thiếu lương thực tại chỗ cho đồng bào các dân tộc thiểu số.",
+        "Thay thế hoàn toàn ngành trồng trọt truyền thống bằng nền lâm nghiệp độc canh công nghệ cao.",
+        "Làm suy giảm tốc độ xói mòn đất và biến vùng này thành trung tâm cung cấp lương thực lớn nhất nước."
+      ],
+      "answer": 0,
+      "explanation": "Phát triển cây chè, cây dược liệu, cây ăn quả có nguồn gốc cận nhiệt và ôn đới giúp khai thác lợi thế đất feralit và khí hậu mát mẻ, biến tiềm năng thành nông sản hàng hóa giá trị cao, tạo việc làm và nguồn thu ngoại tệ."
+    },
+    {
+      "id": "geo_thpt_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Đồng bằng sông Hồng",
+      "question": "Vấn đề việc làm ở Đồng bằng sông Hồng luôn chịu áp lực gay gắt chủ yếu do",
+      "options": [
+        "mật độ dân số cao kỷ lục, quy mô nguồn lao động rất lớn trong khi cơ cấu kinh tế chuyển dịch chưa đủ nhanh.",
+        "tỉ lệ thất nghiệp và thiếu việc làm ở khu vực thành thị đã vượt ngưỡng 50%.",
+        "sự thiếu hụt trầm trọng cơ sở đào tạo đại học và dạy nghề chất lượng cao.",
+        "nguồn lao động của vùng phần lớn từ chối tham gia vào khu vực kinh tế dịch vụ hiện đại."
+      ],
+      "answer": 0,
+      "explanation": "Đồng bằng sông Hồng là vùng đất chật người đông, mật độ dân số trên 1.000 người/km², tốc độ tăng trưởng kinh tế và công nghiệp hóa chưa giải quyết xuể nguồn việc làm cho lượng lao động gia tăng mỗi năm."
+    },
+    {
+      "id": "geo_thpt_017",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Bắc Trung Bộ",
+      "question": "Cơ cấu kinh tế nông - lâm - ngư nghiệp của vùng Bắc Trung Bộ đang hình thành theo không gian lãnh thổ nhờ đặc điểm nào?",
+      "options": [
+        "Địa hình phân hóa rõ nét từ tây sang đông: vùng núi rừng, đồi bán sơn địa, đồng bằng và vùng biển.",
+        "Sự đồng nhất của các dạng địa hình bãi bồi ven sông từ bắc đèo Ngang đến dãy Bạch Mã.",
+        "Hệ thống cơ sở hạ tầng giao thông kết nối trực tiếp các nước thuộc tiểu vùng sông Mê Công.",
+        "Tập quán sản xuất nông nghiệp thuần nhất của cộng đồng dân cư sinh sống trên địa bàn."
+      ],
+      "answer": 0,
+      "explanation": "Sự cắt ngang của địa hình theo chiều Tây - Đông từ núi cao (lâm nghiệp), đồi trước núi (cây công nghiệp, chăn nuôi gia súc lớn), đồng bằng (lúa, hoa màu) đến dải bờ biển (thủy sản) tạo nên thế liên hoàn nông - lâm - ngư nghiệp."
+    },
+    {
+      "id": "geo_thpt_018",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Duyên hải Nam Trung Bộ",
+      "question": "Thế mạnh vượt trội của Duyên hải Nam Trung Bộ trong phát triển kinh tế biển so với các vùng khác là",
+      "options": [
+        "có nhiều vũng vịnh sâu kín gió thích hợp xây dựng cụm cảng nước sâu và nghề làm muối phát triển mạnh.",
+        "có diện tích rừng ngập mặn nguyên sinh lớn nhất cả nước kết hợp nuôi tôm sú quy mô công nghiệp.",
+        "có trữ lượng dầu mỏ và khí đốt tự nhiên chiếm hơn 90% tổng trữ lượng thềm lục địa cả nước.",
+        "vùng biển không có bão, áp thấp nhiệt đới hay hiện tượng dòng chảy xa bờ gây hại."
+      ],
+      "answer": 0,
+      "explanation": "Duyên hải Nam Trung Bộ có bờ biển khúc khuỷu, nhiều vịnh nước sâu (Cam Ranh, Vân Phong, Dung Quất...), nền nhiệt cao, nhiều nắng và ít cửa sông lớn đổ ra biển, cực kì thuận lợi cho cụm cảng biển quốc tế và sản xuất muối (Cà Ná, Sa Huỳnh)."
+    },
+    {
+      "id": "geo_thpt_019",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "topic": "Tây Nguyên",
+      "question": "Biện pháp hàng đầu để nâng cao giá trị và sức cạnh tranh của sản phẩm cây công nghiệp lâu năm ở Tây Nguyên là",
+      "options": [
+        "đẩy mạnh công nghiệp chế biến sâu, xây dựng chỉ dẫn địa lý và hoàn thiện thương hiệu sản phẩm.",
+        "tiếp tục mở rộng diện tích trồng cà phê, cao su bằng cách chặt phá rừng tự nhiên đầu nguồn.",
+        "chỉ tập trung xuất khẩu nông sản thô để tiết kiệm chi phí đóng gói bảo quản.",
+        "chuyển đổi toàn bộ đất trồng cây công nghiệp lâu năm sang canh tác lúa nước ngắn ngày."
+      ],
+      "answer": 0,
+      "explanation": "Xuất khẩu thô mang lại giá trị thấp và rủi ro biến động giá toàn cầu; tăng cường đầu tư công nghệ chế biến tinh, hữu cơ hóa và xây dựng thương hiệu quốc tế là giải pháp căn cơ."
+    },
+    {
+      "id": "geo_thpt_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "topic": "Đông Nam Bộ",
+      "question": "Đông Nam Bộ dẫn đầu cả nước về giá trị sản xuất công nghiệp và thu hút FDI nhờ lợi thế tổng hợp nào sau đây?",
+      "options": [
+        "Vị trí địa lí thuận lợi, cơ sở hạ tầng đồng bộ, nguồn lao động lành nghề và chính sách thu hút năng động.",
+        "Tài nguyên đất đai dồi dào với diện tích đất phù sa ngọt rộng lớn nhất trên toàn quốc.",
+        "Nguồn tài nguyên thủy năng lớn nhất cả nước với các nhà máy thủy điện công suất cực lớn.",
+        "Không bao giờ chịu tác động của biến đổi khí hậu hay hiện tượng triều cường xâm nhập."
+      ],
+      "answer": 0,
+      "explanation": "Đông Nam Bộ là đầu tàu kinh tế nhờ vị trí bản lề giao thương quốc tế, trung tâm đô thị TP.HCM năng động, hạ tầng giao thông và khu công nghiệp hoàn thiện, thu hút lao động kỹ thuật cao."
+    },
+    {
+      "id": "geo_thpt_021",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "topic": "Đồng bằng sông Cửu Long",
+      "question": "Hướng thích ứng bền vững với biến đổi khí hậu và xâm nhập mặn ở Đồng bằng sông Cửu Long là gì?",
+      "options": [
+        "Chủ động 'sống chung với mặn, phèn', chuyển đổi cơ cấu sản xuất linh hoạt theo mùa và từng tiểu vùng sinh thái.",
+        "Xây dựng đê bao bê tông kiên cố toàn bộ các tuyến sông để ngăn chặn triệt để dòng nước mặn.",
+        "Dẫn nước ngọt từ sông Hồng vào Đồng bằng sông Cửu Long qua các đường ống dẫn ngầm.",
+        "Chuyển toàn bộ diện tích đất trồng lúa sang khai thác cát và xây dựng đô thị cao cấp."
+      ],
+      "answer": 0,
+      "explanation": "Nghị quyết 120/NQ-CP chỉ rõ phát triển bền vững ĐBSCL theo triết lý 'thuận thiên': coi nước lợ, nước mặn cũng là tài nguyên, tái cơ cấu nông nghiệp thành 3 vùng (nước ngọt, nước lợ, nước mặn) kết hợp mô hình tôm - lúa, rừng - tôm."
+    },
+    {
+      "id": "geo_thpt_022",
+      "type": "true_false",
+      "difficulty": "easy",
+      "topic": "Vị trí địa lí và phạm vi lãnh thổ",
+      "question": "Cho các nhận định về phạm vi lãnh thổ Việt Nam:\na) Vùng nội thủy được coi là bộ phận lãnh thổ trên đất liền của quốc gia ven biển.\nb) Ranh giới ngoài của vùng lãnh hải chính là đường biên giới quốc gia trên biển.\nc) Vùng tiếp giáp lãnh hải nước ta có chiều rộng 200 hải lý tính từ đường cơ sở.\nd) Nước ta có chủ quyền hoàn toàn về kinh tế trong vùng đặc quyền kinh tế nhưng vẫn bảo đảm quyền tự do hàng hải của tàu thuyền quốc tế.",
+      "answer": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "explanation": "a) Đúng theo luật biển quốc tế. b) Đúng, ranh giới ngoài của lãnh hải (12 hải lý) là đường biên giới trên biển. c) Sai, vùng tiếp giáp lãnh hải rộng 12 hải lý (tính từ ranh giới ngoài lãnh hải ra 24 hải lý tính từ đường cơ sở). d) Đúng, quốc gia ven biển có quyền chủ quyền kinh tế, quyền tài phán nhưng tôn trọng tự do hàng hải quốc tế."
+    },
+    {
+      "id": "geo_thpt_023",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Khí hậu và Thủy văn",
+      "question": "Cho các nhận định về chế độ nước sông và khí hậu nước ta:\na) Nhịp điệu dòng chảy của mạng lưới sông ngòi nước ta phân mùa nhịp nhàng theo mùa mưa - khô.\nb) Mùa lũ ở sông ngòi miền Trung thường đến muộn hơn (vào thu đông) so với sông ngòi Bắc Bộ và Nam Bộ.\nc) Hiện tượng sạt lở bờ sông, bờ biển diễn ra nghiêm trọng nhất vào cuối mùa khô do cạn kiệt dòng chảy ngầm.\nd) Hồ thủy điện Hòa Bình, Sơn La trên sông Đà đóng vai trò quan trọng trong việc cắt lũ và cung cấp nước tưới mùa cạn cho Đồng bằng sông Hồng.",
+      "answer": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "explanation": "a) Đúng, mùa lũ tương ứng mùa mưa, mùa cạn tương ứng mùa khô. b) Đúng, do mưa bão lùi dần về thu đông ở duyên hải miền Trung. c) Sai, sạt lở bờ sông diễn ra dữ dội nhất trong mùa lũ do lưu tốc dòng chảy mạnh và áp lực nước ngấm sụt bờ. d) Đúng, hệ thống hồ bậc thang sông Đà điều tiết nguồn nước quan trọng cho châu thổ Bắc Bộ."
+    },
+    {
+      "id": "geo_thpt_024",
+      "type": "true_false",
+      "difficulty": "medium",
+      "topic": "Địa lí ngành trồng trọt",
+      "question": "Cho các nhận định về ngành sản xuất lúa gạo nước ta hiện nay:\na) Diện tích gieo trồng lúa đang có xu hướng giảm nhẹ do chuyển đổi mục đích sử dụng đất nhưng năng suất và sản lượng lúa vẫn duy trì mức tăng.\nb) Đồng bằng sông Cửu Long là vùng sản xuất lúa gạo lớn nhất cả nước, dẫn đầu về tỉ lệ lúa chất lượng cao phục vụ xuất khẩu.\nc) Năng suất lúa của nước ta hiện nay cao nhất tại vùng Trung du và miền núi Bắc Bộ nhờ áp dụng kỹ thuật thâm canh truyền thống.\nd) Giá trị hạt gạo xuất khẩu của Việt Nam tăng chủ yếu nhờ chuyển dịch mạnh sang các giống lúa thơm chất lượng cao (ST24, ST25, Đài Thơm 8,...).",
+      "answer": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "explanation": "a) Đúng, áp dụng cơ giới hóa và giống mới giúp tăng năng suất. b) Đúng, ĐBSCL là vựa lúa chiếm hơn 50% sản lượng và trên 90% lượng gạo xuất khẩu cả nước. c) Sai, vùng có năng suất lúa cao nhất là Đồng bằng sông Hồng. d) Đúng, nâng cao phẩm cấp chất lượng gạo giúp giá gạo xuất khẩu Việt Nam tăng trưởng kỷ lục."
+    },
+    {
+      "id": "geo_thpt_025",
       "type": "true_false",
       "difficulty": "hard",
-      "topic": "Địa lí ngành năng lượng",
-      "question": "Cho nhận định: 'Cơ cấu sản lượng điện năng của nước ta những năm gần đây có sự chuyển biến rõ nét theo hướng tỉ trọng năng lượng tái tạo (điện mặt trời, điện gió) tăng nhanh chóng.'",
-      "answer": true,
-      "explanation": "Đúng. Nhờ cơ chế khuyến khích đầu tư và định hướng chuyển dịch năng lượng xanh, nguồn điện từ gió và mặt trời tại Nam Trung Bộ, Tây Nguyên phát triển bùng nổ, làm thay đổi đáng kể cơ cấu nguồn điện quốc gia."
+      "topic": "Địa lí ngành giao thông vận tải và ngoại thương",
+      "question": "Cho các nhận định về kinh tế đối ngoại và giao thông nước ta:\na) Hoạt động xuất khẩu hàng hóa của nước ta những năm gần đây liên tục duy trì trạng thái xuất siêu cán cân thương mại.\nb) Hoa Kỳ là thị trường xuất khẩu lớn nhất của Việt Nam, trong khi Trung Quốc là thị trường nhập khẩu lớn nhất.\nc) Ngành vận tải đường biển chiếm tỉ trọng khối lượng vận chuyển hàng hóa nội địa lớn nhất trong các loại hình giao thông.\nd) Hệ thống cảng biển nước ta đang được quy hoạch hiện đại hóa với hai cảng cửa ngõ quốc tế đặc biệt là Lạch Huyện (Hải Phòng) và Cái Mép - Thị Vải (Bà Rịa - Vũng Tàu).",
+      "answer": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "explanation": "a) Đúng, cán cân thương mại Việt Nam liên tục xuất siêu hàng chục tỉ USD. b) Đúng theo số liệu thống kê hải quan. c) Sai, đường bộ (ô tô) mới là ngành chiếm tỉ trọng khối lượng vận chuyển hàng hóa nội địa lớn nhất. d) Đúng, đây là 2 cụm cảng nước sâu đón tàu container tải trọng lớn đi thẳng sang bờ Tây nước Mỹ và châu Âu."
     },
     {
-      "id": "geo_sa_001",
+      "id": "geo_thpt_026",
       "type": "short_answer",
       "difficulty": "easy",
-      "topic": "Kĩ năng xử lí số liệu địa lí - Biên độ nhiệt",
-      "question": "Năm 2024, nhiệt độ trung bình tháng 7 tại Hà Nội là 29,8°C và tháng 1 là 16,4°C. Hãy tính biên độ nhiệt độ năm của Hà Nội (°C).",
+      "topic": "Kĩ năng tính toán địa lí - Cán cân thương mại",
+      "question": "Năm 2024, tổng trị giá xuất khẩu hàng hóa của Việt Nam đạt 385,4 tỉ USD, trị giá nhập khẩu đạt 357,4 tỉ USD. Hãy tính cán cân thương mại của nước ta năm 2024 (đơn vị: tỉ USD, làm tròn đến một chữ số thập phân).",
       "answer": [
-        "13.4",
-        "13,4",
-        "13.4°C",
-        "13,4°C"
+        "28.0",
+        "28,0",
+        "+28.0",
+        "+28,0",
+        "28"
       ],
-      "explanation": "Biên độ nhiệt năm = Nhiệt độ tháng cao nhất - Nhiệt độ tháng thấp nhất = 29,8 - 16,4 = 13,4°C."
+      "explanation": "Cán cân thương mại = Giá trị xuất khẩu - Giá trị nhập khẩu = 385,4 - 357,4 = +28,0 tỉ USD (xuất siêu)."
     },
     {
-      "id": "geo_sa_002",
+      "id": "geo_thpt_027",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "topic": "Kĩ năng tính toán địa lí - Biên độ nhiệt độ",
+      "question": "Trạm quan trắc Cà Mau ghi nhận nhiệt độ trung bình tháng cao nhất là 29,5°C (tháng 4) và thấp nhất là 26,4°C (tháng 1). Hãy cho biết biên độ nhiệt độ năm tại trạm Cà Mau là bao nhiêu °C? (làm tròn đến một chữ số thập phân)",
+      "answer": [
+        "3.1",
+        "3,1",
+        "3.1°C",
+        "3,1°C"
+      ],
+      "explanation": "Biên độ nhiệt độ = Nhiệt độ tháng cao nhất - Nhiệt độ tháng thấp nhất = 29,5 - 26,4 = 3,1°C."
+    },
+    {
+      "id": "geo_thpt_028",
       "type": "short_answer",
       "difficulty": "medium",
-      "topic": "Kĩ năng xử lí số liệu địa lí - Mật độ dân số",
-      "question": "Biết năm 2024, vùng Đồng bằng sông Hồng có diện tích là 21 278,6 km² và dân số là 23 450 000 người. Hãy tính mật độ dân số của vùng (làm tròn kết quả đến hàng đơn vị, người/km²).",
+      "topic": "Kĩ năng tính toán địa lí - Mật độ dân số",
+      "question": "Năm 2024, vùng Tây Nguyên có diện tích tự nhiên là 54 508 km², số dân là 6 105 000 người. Hãy tính mật độ dân số trung bình của vùng Tây Nguyên (người/km², làm tròn đến hàng đơn vị).",
       "answer": [
-        "1102",
-        "1102 người/km2",
-        "1102 người/km²"
+        "112",
+        "112 người/km2",
+        "112 người/km²"
       ],
-      "explanation": "Mật độ dân số = Dân số / Diện tích = 23.450.000 / 21.278,6 ≈ 1102,04 người/km². Làm tròn đến hàng đơn vị là 1102."
+      "explanation": "Mật độ dân số = Dân số / Diện tích = 6.105.000 / 54.508 ≈ 112,001 người/km². Làm tròn đến hàng đơn vị: 112."
     },
     {
-      "id": "geo_sa_003",
+      "id": "geo_thpt_029",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "topic": "Kĩ năng tính toán địa lí - Độ che phủ rừng",
+      "question": "Biết tổng diện tích đất có rừng của nước ta là 14 790 nghìn ha, trong khi tổng diện tích đất tự nhiên cả nước là 33 134 nghìn ha. Hãy tính tỉ lệ che phủ rừng của nước ta (đơn vị: %, làm tròn kết quả đến một chữ số thập phân).",
+      "answer": [
+        "44.6",
+        "44,6",
+        "44.6%",
+        "44,6%"
+      ],
+      "explanation": "Độ che phủ rừng = (Diện tích rừng / Tổng diện tích tự nhiên) * 100% = (14.790 / 33.134) * 100% ≈ 44,639% ≈ 44,6%."
+    },
+    {
+      "id": "geo_thpt_030",
       "type": "short_answer",
       "difficulty": "hard",
-      "topic": "Kĩ năng xử lí số liệu địa lí - Cân bằng ẩm",
-      "question": "Một trạm khí tượng ghi nhận lượng mưa trung bình năm đạt 1930 mm và lượng bốc hơi trung bình năm là 1045 mm. Hãy tính cân bằng ẩm tại trạm khí tượng đó (đơn vị: mm).",
+      "topic": "Kĩ năng tính toán địa lí - Tốc độ tăng trưởng",
+      "question": "Sản lượng thủy sản nuôi trồng nước ta năm 2015 đạt 3 532 nghìn tấn, năm 2024 đạt 5 450 nghìn tấn. Lấy năm 2015 làm mốc 100%, hãy tính tốc độ tăng trưởng sản lượng thủy sản nuôi trồng năm 2024 (đơn vị: %, làm tròn kết quả đến số thập phân thứ nhất).",
       "answer": [
-        "885",
-        "885 mm",
-        "+885",
-        "+885 mm"
+        "154.3",
+        "154,3",
+        "154.3%",
+        "154,3%"
       ],
-      "explanation": "Cân bằng ẩm = Lượng mưa - Lượng bốc hơi = 1930 - 1045 = 885 mm."
+      "explanation": "Tốc độ tăng trưởng năm 2024 so với 2015 = (Sản lượng năm 2024 / Sản lượng năm 2015) * 100% = (5.450 / 3.532) * 100% ≈ 154,303% ≈ 154,3%."
+    },
+    {
+      "id": "geo_thpt_031",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "topic": "Kĩ năng tính toán địa lí - Tỉ trọng cơ cấu",
+      "question": "Năm 2024, tổng số dân của nước ta là 101,2 triệu người, trong đó số dân sống ở khu vực thành thị là 38,5 triệu người. Hãy tính tỉ lệ dân thành thị của nước ta năm 2024 (đơn vị: %, làm tròn đến một chữ số thập phân).",
+      "answer": [
+        "38.0",
+        "38,0",
+        "38.0%",
+        "38%"
+      ],
+      "explanation": "Tỉ lệ dân thành thị = (Dân thành thị / Tổng dân số) * 100% = (38,5 / 101,2) * 100% ≈ 38,043% ≈ 38,0%."
+    },
+    {
+      "id": "geo_thpt_032",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "topic": "Kĩ năng tính toán địa lí - Bình quân lương thực",
+      "question": "Một tỉnh đồng bằng có sản lượng lúa cả năm đạt 4 320 000 tấn và dân số trung bình năm là 3 600 000 người. Hãy tính sản lượng lúa bình quân đầu người của tỉnh đó (đơn vị: kg/người, làm tròn đến hàng đơn vị).",
+      "answer": [
+        "1200",
+        "1200 kg/người",
+        "1200 kg"
+      ],
+      "explanation": "Đổi 4.320.000 tấn = 4.320.000.000 kg. Bình quân lương thực = 4.320.000.000 / 3.600.000 = 1200 kg/người."
     }
   ]
 }
